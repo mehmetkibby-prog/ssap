@@ -1,0 +1,62 @@
+/* Galaxy Tab S10 FE - portrait + landscape tablet integration patch */
+html,body{min-height:100%;height:100%;}
+#content{padding-bottom:calc(44px + env(safe-area-inset-bottom));}
+
+/* Tablet portrait: do NOT use the cramped phone layout */
+@media (min-width:700px) and (max-width:1100px) and (orientation:portrait){
+  :root{--rail:0px;--touch:58px}
+  #app{display:block;height:100dvh;overflow:hidden}
+  .nav-rail{display:none!important}
+  .shell{height:100dvh;padding-bottom:calc(78px + env(safe-area-inset-bottom))}
+  .topbar{height:68px;flex-basis:68px;padding:10px 24px;padding-top:calc(10px + env(safe-area-inset-top))}
+  .search{width:min(42vw,360px)}
+  #content{padding:20px 24px 36px;overflow-y:auto}
+  .page{max-width:none;width:100%}
+  .bottom-nav{display:grid!important;grid-template-columns:repeat(5,1fr);position:fixed;left:0;right:0;bottom:0;z-index:80;min-height:72px;padding:6px 18px calc(6px + env(safe-area-inset-bottom));background:var(--surface);border-top:1px solid var(--line)}
+  .bottom-nav button{min-height:58px;border:0;background:transparent;color:var(--muted);border-radius:15px;font-weight:750;display:grid;place-items:center;gap:2px}
+  .bottom-nav button.active{background:var(--primarySoft);color:var(--primary)}
+  .bottom-nav .bi{font-size:20px}
+
+  .hero{padding:24px 26px;border-radius:26px;overflow:visible;min-height:0}
+  .hero-grid{grid-template-columns:1fr!important;gap:18px!important;align-items:stretch}
+  .hero h2{font-size:30px}
+  .hero p{font-size:14px;margin-bottom:14px}
+  .hero-kpis{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:12px;width:100%}
+  .hero-kpi{min-height:82px;padding:14px 16px;overflow:visible}
+  .hero-kpi b{font-size:25px;line-height:1.1}
+  .hero-kpi span{font-size:12px;display:block;margin-top:5px}
+
+  .grid{gap:14px}
+  .grid>.span-3{grid-column:span 6!important}
+  .grid>.span-4{grid-column:span 6!important}
+  .grid>.span-5,.grid>.span-6,.grid>.span-7,.grid>.span-8{grid-column:span 6!important}
+  .feature-card{min-height:150px;padding:19px}
+  .feature-icon{width:44px;height:44px;margin-bottom:10px}
+  .section-title{margin:22px 0 11px}
+  .stat-row{grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+  .stat-card{padding:16px 12px;min-width:0}
+  .stat-card .n{font-size:24px}
+
+  .quiz-layout{grid-template-columns:1fr!important;gap:14px}
+  .feedback-panel{position:static!important;min-height:0}
+  .quiz-main{padding:22px}
+  .q-stem{font-size:22px}
+  .option{min-height:60px;padding:14px 16px}
+}
+
+/* Tablet landscape */
+@media (min-width:900px) and (orientation:landscape){
+  :root{--rail:230px}
+  .nav-rail{display:flex!important;padding-top:calc(18px + env(safe-area-inset-top))}
+  .bottom-nav{display:none!important}
+  #content{padding:24px 28px 40px}
+  .hero{padding:26px 28px}
+  .hero-grid{grid-template-columns:minmax(0,1.15fr) minmax(330px,.85fr)}
+  .hero-kpis{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .grid>.span-3{grid-column:span 3}
+  .quiz-layout{grid-template-columns:minmax(0,1.25fr) minmax(330px,.75fr)}
+}
+
+/* Never clip dashboard information */
+.hero,.hero-grid,.hero-kpis,.hero-kpi{max-height:none!important}
+.hero-kpi{overflow:visible!important}
