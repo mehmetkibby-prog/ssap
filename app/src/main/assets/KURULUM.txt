@@ -1,0 +1,15 @@
+YÜKLENECEK DOSYALAR
+
+Bu klasördeki 3 dosyayı GitHub reposunda şu konuma yükleyin:
+app/src/main/assets/www/
+
+- index.html -> mevcut dosyanın YERİNE
+- tablet-fix.css -> yeni dosya
+- cloud-sync.js -> yeni dosya
+
+Sonra GitHub Actions ile yeniden Build APK çalıştırın.
+
+BULUT SENKRON
+APK açıldığında sağ altta “☁ Giriş” görünür. Aynı e-posta/şifreyle giriş yapılan sürümlerde favoriler, yanlışlar ve ilerleme buluta aktarılır.
+PC ve iOS sürümlerine de cloud-sync.js eklenmeli ve HTML giriş dosyasına <script src="cloud-sync.js"></script> eklenmelidir.
+Not: farklı platformların veri şemaları tamamen farklıysa yalnız ortak ilerleme alanları (attempts/correct/wrongs/favorites/bySubject) birleştirilir.
