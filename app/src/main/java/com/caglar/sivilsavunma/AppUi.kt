@@ -186,69 +186,117 @@ private fun HomeScreen(
     onWrongs: () -> Unit,
     onCategory: (StudyCategory) -> Unit
 ) {
-    LazyColumn(
-        modifier = Modifier.fillMaxSize(),
-        contentPadding = PaddingValues(20.dp),
-        verticalArrangement = Arrangement.spacedBy(16.dp)
-    ) {
-        item {
-            Box(
-                Modifier.fillMaxWidth()
-                    .height(260.dp)
-                    .clip(RoundedCornerShape(28.dp))
-                    .background(HeroBrush)
-                    .padding(22.dp)
-            ) {
-                Column(Modifier.align(Alignment.BottomStart), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                    Text("SINAV MERKEZİ", color = Color.White.copy(alpha = .8f), fontWeight = FontWeight.Bold)
-                    Text("İlerlemeni tek ekranda takip et.", color = Color.White, fontSize = 30.sp, fontWeight = FontWeight.Black)
-                    LazyVerticalGrid(
-                        columns = GridCells.Fixed(2),
-                        modifier = Modifier.height(110.dp),
-                        userScrollEnabled = false,
-                        horizontalArrangement = Arrangement.spacedBy(8.dp),
-                        verticalArrangement = Arrangement.spacedBy(8.dp)
-                    ) {
-                        item { Metric("${repo.stats.answered}", "Çözülen") }
-                        item { Metric("${repo.stats.correct}", "Doğru") }
-                        item { Metric("${repo.stats.wrong}", "Yanlış") }
-                        item { Metric("${repo.wrongCount}", "Kayıtlı yanlış") }
+    BoxWithConstraints(Modifier.fillMaxSize()) {
+        // Samsung tablet portrait/landscape için telefon ölçülerinden bağımsız yerleşim.
+        val tablet = maxWidth >= 600.dp
+        val wideTablet = maxWidth >= 900.dp
+        val side = if (tablet) 28.dp else 18.dp
+        val gap = if (tablet) 20.dp else 14.dp
+
+        LazyColumn(
+            modifier = Modifier.fillMaxSize(),
+            contentPadding = PaddingValues(
+                start = side, end = side, top = if (tablet) 24.dp else 18.dp, bottom = 32.dp
+            ),
+            verticalArrangement = Arrangement.spacedBy(gap)
+        ) {
+            item {
+                Column(
+                    Modifier.fillMaxWidth()
+                        .clip(RoundedCornerShape(if (tablet) 30.dp else 24.dp))
+                        .background(HeroBrush)
+                        .padding(if (tablet) 28.dp else 20.dp),
+                    verticalArrangement = Arrangement.spacedBy(if (tablet) 18.dp else 12.dp)
+                ) {
+                    Text(
+                        "SINAV MERKEZİ",
+                        color = Color.White.copy(alpha = .82f),
+                        fontWeight = FontWeight.Bold,
+                        fontSize = if (tablet) 14.sp else 12.sp
+                    )
+                    Text(
+                        "İlerlemeni tek ekranda takip et.",
+                        color = Color.White,
+                        fontSize = if (tablet) 32.sp else 26.sp,
+                        fontWeight = FontWeight.Black
+                    )
+
+                    if (tablet) {
+                        Row(
+                            Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.spacedBy(12.dp)
+                        ) {
+                            Box(Modifier.weight(1f)) { Metric("${repo.stats.answered}", "Çözülen") }
+                            Box(Modifier.weight(1f)) { Metric("${repo.stats.correct}", "Doğru") }
+                            Box(Modifier.weight(1f)) { Metric("${repo.stats.wrong}", "Yanlış") }
+                            Box(Modifier.weight(1f)) { Metric("${repo.wrongCount}", "Kayıtlı yanlış") }
+                        }
+                    } else {
+                        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                                Box(Modifier.weight(1f)) { Metric("${repo.stats.answered}", "Çözülen") }
+                                Box(Modifier.weight(1f)) { Metric("${repo.stats.correct}", "Doğru") }
+                            }
+                            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                                Box(Modifier.weight(1f)) { Metric("${repo.stats.wrong}", "Yanlış") }
+                                Box(Modifier.weight(1f)) { Metric("${repo.wrongCount}", "Kayıtlı yanlış") }
+                            }
+                        }
                     }
                 }
             }
-        }
 
-        item {
-            Row(horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.fillMaxWidth()) {
-                QuickButton("Testler", "▶", Indigo, Modifier.weight(1f), onTests)
-                QuickButton("Devam", "↻", Mint, Modifier.weight(1f), onSaved)
-                QuickButton("Yanlışlar", "!", Rose, Modifier.weight(1f), onWrongs)
+            item {
+                Row(
+                    horizontalArrangement = Arrangement.spacedBy(if (tablet) 14.dp else 9.dp),
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    QuickButton("Testler", "▶", Indigo, Modifier.weight(1f), onTests)
+                    QuickButton("Devam", "↻", Mint, Modifier.weight(1f), onSaved)
+                    QuickButton("Yanlışlar", "!", Rose, Modifier.weight(1f), onWrongs)
+                }
             }
-        }
 
-        item {
-            Text("Çalışma alanları", fontSize = 20.sp, fontWeight = FontWeight.Bold)
-        }
+            item {
+                Text(
+                    "Çalışma alanları",
+                    fontSize = if (tablet) 23.sp else 20.sp,
+                    fontWeight = FontWeight.Bold,
+                    modifier = Modifier.padding(top = if (tablet) 4.dp else 0.dp)
+                )
+            }
 
-        item {
-            LazyVerticalGrid(
-                columns = GridCells.Adaptive(180.dp),
-                modifier = Modifier.heightIn(max = 700.dp),
-                userScrollEnabled = false,
-                horizontalArrangement = Arrangement.spacedBy(12.dp),
-                verticalArrangement = Arrangement.spacedBy(12.dp)
-            ) {
-                gridItems(StudyCategory.entries) { cat ->
-                    Card(
-                        modifier = Modifier.fillMaxWidth().clickable { onCategory(cat) },
-                        shape = RoundedCornerShape(20.dp)
-                    ) {
-                        Column(Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                            Text(cat.iconText, fontSize = 24.sp, color = Indigo)
-                            Text(cat.label, fontWeight = FontWeight.Bold)
-                            val count = repo.sets.filter { it.category == cat }.sumOf { it.questions.size }
-                            Text("$count soru", color = Color.Gray)
+            // İç içe LazyGrid yerine normal satırlar: tablet ana ekranda kesilme,
+            // sıkışma ve gereksiz büyük boşluk oluşmasını engeller.
+            val categories = StudyCategory.entries.toList()
+            val columns = if (wideTablet) 3 else if (tablet) 2 else 1
+            val rows = categories.chunked(columns)
+            items(rows.size) { rowIndex ->
+                Row(
+                    Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(if (tablet) 14.dp else 10.dp)
+                ) {
+                    rows[rowIndex].forEach { cat ->
+                        Card(
+                            modifier = Modifier
+                                .weight(1f)
+                                .heightIn(min = if (tablet) 126.dp else 104.dp)
+                                .clickable { onCategory(cat) },
+                            shape = RoundedCornerShape(if (tablet) 22.dp else 18.dp)
+                        ) {
+                            Column(
+                                Modifier.fillMaxSize().padding(if (tablet) 20.dp else 16.dp),
+                                verticalArrangement = Arrangement.spacedBy(10.dp)
+                            ) {
+                                Text(cat.iconText, fontSize = if (tablet) 28.sp else 24.sp, color = Indigo)
+                                Text(cat.label, fontWeight = FontWeight.Bold, fontSize = if (tablet) 17.sp else 15.sp)
+                                val count = repo.sets.filter { it.category == cat }.sumOf { it.questions.size }
+                                Text("$count soru", color = Color.Gray, fontSize = if (tablet) 14.sp else 13.sp)
+                            }
                         }
+                    }
+                    repeat(columns - rows[rowIndex].size) {
+                        Spacer(Modifier.weight(1f))
                     }
                 }
             }
@@ -262,9 +310,9 @@ private fun Metric(value: String, label: String) {
         Modifier.fillMaxWidth()
             .clip(RoundedCornerShape(14.dp))
             .background(Color.White.copy(alpha = .12f))
-            .padding(10.dp)
+            .padding(horizontal = 14.dp, vertical = 13.dp)
     ) {
-        Text(value, color = Color.White, fontWeight = FontWeight.Black, fontSize = 22.sp)
+        Text(value, color = Color.White, fontWeight = FontWeight.Black, fontSize = 24.sp)
         Text(label, color = Color.White.copy(alpha = .9f), fontSize = 12.sp)
     }
 }
