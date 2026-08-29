@@ -1,0 +1,7 @@
+Samsung Galaxy Tab ana menü düzeltmesi
+- Sadece AppUi.kt içindeki HomeScreen yerleşimi değiştirildi.
+- Sabit 260dp hero ve 110dp istatistik grid'i kaldırıldı.
+- Tabletlerde 4 istatistik tek geniş satırda ve kesilmeden görünür.
+- Çalışma alanları portrede 2, geniş yatay ekranda 3 sütun.
+- İç içe sabit yükseklikli grid kaldırıldı; büyük boşluk/sıkışma önlendi.
+- Testler, sorular, favoriler, yanlışlar, kayıtlı testler ve senkron koduna dokunulmadı.
