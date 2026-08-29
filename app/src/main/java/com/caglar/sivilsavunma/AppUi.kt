@@ -595,7 +595,7 @@ private fun QuizScreen(
     var revision by remember { mutableIntStateOf(0) }
     val rq = session.current
     val q = rq.source
-    val _ = revision
+    revision // observe state so Compose refreshes after local mutations
 
     BackHandler(onBack = onExit)
 
