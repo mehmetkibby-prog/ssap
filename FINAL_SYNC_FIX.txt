@@ -1,0 +1,7 @@
+FINAL senkron düzeltmesi:
+- Soru cevabı anında yerel sayacı artırır.
+- Sunucuya UUID event kimliğiyle idempotent gönderilir.
+- Gönderim tamamlanmadan eski bulut snapshot'ı sayacı 129'a geri çekemez.
+- sb_publishable anahtarı Authorization/Bearer olarak gönderilmez.
+- Başarılı gönderimden sonra bulut snapshot hemen çekilir.
+- Ana menü tablet düzeni, favoriler, yanlışlar ve kayıtlı testler korunmuştur.
