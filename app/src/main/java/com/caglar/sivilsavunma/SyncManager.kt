@@ -8,10 +8,14 @@ import java.net.HttpURLConnection
 import java.net.URL
 import java.util.Timer
 import java.util.TimerTask
+import java.util.UUID
+import java.util.concurrent.atomic.AtomicInteger
 
 class SyncManager(private val repo: StudyRepository) {
     private val main = Handler(Looper.getMainLooper())
     private var timer: Timer? = null
+    // Buluta yazılmayı bekleyen cevap varken eski snapshot'ın yerel sayacı geri almasını engeller.
+    private val pendingAnswers = AtomicInteger(0)
 
     val enabled: Boolean
         get() = SyncConfig.SUPABASE_URL.isNotBlank() &&
@@ -34,8 +38,28 @@ class SyncManager(private val repo: StudyRepository) {
         }
     }
 
-    fun answer(correct: Boolean) = rpc("study_sync_answer", JSONObject()
-        .put("p_code", SyncConfig.SYNC_CODE).put("p_correct", correct))
+    fun answer(correct: Boolean) {
+        val eventID = UUID.randomUUID().toString()
+        pendingAnswers.incrementAndGet()
+        sendAnswerEvent(eventID, correct)
+    }
+
+    private fun sendAnswerEvent(eventID: String, correct: Boolean) {
+        rpc(
+            "study_sync_answer_event",
+            JSONObject().put("p_code", SyncConfig.SYNC_CODE)
+                .put("p_event_id", eventID).put("p_correct", correct),
+            done = { ok ->
+                if (ok) {
+                    pendingAnswers.decrementAndGet()
+                    pull(force = true)
+                } else {
+                    // Aynı event_id ile tekrar: sunucuda çift sayım oluşmaz.
+                    main.postDelayed({ sendAnswerEvent(eventID, correct) }, 3000L)
+                }
+            }
+        )
+    }
 
     fun favorite(q: QuizQuestion, present: Boolean) = rpc("study_sync_favorite", JSONObject()
         .put("p_code", SyncConfig.SYNC_CODE).put("p_question_id", q.id)
@@ -61,8 +85,9 @@ class SyncManager(private val repo: StudyRepository) {
         .put("p_payload", JSONObject().put("percent", value.percent).put("correct", value.correct)
             .put("wrong", value.wrong).put("total", value.total).put("date", value.date)))
 
-    fun pull() {
+    fun pull(force: Boolean = false) {
         if (!enabled) return
+        if (!force && pendingAnswers.get() > 0) return
         rpc("study_sync_snapshot", JSONObject().put("p_code", SyncConfig.SYNC_CODE)) { root ->
             val statsObj = root.optJSONObject("stats") ?: JSONObject()
             val stats = AppStats(statsObj.optInt("answered"), statsObj.optInt("correct"), statsObj.optInt("wrong"))
@@ -105,30 +130,45 @@ class SyncManager(private val repo: StudyRepository) {
         }
     }
 
-    private fun rpc(name: String, body: JSONObject, completion: ((JSONObject) -> Unit)? = null) {
-        if (!enabled) return
+    private fun rpc(
+        name: String,
+        body: JSONObject,
+        completion: ((JSONObject) -> Unit)? = null,
+        done: ((Boolean) -> Unit)? = null
+    ) {
+        if (!enabled) {
+            done?.let { main.post { it(false) } }
+            return
+        }
         Thread {
+            var ok = false
             try {
                 val base = SyncConfig.SUPABASE_URL.trimEnd('/')
                 val conn = URL("$base/rest/v1/rpc/$name").openConnection() as HttpURLConnection
                 conn.requestMethod = "POST"
-                conn.connectTimeout = 5000
-                conn.readTimeout = 5000
+                conn.connectTimeout = 7000
+                conn.readTimeout = 7000
                 conn.doOutput = true
                 conn.setRequestProperty("apikey", SyncConfig.ANON_KEY)
-                conn.setRequestProperty("Authorization", "Bearer ${SyncConfig.ANON_KEY}")
+                // sb_publishable_* anahtarları JWT değildir; Authorization başlığına yazılmaz.
+                if (!SyncConfig.ANON_KEY.startsWith("sb_")) {
+                    conn.setRequestProperty("Authorization", "Bearer ${SyncConfig.ANON_KEY}")
+                }
                 conn.setRequestProperty("Content-Type", "application/json")
                 conn.outputStream.use { it.write(body.toString().toByteArray(Charsets.UTF_8)) }
-                val stream = if (conn.responseCode in 200..299) conn.inputStream else conn.errorStream
+                val code = conn.responseCode
+                ok = code in 200..299
+                val stream = if (ok) conn.inputStream else conn.errorStream
                 val text = stream?.bufferedReader()?.use { it.readText() }.orEmpty()
-                if (completion != null && text.isNotBlank()) {
-                    val parsed = if (text.trim().startsWith("{")) JSONObject(text) else {
-                        val arr = JSONArray(text); arr.optJSONObject(0) ?: JSONObject()
-                    }
-                    completion(parsed)
+                if (ok && completion != null && text.isNotBlank() && text.trim().startsWith("{")) {
+                    completion(JSONObject(text))
                 }
                 conn.disconnect()
-            } catch (_: Exception) { }
+            } catch (_: Exception) {
+                ok = false
+            }
+            if (done != null) main.post { done(ok) }
         }.start()
     }
+
 }

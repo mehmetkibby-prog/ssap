@@ -11,8 +11,8 @@ android {
         applicationId 'com.caglar.sivilsavunma'
         minSdk 26
         targetSdk 35
-        versionCode 201
-        versionName '2.1-S10FE-MenuFix'
+        versionCode 202
+        versionName '2.2-S10FE-FINAL-SYNC'
     }
 
     buildFeatures {
