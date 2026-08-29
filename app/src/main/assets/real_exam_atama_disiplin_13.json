@@ -1,0 +1,222 @@
+[
+  {
+    "id": "real_atama_001",
+    "setID": "atama_disiplin_13",
+    "setTitle": "Atama ve Disiplin Komisyonu Kuruluş ve Çalışma Esasları Tüzüğü",
+    "number": 1,
+    "realExam": true,
+    "page": 63,
+    "stem": "Aşağıdakilerden hangisi komisyon üyesi değildir?",
+    "options": [
+      "Sivil Savunma Teşkilat Başkanı",
+      "Sivil Savunma Teşkilatı Başkanlık Karargâhı Koordinatörü",
+      "Sivil Savunma Teşkilatı Personel ve İdari Şube Müdürü",
+      "Devlet Kamu Hizmeti Komisyonu Başkanı",
+      "Devlet Personel Dairesi Müdürü"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "real_atama_002",
+    "setID": "atama_disiplin_13",
+    "setTitle": "Atama ve Disiplin Komisyonu Kuruluş ve Çalışma Esasları Tüzüğü",
+    "number": 2,
+    "realExam": true,
+    "page": 63,
+    "stem": "Başkanın uygunluğu üzerine komisyon toplantılarına bilgi vermek amacıyla katılan ve oy hakkı bulunmayan kişi kimdir?",
+    "options": [
+      "Mukayyit",
+      "Başmukayyit",
+      "Başsavcı",
+      "Avukat",
+      "Hukuk müşaviri"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": "real_atama_003",
+    "setID": "atama_disiplin_13",
+    "setTitle": "Atama ve Disiplin Komisyonu Kuruluş ve Çalışma Esasları Tüzüğü",
+    "number": 3,
+    "realExam": true,
+    "page": 63,
+    "stem": "Aşağıdakilerden hangisi komisyonun yetkileri arasında değildir?",
+    "options": [
+      "İzin",
+      "Atama",
+      "Terfi",
+      "Nakil ve yer değiştirme",
+      "Disiplin cezası verme"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "real_atama_004",
+    "setID": "atama_disiplin_13",
+    "setTitle": "Atama ve Disiplin Komisyonu Kuruluş ve Çalışma Esasları Tüzüğü",
+    "number": 4,
+    "realExam": true,
+    "page": 63,
+    "stem": "Aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "options": [
+      "Başkan’ın önerisi ve üye tam sayısının salt çoğunluğu ile toplanır. Salt çoğunlukla karar alınır.",
+      "Oyların eşitliğinde başkanın oyu 2 oy sayılır.",
+      "Başkanın yokluğunda Başkan yardımcısı başkanlık görevlerini yürütür. Oyların eşitliğinde oyu 1 oy sayılır.",
+      "Komisyon başkanı gerekli hallerde başka kamu görevlilerinin görüşünü alabilir."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "real_atama_005",
+    "setID": "atama_disiplin_13",
+    "setTitle": "Atama ve Disiplin Komisyonu Kuruluş ve Çalışma Esasları Tüzüğü",
+    "number": 5,
+    "realExam": true,
+    "page": 63,
+    "stem": "Hakkında disiplin kovuşturması açılan personele kovuşturmaya neden olan davranışları bildirildikten sonra savunma için kaç gün süre verilir?",
+    "options": [
+      "En az 5 gün",
+      "En az 7 gün",
+      "En az 7 iş günü",
+      "En az 10 iş günü",
+      "En az 10 gün"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": "real_atama_006",
+    "setID": "atama_disiplin_13",
+    "setTitle": "Atama ve Disiplin Komisyonu Kuruluş ve Çalışma Esasları Tüzüğü",
+    "number": 6,
+    "realExam": true,
+    "page": 64,
+    "stem": "Disiplin soruşturmasında soruşturma memuru tarafından hazırlanan rapor kime bildirilir?",
+    "options": [
+      "Kamu Hizmeti Komisyonu",
+      "Sivil Savunma Teşkilat Başkanı",
+      "Sivil Savunma Atama ve Disiplin Komisyonu",
+      "Personel Dairesi Müdürü",
+      "Başsavcılık"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "real_atama_007",
+    "setID": "atama_disiplin_13",
+    "setTitle": "Atama ve Disiplin Komisyonu Kuruluş ve Çalışma Esasları Tüzüğü",
+    "number": 7,
+    "realExam": true,
+    "page": 64,
+    "stem": "Başsavcılık disiplin soruşturmasına gerek görürse sivil savunma görevlisi hakkında hangi belge hazırlanır?",
+    "options": [
+      "Celpname",
+      "İthamname",
+      "Beyanname",
+      "Tasdikname",
+      "Vekaletname"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "real_atama_008",
+    "setID": "atama_disiplin_13",
+    "setTitle": "Atama ve Disiplin Komisyonu Kuruluş ve Çalışma Esasları Tüzüğü",
+    "number": 8,
+    "realExam": true,
+    "page": 64,
+    "stem": "Hazırlanan belge Başsavcılıkça Sivil Savunma Teşkilat Başkanlığına gönderildikten sonra Başkanlık tarafından gecikmeksizin nereye bildirilir?",
+    "options": [
+      "Kamu Hizmeti Komisyonu",
+      "Sivil Savunma Teşkilat Başkanı",
+      "Sivil Savunma Atama ve Disiplin Komisyonu",
+      "Personel Dairesi Müdürü",
+      "Başsavcılık"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "real_atama_009",
+    "setID": "atama_disiplin_13",
+    "setTitle": "Atama ve Disiplin Komisyonu Kuruluş ve Çalışma Esasları Tüzüğü",
+    "number": 9,
+    "realExam": true,
+    "page": 64,
+    "stem": "Komisyon ithamnameyi aldığı günden itibaren .... içinde duruşma gününü saptar ve .... ile bildirimde bulunur. Boşluklara uygun seçenek hangisidir?",
+    "options": [
+      "En geç iki hafta - celpname",
+      "En geç iki hafta - ithamname",
+      "En geç 1 hafta - celpname",
+      "En geç 1 hafta - ithamname",
+      "En geç 3 hafta - celpname"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "real_atama_010",
+    "setID": "atama_disiplin_13",
+    "setTitle": "Atama ve Disiplin Komisyonu Kuruluş ve Çalışma Esasları Tüzüğü",
+    "number": 10,
+    "realExam": true,
+    "page": 65,
+    "stem": "Sivil Savunma Atama ve Disiplin Komisyonu tarafından uygulanan duruşma yöntemi ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "options": [
+      "Suç iddia makamı tarafından sanığa okunur. Kabul etmesi durumunda meselenin olguları anlatılır.",
+      "Kabul etmemesi halinde davanın görüşülmesine geçilir. Suçlamaya karşı sanık cevap vermez ise kabul etmemiş sayılır ve duruşma başlar.",
+      "Komisyon tanıkları dinler. Sanığı savunma yapmaya davet eder.",
+      "Sanık duruşmada hazır değilse celpnameyi aldığından yokluğunda dava dinlenir. Dava sırasında zabıtlar tutulur.",
+      "Duruşma, hükmün okunması ile biter. Hüküm gerekçeye dayanır. Kararın bir sureti Sivil Savunma görevlisine gönderilir."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "real_atama_011",
+    "setID": "atama_disiplin_13",
+    "setTitle": "Atama ve Disiplin Komisyonu Kuruluş ve Çalışma Esasları Tüzüğü",
+    "number": 11,
+    "realExam": true,
+    "page": 65,
+    "stem": "Tutanakların birer sureti toplantıdan sonra kaç gün içinde üyelere dağıtılır?",
+    "options": [
+      "En erken 3 gün",
+      "En geç 3 gün",
+      "En geç 5 gün",
+      "En geç 7 gün",
+      "En erken 7 gün"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "real_atama_012",
+    "setID": "atama_disiplin_13",
+    "setTitle": "Atama ve Disiplin Komisyonu Kuruluş ve Çalışma Esasları Tüzüğü",
+    "number": 12,
+    "realExam": true,
+    "page": 65,
+    "stem": "Üyenin tutanaklarla ilgili eklemek istediği görüş var ise ne kadar süre zarfında yazılı olarak kime bildirmesi gerekir?",
+    "options": [
+      "24 saat zarfında Sivil Savunma Teşkilat Başkanlığına",
+      "48 saat zarfında Sivil Savunma Teşkilat Başkanlığına",
+      "48 saat zarfında Atama ve Disiplin Komisyonu Başkanına",
+      "3 gün zarfında Atama ve Disiplin Komisyonu Başkanlığına",
+      "48 saat zarfında Sığınak Komisyonuna"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "real_atama_013",
+    "setID": "atama_disiplin_13",
+    "setTitle": "Atama ve Disiplin Komisyonu Kuruluş ve Çalışma Esasları Tüzüğü",
+    "number": 13,
+    "realExam": true,
+    "page": 66,
+    "stem": "Tutanaklar imzalandıktan sonra kim tarafından imzalanması gerekmektedir?",
+    "options": [
+      "Sivil Savunma Atama ve Disiplin Komisyonu Başkanı",
+      "Sivil Savunma Genel Koordinatörü",
+      "Sivil Savunma Personel ve İdari İşler Müdürü",
+      "Bayındırlık ve Ulaştırma Bakanı",
+      "Başbakan"
+    ],
+    "correctIndex": 0
+  }
+]

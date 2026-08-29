@@ -1,0 +1,511 @@
+[
+  {
+    "id": "real_teskilat_001",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 1,
+    "realExam": true,
+    "page": 16,
+    "stem": "Mahalli teşkil ne demektir?",
+    "options": [
+      "Özel ekip",
+      "Sivil ekip",
+      "Halk örgütü",
+      "Mahalli ekip",
+      "Sivil örgüt"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "real_teskilat_002",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 2,
+    "realExam": true,
+    "page": 16,
+    "stem": "Aşağıda verilenlerden hangisi Sivil Savunma Teşkilat Başkanlığı karargâhında bulunmaz?",
+    "options": [
+      "Sivil Savunma Teşkilat Başkanı",
+      "Sivil Savunma Teşkilat Başkan Yardımcısı",
+      "Sivil Savunma Teşkilatı Koordinatörü",
+      "Sivil Savunma Şube Müdürlükleri",
+      "Sivil Savunma Şube Amirlikleri"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": "real_teskilat_003",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 3,
+    "realExam": true,
+    "page": 16,
+    "stem": "Sivil savunma teşkilatı kaç adet şube müdürlüğünden oluşur?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "real_teskilat_004",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 4,
+    "realExam": true,
+    "page": 16,
+    "stem": "Sivil savunma teşkilatı şube müdürlükleri ile ilgili verilen bilgilerden hangisi yanlıştır?",
+    "options": [
+      "Personel ve İdare Şube Müdürlüğü Sivil Savunma Teşkillerine ait kayıtları tutar.",
+      "Haber Alma ve İkaz Şube Müdürlüğü gerek barış gerekse olağanüstü durumlarda hızlı ve etkili bir şekilde duyuru yapmak için yayın yapar.",
+      "Hareket ve Eğitim Şube Müdürlüğü personelin eğitilmesini ve tatbikatlarla pekiştirmesini sağlar.",
+      "İkmal ve Donatım Şube Müdürlüğü ihtiyaçların tespit, tedarik, dağıtım ve kayıtların tutulmasını sağlar.",
+      "Maliye Şube Müdürlüğü Sivil Savunma Teşkilatının bütçesini hazırlar."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "real_teskilat_005",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 5,
+    "realExam": true,
+    "page": 17,
+    "stem": "Sivil savunma teşkilatı şube müdürlükleri ile ilgili verilen bilgilerden hangisi doğrudur?",
+    "options": [
+      "Hizmet ve Destek Şube Müdürlüğü taşınır ve taşınmaz malların bakım ve onarımı ile güvenliği ile ilgili faaliyetleri yürütür.",
+      "Radyo Müdürlüğü savaş, tabii afet, büyük yangın ve denizden gelebilecek felaketlerde arama-kurtarma faaliyetlerine katılır.",
+      "Arama-Kurtarma Şube Müdürlüğü gerek barış gerekse olağanüstü durumlarda hızlı ve etkili bir şekilde duyuru yapmak için yayın yapar.",
+      "İkmal ve Donatım Şube Müdürlüğü Sivil Savunma Teşkilatının bütçesini hazırlar."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "real_teskilat_006",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 6,
+    "realExam": true,
+    "page": 17,
+    "stem": "Mülki taksimat ve nüfus yoğunluğu dikkate alınarak kurulmuş kaç adet bölge müdürlüğü vardır?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": "real_teskilat_007",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 7,
+    "realExam": true,
+    "page": 17,
+    "stem": "“Bölge müdürlüklerine bağlı sivil savunma bölge amirlikleri ve bölge amirliklerine bağlı semt amirliklerinden oluşur.” Yukarıda verilen tanım aşağıdakilerden hangisine aittir?",
+    "options": [
+      "Sivil savunma teşkilatı",
+      "Sivil savunma teşkilatı mahalli teşkilleri",
+      "Sivil savunma teşkilat karargâhı",
+      "Sivil savunma bölge müdürlüğü",
+      "Sivil savunma teşkilat müdürlüğü"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "real_teskilat_008",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 8,
+    "realExam": true,
+    "page": 17,
+    "stem": "Bölge amirlikleri, hizmetler bakımından nereye bağlıdır?",
+    "options": [
+      "Sivil savunma teşkilat başkanı",
+      "Sivil savunma semt müdürlüğü",
+      "Sivil savunma bölge müdürlüğü",
+      "Sivil savunma mahalli teşkili",
+      "Sivil savunma semt amirliği"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "real_teskilat_009",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 9,
+    "realExam": true,
+    "page": 18,
+    "stem": "Aşağıdakilerden hangisi sivil savunma teşkilatı semt amirliklerini oluşturan ekiplerden biri değildir?",
+    "options": [
+      "Semt amirlik karargâhı",
+      "Cadde ve sokak kılavuzları",
+      "Sığınak amirleri",
+      "Sivil savunma ekipleri",
+      "Teknik onarım ekibi"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": "real_teskilat_010",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 10,
+    "realExam": true,
+    "page": 18,
+    "stem": "Semt amirlikleri, hizmetler bakımından nereye bağlıdır?",
+    "options": [
+      "Sivil savunma teşkilatı koordinatörü",
+      "Sivil savunma semt müdürlüğü",
+      "Sivil savunma bölge müdürlüğü",
+      "Sivil savunma bölge amirliği",
+      "Sivil savunma semt başkanı"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "real_teskilat_011",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 11,
+    "realExam": true,
+    "page": 18,
+    "stem": "Aşağıdakilerden hangisi sığınak amirinin görevlerinden biridir?",
+    "options": [
+      "Yangında ilk müdahaleyi yapmak",
+      "Bina koruma amiri olarak görev yapmak",
+      "Halkın sığınaklara kabulünü ve kaydını yapmak",
+      "Kurtarma ekibini yönetmek",
+      "Nüfus miktarını belirlemek"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "real_teskilat_012",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 12,
+    "realExam": true,
+    "page": 18,
+    "stem": "Bina koruma amirleri, aşağıdaki ekiplerden hangisini kurmaz?",
+    "options": [
+      "Tahliye ekibi",
+      "Kurtarma ekibi",
+      "Yangın söndürme ekibi",
+      "İlk yardım ekibi",
+      "Hiçbiri"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "real_teskilat_013",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 13,
+    "realExam": true,
+    "page": 18,
+    "stem": "Çok katlı binalarda nüfus miktarı 21-30 kişi olduğunda ekipler toplam kaç kişi olur?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "real_teskilat_014",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 14,
+    "realExam": true,
+    "page": 18,
+    "stem": "Her semt amirliğinde kaç adet sivil savunma ekibi bulunur?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "real_teskilat_015",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 15,
+    "realExam": true,
+    "page": 19,
+    "stem": "Aşağıda verilen ekiplerden hangisi semt amirliğinde bulunmaz?",
+    "options": [
+      "Teknik ekip",
+      "Ambulans ekibi",
+      "İlk yardım ekibi",
+      "Sosyal yardım ekibi",
+      "Yangın Söndürme ve Kurtarma ekibi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "real_teskilat_016",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 16,
+    "realExam": true,
+    "page": 19,
+    "stem": "Aşağıdakilerden hangisi teknik ekibin görevlerindendir?",
+    "options": [
+      "İlk yardım ve yaralıları hastanelere taşımak",
+      "Yangınlara müdahale etmek",
+      "Seferi araç tamir ve bakımı",
+      "Halkın kaydını yapmak ve rehberlik etmek",
+      "Yaralıların ayrımını ve ambulans yükleme noktalarına taşıma"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "real_teskilat_017",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 17,
+    "realExam": true,
+    "page": 19,
+    "stem": "Daire ve müessese sivil savunma teşkilleri kurulmasından ve idaresinden esas sorumlu aşağıdakilerden hangisi olamaz?",
+    "options": [
+      "İlgili Daire Müdürü",
+      "İlgili Daire Amiri",
+      "Müessesenin sahibi",
+      "Müessese Müdürü",
+      "Sivil savunma amiri"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": "real_teskilat_018",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 18,
+    "realExam": true,
+    "page": 19,
+    "stem": "Daire ve müessese sivil savunma teşkillerinde sivil savunma amiri aşağıdakilerden hangisi olabilir?",
+    "options": [
+      "İlgili Daire Müdürü",
+      "İlgili daire müdür vekili",
+      "Müessesenin Yöneticisi",
+      "Müessese Müdürü",
+      "Daire veya müessese müdürünün yardımcısı"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": "real_teskilat_019",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 19,
+    "realExam": true,
+    "page": 19,
+    "stem": "Sivil savunma amiri hangi görevi yerine getirmek zorundadır?",
+    "options": [
+      "Yangın söndürme",
+      "Sivil savunma teşkilini kurma",
+      "İlk yardım uygulama",
+      "Halkı bilgilendirme",
+      "Teknik onarımlar yapma"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "real_teskilat_020",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 20,
+    "realExam": true,
+    "page": 19,
+    "stem": "Bir dairede kurulan sivil savunma teşkillerinde çalışan personel sayısı 10-19 kişi arasında ise her ekip kaç kişiden oluşur?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "real_teskilat_021",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 21,
+    "realExam": true,
+    "page": 20,
+    "stem": "Bir dairede kurulan sivil savunma teşkillerinde çalışan personel sayısı 160 kişi ise her ekip kaç kişiden oluşur?",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "real_teskilat_022",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 22,
+    "realExam": true,
+    "page": 20,
+    "stem": "Müşterek Teşkilin tanımı aşağıdakilerden hangisinde doğru verilmiştir?",
+    "options": [
+      "Aynı çatı altındaki resmî dairelerin ortak sivil savunma teşkili kurması",
+      "Farklı görevlerdeki ekiplerin birlikte çalışması",
+      "Daire müdürlerinin sorumluluğunda yangın söndürme",
+      "Aynı çatı altındaki özel daire ve müesseselerin ortak sivil savunma teşkili kurması",
+      "Halkın tahliye edilmesi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "real_teskilat_023",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 23,
+    "realExam": true,
+    "page": 20,
+    "stem": "Aşağıdakilerden hangisinde savaş halinde tehlike durumunda kullanılan ikazlarla ilgili doğru bilgi verilmiştir?",
+    "options": [
+      "Sarı ikaz → 3 dakika kesikli siren sesi verilir. Taarruz ihtimali var anlamındadır.",
+      "Kırmızı ikaz → 3 dakika devamlı siren sesi verilir. Taarruz tehlikesi var anlamındadır.",
+      "Yeşil ikaz → 3 dakika yükselip alçalan dalgalı siren sesi verilir. Taarruz var anlamındadır.",
+      "Mavi ikaz → 2 dakika devamlı siren sesi verilir. Tehlikenin tekrarlama ihtimali olması anlamındadır.",
+      "Beyaz ikaz → Tehlikenin kalmadığı anlamındadır."
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": "real_teskilat_024",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 24,
+    "realExam": true,
+    "page": 20,
+    "stem": "Sivil savunma hizmetlerinde görevli mükelleflere yaptırılacak eğitim ve tatbikatların süresi yılda kaç saati geçemez?",
+    "options": [
+      "16",
+      "24",
+      "36",
+      "48",
+      "72"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": "real_teskilat_025",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 25,
+    "realExam": true,
+    "page": 21,
+    "stem": "Sirenlerin denenmesi basın-yayın yolu ile önceden halka bildirilirse hangi saat aralığında da yapılabilir?",
+    "options": [
+      "08:00-12:00",
+      "18:00-24:00",
+      "00:00-06:00",
+      "06:00-08:00",
+      "22:00-03:00"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "real_teskilat_026",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 26,
+    "realExam": true,
+    "page": 21,
+    "stem": "Akaryakıt, Tedarik, Depolama ve Dağıtım Protokolü kimler arasında yapılır?",
+    "options": [
+      "Sivil Savunma Komitesi ile Kıbrıs Türk Petrolleri Ltd. Şti",
+      "Sivil Savunma Atama ve Disiplin Komisyonu ile Kıbrıs Türk Petrolleri Ltd. Şti",
+      "Sivil Savunma Teşkilat Başkanlığı ile Kıbrıs Türk Petrolleri Ltd. Şti",
+      "Sivil Savunma Başkanı ile Kıbrıs Türk Petrolleri Ltd. Şti",
+      "Sivil Savunma Başkanı ile Alpet Türk Petrolleri Ltd. Şti"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "real_teskilat_027",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 27,
+    "realExam": true,
+    "page": 21,
+    "stem": "Personel kartı ile ilgili verilen bilgilerden hangisi yanlıştır?",
+    "options": [
+      "Kadrolu personele verilir.",
+      "Seri numarası, personel sicil numarası, verildiği tarih, personelin adı-soyadı, görevi, baba adı, doğum yeri ve tarihi, KKTC kimlik kartı numarası, askerî kütük numarası, adresi, kan grubu, kart sahibi ile Sivil Savunma Teşkilât Başkanının imzasını içerir.",
+      "Personelin görev değişikliği olması halinde 2 ay içinde eski kartı Sivil Savunma Teşkilat Başkanlığına iade eder ve kendisine yeni personel kartı verilir.",
+      "Emekliye ayrılanlar personel kimlik kartını iade edip, emekli personel kartı alırlar.",
+      "Mükellef personele mükellef personel kartı verilir. Görev süresi bittiğinde iade edilmez."
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": "real_teskilat_028",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 28,
+    "realExam": true,
+    "page": 22,
+    "stem": "Savaş hali veya tabii afet halinde yangınlara karşı Koruyucu ve Kurtarıcı Tedbirlerden hangisi doğrudur?",
+    "options": [
+      "Çatı ve teraslarda yanıcı madde bulunması zaruridir. İtfaiye Müdürlüğünün öngöreceği yangın söndürme ve yangın ikaz tedbirleri alınır.",
+      "Sivil Savunma Teşkilatının öngöreceği cins ve miktarda söndürme malzemesi bulundurulur.",
+      "Ot, saman yığınları bir araya toplanmaz, Arazi Yangınları ile Mücadele Yasasına göre gerekli tedbirler alınır.",
+      "12 metreye kadar olan binalarda İtfaiye Müdürlüğünün öngöreceği yangın tahliye merdiveni bulundurulur.",
+      "Akaryakıt, barut, dinamit gibi patlayıcı ve parlayıcı maddeler, yerleşme merkezleri içinde ancak yeraltı depolarında saklanabilir."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "real_teskilat_029",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 29,
+    "realExam": true,
+    "page": 22,
+    "stem": "Daire ve müesseseler yılda bir kez ........ denetlenir ve rapor ........ bildirilir. Yukarıda verilen boşluklara aşağıdakilerden hangisi gelmelidir?",
+    "options": [
+      "Sivil Savunma Teşkilat Başkanınca - Başbakana",
+      "Sivil Savunma Teşkilat Başkanınca - Başbakanlığa",
+      "Sivil Savunma Teşkilat Başkanlığınca - Bayındırlık ve Ulaştırma Bakanlığına",
+      "Sivil Savunma Teşkilat Başkanlığınca - Başbakanlığa",
+      "Sivil Savunma Teşkilat Başkanınca - Bayındırlık ve Ulaştırma Bakanlığına"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "real_teskilat_030",
+    "setID": "teskilat_donatim_30",
+    "setTitle": "Sivil Savunma Teşkilat, Donatım ve Tedbirler Tüzüğü",
+    "number": 30,
+    "realExam": true,
+    "page": 23,
+    "stem": "Bakanlık, Kurum ve Kuruluşlar, Sivil Savunma Teşkilat Başkanlığı ile iş birliğini hangi dönemlerde sürdürür?",
+    "options": [
+      "Buhran Dönemi",
+      "Yalnızca Barış (Hazırlık) Dönemi",
+      "Barış (Hazırlık) ve Buhran Dönemi",
+      "Savaş Hali ve Savaş Sonrası Hal dönemleri",
+      "Barış (Hazırlık) Dönemi, Buhran Dönemi, Savaş Hali ve Savaş Sonrası Hal dönemleri"
+    ],
+    "correctIndex": 4
+  }
+]

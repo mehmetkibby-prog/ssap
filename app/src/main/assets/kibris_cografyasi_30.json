@@ -1,0 +1,512 @@
+[
+  {
+    "id": "cygeo-01",
+    "stem": "Kıbrıs hangi denizde yer alır?",
+    "options": [
+      "Akdeniz",
+      "Karadeniz",
+      "Ege Denizi",
+      "Kızıldeniz"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Akdeniz.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-02",
+    "stem": "Kıbrıs, Akdeniz’in büyüklük bakımından kaçıncı büyük adasıdır?",
+    "options": [
+      "1.",
+      "2.",
+      "3.",
+      "5."
+    ],
+    "correctIndex": 2,
+    "explanation": "Genel kültür düzeyi: doğru cevap 3..",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-03",
+    "stem": "KKTC’nin başkenti hangisidir?",
+    "options": [
+      "Lefkoşa",
+      "Girne",
+      "Gazimağusa",
+      "Güzelyurt"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Lefkoşa.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-04",
+    "stem": "Kıbrıs’ın en yüksek noktası hangisidir?",
+    "options": [
+      "Olimpos (Karlıdağ)",
+      "Bufavento",
+      "Kantara",
+      "St. Hilarion"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Olimpos (Karlıdağ).",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-05",
+    "stem": "Kuzey Kıbrıs’ın kuzeyinde uzanan dağ sırası hangisidir?",
+    "options": [
+      "Girne Dağları",
+      "Trodos Dağları",
+      "Toroslar",
+      "Amanoslar"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Girne Dağları.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-06",
+    "stem": "Girne Dağları ile Trodos Dağları arasında kalan ova hangisidir?",
+    "options": [
+      "Meserya Ovası",
+      "Çukurova",
+      "Baf Ovası",
+      "Karpaz Ovası"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Meserya Ovası.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-07",
+    "stem": "Kıbrıs’ın doğuya uzanan yarımadası hangisidir?",
+    "options": [
+      "Karpaz",
+      "Akama",
+      "Baf",
+      "Limasol"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Karpaz.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-08",
+    "stem": "Kıbrıs’ın en doğu ucu hangisidir?",
+    "options": [
+      "Zafer Burnu",
+      "Arnavut Burnu",
+      "Doğan Burnu",
+      "Koruçam Burnu"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Zafer Burnu.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-09",
+    "stem": "Kıbrıs’ın en batı ucu hangisidir?",
+    "options": [
+      "Arnavut Burnu",
+      "Zafer Burnu",
+      "Doğan Burnu",
+      "İnceburun"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Arnavut Burnu.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-10",
+    "stem": "Kıbrıs’ın en güneyindeki burun hangisidir?",
+    "options": [
+      "Doğan Burnu",
+      "Zafer Burnu",
+      "Arnavut Burnu",
+      "Koruçam Burnu"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Doğan Burnu.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-11",
+    "stem": "Kıbrıs’ta baskın iklim tipi hangisidir?",
+    "options": [
+      "Akdeniz iklimi",
+      "Muson iklimi",
+      "Tundra iklimi",
+      "Ekvatoral iklim"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Akdeniz iklimi.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-12",
+    "stem": "Akdeniz ikliminin tipik bitki örtüsü hangisidir?",
+    "options": [
+      "Maki",
+      "Tundra",
+      "Savan",
+      "Tayga"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Maki.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-13",
+    "stem": "Kıbrıs ekvatorun hangi tarafındadır?",
+    "options": [
+      "Kuzey",
+      "Güney",
+      "Tam üzerinde",
+      "Batı"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Kuzey.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-14",
+    "stem": "Kıbrıs başlangıç meridyeninin hangi tarafındadır?",
+    "options": [
+      "Doğu",
+      "Batı",
+      "Tam üzerinde",
+      "Kuzey"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Doğu.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-15",
+    "stem": "KKTC’de kaç ilçe vardır?",
+    "options": [
+      "6",
+      "4",
+      "5",
+      "8"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap 6.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-16",
+    "stem": "KKTC’nin en büyük ticari limanı hangisidir?",
+    "options": [
+      "Gazimağusa Limanı",
+      "Girne Limanı",
+      "Gemikonağı Limanı",
+      "Larnaka Limanı"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Gazimağusa Limanı.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-17",
+    "stem": "Girne Dağlarının en yüksek tepesi hangisidir?",
+    "options": [
+      "Birkan Uzun Selvili Tepesi",
+      "Ziya Tepesi",
+      "Büyük Tepe",
+      "Olimpos"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Birkan Uzun Selvili Tepesi.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-18",
+    "stem": "Kantara Dağlarının en yüksek tepesi hangisidir?",
+    "options": [
+      "Ziya",
+      "Bufavento",
+      "Kıvanç",
+      "Olimpos"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Ziya.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-19",
+    "stem": "Karpaz Dağlarının en yüksek tepesi hangisidir?",
+    "options": [
+      "Büyük Tepe",
+      "Ziya",
+      "Bufavento",
+      "Kıvanç"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Büyük Tepe.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-20",
+    "stem": "Trodos Dağlarının en yüksek tepesi hangisidir?",
+    "options": [
+      "Karlıdağ (Olimpos)",
+      "St. Hilarion",
+      "Ziya",
+      "Büyük Tepe"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Karlıdağ (Olimpos).",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-21",
+    "stem": "Kıbrıs’ta yağışın en az düştüğü yer kaynak notuna göre neresidir?",
+    "options": [
+      "Güzelyurt Ovası",
+      "Girne Dağları kuzeyi",
+      "Karpaz kuzeyi",
+      "Trodos zirvesi"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Güzelyurt Ovası.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-22",
+    "stem": "Kıbrıs’ın en uzun akarsuyu hangisidir?",
+    "options": [
+      "Kanlıdere",
+      "Kandıdere",
+      "Pedieos",
+      "Çakıllıdere"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Kanlıdere.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-23",
+    "stem": "KKTC’nin en büyük yeraltı su kaynağı hangisidir?",
+    "options": [
+      "Güzelyurt Aküferi",
+      "Yeşilköy Aküferi",
+      "Girne Dağları Aküferi",
+      "Meserya Aküferi"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Güzelyurt Aküferi.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-24",
+    "stem": "Kıbrıs’ın en büyük gölü kaynak notuna göre hangisidir?",
+    "options": [
+      "Limasol Gölü",
+      "Geçitköy Göleti",
+      "Gönendere Göleti",
+      "Köprülü Göl"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Limasol Gölü.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-25",
+    "stem": "KKTC’deki en büyük gölet hangisidir?",
+    "options": [
+      "Geçitköy Göleti",
+      "Gönendere Göleti",
+      "Kanlıköy Göleti",
+      "Akdeniz Göleti"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Geçitköy Göleti.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-26",
+    "stem": "KKTC’deki en küçük gölet hangisidir?",
+    "options": [
+      "Gönendere Göleti",
+      "Geçitköy Göleti",
+      "Akdeniz Göleti",
+      "Kanlıköy Göleti"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Gönendere Göleti.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-27",
+    "stem": "Maronitlerin Kuzey Kıbrıs’ta yaşadığı köy hangisidir?",
+    "options": [
+      "Koruçam",
+      "Mehmetçik",
+      "Yeşilırmak",
+      "Dipkarpaz"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Koruçam.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-28",
+    "stem": "Kıbrıs’a Türkiye’den sonra en yakın ülke hangisidir?",
+    "options": [
+      "Suriye",
+      "Mısır",
+      "Yunanistan",
+      "İtalya"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Suriye.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-29",
+    "stem": "Meserya Ovasının diğer adı hangisidir?",
+    "options": [
+      "İç Ova",
+      "Kıyı Ovası",
+      "Batı Ovası",
+      "Kuzey Ovası"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap İç Ova.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cygeo-30",
+    "stem": "Güzelyurt bölgesi özellikle hangi ürün grubuyla bilinir?",
+    "options": [
+      "Narenciye",
+      "Çay",
+      "Fındık",
+      "Pirinç"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genel kültür düzeyi: doğru cevap Narenciye.",
+    "reference": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-cografya",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Coğrafyası • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  }
+]

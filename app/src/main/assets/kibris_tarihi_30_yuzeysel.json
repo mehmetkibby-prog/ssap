@@ -1,0 +1,512 @@
+[
+  {
+    "id": "cyhist-01",
+    "stem": "Kıbrıs Osmanlı yönetimine hangi yüzyılda girdi?",
+    "options": [
+      "16. yüzyıl",
+      "14. yüzyıl",
+      "18. yüzyıl",
+      "20. yüzyıl"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap 16. yüzyıl.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-02",
+    "stem": "Kıbrıs’ın Osmanlılar tarafından fethi sırasında padişah kimdi?",
+    "options": [
+      "II. Selim",
+      "Kanuni Sultan Süleyman",
+      "II. Mahmut",
+      "III. Selim"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap II. Selim.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-03",
+    "stem": "Kıbrıs’ın fethi sırasında Osmanlı kara ordusu komutanı kimdi?",
+    "options": [
+      "Lala Mustafa Paşa",
+      "Piyale Paşa",
+      "Sokullu Mehmet Paşa",
+      "Turgut Sunalp"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap Lala Mustafa Paşa.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-04",
+    "stem": "Kıbrıs’ın fethi sırasında Osmanlı donanma komutanı kimdi?",
+    "options": [
+      "Piyale Paşa",
+      "Lala Mustafa Paşa",
+      "Besim Paşa",
+      "Muzaffer Paşa"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap Piyale Paşa.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-05",
+    "stem": "Osmanlılar Kıbrıs’ın yönetimini İngiltere’ye hangi yıl devretti?",
+    "options": [
+      "1878",
+      "1571",
+      "1925",
+      "1960"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap 1878.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-06",
+    "stem": "Kıbrıs Cumhuriyeti hangi yıl kuruldu?",
+    "options": [
+      "1960",
+      "1958",
+      "1963",
+      "1974"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap 1960.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-07",
+    "stem": "Kıbrıs Cumhuriyeti’nin ilk Cumhurbaşkanı kimdi?",
+    "options": [
+      "Makarios",
+      "Dr. Fazıl Küçük",
+      "Rauf Denktaş",
+      "Sir Hugh Foot"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap Makarios.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-08",
+    "stem": "Kıbrıs Cumhuriyeti’nin ilk Cumhurbaşkanı Yardımcısı kimdi?",
+    "options": [
+      "Dr. Fazıl Küçük",
+      "Rauf Denktaş",
+      "Makarios",
+      "Turgut Sunalp"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap Dr. Fazıl Küçük.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-09",
+    "stem": "Birleşmiş Milletler Barış Gücü Kıbrıs’a hangi yıl geldi?",
+    "options": [
+      "1964",
+      "1960",
+      "1974",
+      "1983"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap 1964.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-10",
+    "stem": "TMT’nin kuruluş tarihi kaynak notuna göre hangisidir?",
+    "options": [
+      "1 Ağustos 1958",
+      "1 Ağustos 1976",
+      "15 Kasım 1983",
+      "23 Nisan 2003"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap 1 Ağustos 1958.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-11",
+    "stem": "TMT’nin ilk lideri kimdir?",
+    "options": [
+      "Albay Ali Rıza Vuruşkan",
+      "Dr. Fazıl Küçük",
+      "Rauf Denktaş",
+      "Turgut Sunalp"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap Albay Ali Rıza Vuruşkan.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-12",
+    "stem": "Kıbrıs Türk Federe Devleti hangi yıl kuruldu?",
+    "options": [
+      "1975",
+      "1967",
+      "1983",
+      "1960"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap 1975.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-13",
+    "stem": "KKTC hangi tarihte ilan edildi?",
+    "options": [
+      "15 Kasım 1983",
+      "20 Temmuz 1974",
+      "1 Ağustos 1958",
+      "23 Nisan 2003"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap 15 Kasım 1983.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-14",
+    "stem": "KKTC bayrağı hangi tarihte Cumhuriyet Meclisince onaylandı?",
+    "options": [
+      "7 Mart 1984",
+      "15 Kasım 1983",
+      "23 Haziran 1985",
+      "1 Ağustos 1976"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap 7 Mart 1984.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-15",
+    "stem": "Kıbrıs’ta ilk matbaa kaynak notuna göre kim tarafından kuruldu?",
+    "options": [
+      "İngilizler",
+      "Osmanlılar",
+      "Venedikliler",
+      "Lüzinyanlar"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap İngilizler.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-16",
+    "stem": "Kıbrıs’ın ilk gazetesi kaynak notuna göre hangisidir?",
+    "options": [
+      "Kipros/Cyprus",
+      "Halkın Sesi",
+      "Ümid",
+      "Saded"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap Kipros/Cyprus.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-17",
+    "stem": "Kıbrıslı bir Türk tarafından çıkarılan ilk Türkçe gazete kaynak notuna göre hangisidir?",
+    "options": [
+      "Saded",
+      "Ümid",
+      "Halkın Sesi",
+      "Yenidüzen"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap Saded.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-18",
+    "stem": "Bayrak Radyosu ilk deneme yayınını ne zaman yaptı?",
+    "options": [
+      "25 Aralık 1963",
+      "15 Kasım 1983",
+      "10 Eylül 1953",
+      "23 Nisan 2003"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap 25 Aralık 1963.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-19",
+    "stem": "Ledra Palas sınır kapısı ne zaman açıldı?",
+    "options": [
+      "23 Nisan 2003",
+      "15 Kasım 1983",
+      "16 Ağustos 1960",
+      "7 Mart 1984"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap 23 Nisan 2003.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-20",
+    "stem": "Othello Kalesi kaynak notuna göre kimler tarafından yapıldı?",
+    "options": [
+      "Lüzinyanlar",
+      "Osmanlılar",
+      "İngilizler",
+      "Fenikeliler"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap Lüzinyanlar.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-21",
+    "stem": "Selimiye Camii kaynak notuna göre ilk olarak kimler tarafından yapıldı?",
+    "options": [
+      "Lüzinyanlar",
+      "Osmanlılar",
+      "İngilizler",
+      "Romalılar"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap Lüzinyanlar.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-22",
+    "stem": "Kıbrıs’ta son Osmanlı valisi kimdi?",
+    "options": [
+      "Besim Paşa",
+      "Muzaffer Paşa",
+      "Piyale Paşa",
+      "Sir Hugh Foot"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap Besim Paşa.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-23",
+    "stem": "Kıbrıs Türk Kuvvetleri Alayı adaya hangi tarihte geldi?",
+    "options": [
+      "16 Ağustos 1960",
+      "1 Ağustos 1958",
+      "15 Kasım 1983",
+      "10 Temmuz 1925"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap 16 Ağustos 1960.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-24",
+    "stem": "İlk Türk alayı komutanı kimdi?",
+    "options": [
+      "Turgut Sunalp",
+      "Piyale Paşa",
+      "Rauf Denktaş",
+      "Besim Paşa"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap Turgut Sunalp.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-25",
+    "stem": "Kuzey ve Güney arasında 1963’te oluşturulan tarafsız bölgeye ne ad verilir?",
+    "options": [
+      "Yeşil Hat",
+      "Kırmızı Hat",
+      "Ara Bölge",
+      "Mavi Hat"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap Yeşil Hat.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-26",
+    "stem": "Yeşil Hat adını nereden almıştır?",
+    "options": [
+      "Yeşil kalemle çizilmesinden",
+      "Bitki örtüsünden",
+      "Bayrak renginden",
+      "Bir köy adından"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap Yeşil kalemle çizilmesinden.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-27",
+    "stem": "İlk Türk Cemaat Meclisi Başkanı kimdi?",
+    "options": [
+      "Rauf Raif Denktaş",
+      "Dr. Fazıl Küçük",
+      "Makarios",
+      "Turgut Sunalp"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap Rauf Raif Denktaş.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-28",
+    "stem": "Türklerin EOKA’ya karşı kurdukları ilk örgütün adı kaynak notuna göre nedir?",
+    "options": [
+      "Volkan",
+      "TMT",
+      "KATAK",
+      "KTFD"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap Volkan.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-29",
+    "stem": "Kıbrıs Türk Kurumları Federasyonu ne tür bir yapıydı?",
+    "options": [
+      "Türk kurum ve kuruluşlarını bir araya getiren üst örgüt",
+      "Bir belediye birliği",
+      "Bir askeri birlik",
+      "Bir spor kulübü"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap Türk kurum ve kuruluşlarını bir araya getiren üst örgüt.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  },
+  {
+    "id": "cyhist-30",
+    "stem": "Kıbrıs Türk Belediyeler Birliği kaynak notuna göre hangi yıl kuruldu?",
+    "options": [
+      "1983",
+      "1975",
+      "1960",
+      "2003"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yüzeysel tarih tekrarı: doğru cevap 1983.",
+    "reference": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "subjectID": "kibris-tarih",
+    "topicID": "temel",
+    "collectionTitle": "Kıbrıs Tarihi • Yüzeysel Genel Kültür",
+    "difficulty": "temel"
+  }
+]

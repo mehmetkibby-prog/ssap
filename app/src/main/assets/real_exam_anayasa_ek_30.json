@@ -1,0 +1,602 @@
+[
+  {
+    "id": "anayasa-ek-001",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 1,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Anayasaya göre yasama yetkisi aşağıdaki organlardan hangisine aittir?",
+    "options": [
+      "Cumhurbaşkanı",
+      "Bakanlar Kurulu",
+      "Cumhuriyet Meclisi",
+      "Anayasa Mahkemesi",
+      "Yüksek Adliye Kurulu"
+    ],
+    "correctIndex": 2,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-002",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 2,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Cumhuriyet Meclisi yasama yetkisini kimin adına kullanır?",
+    "options": [
+      "Cumhurbaşkanı adına",
+      "Bakanlar Kurulu adına",
+      "Devlet adına",
+      "Halk adına",
+      "Siyasal partiler adına"
+    ],
+    "correctIndex": 3,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-003",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 3,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Anayasaya göre yargı yetkisini kim kullanır?",
+    "options": [
+      "Cumhuriyet Meclisi",
+      "Bağımsız Mahkemeler",
+      "Bakanlar Kurulu",
+      "Başsavcılık",
+      "Yüksek Adliye Kurulu"
+    ],
+    "correctIndex": 1,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-004",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 4,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Bir siyasi partinin kapatılmasına karar verebilecek organ aşağıdakilerden hangisidir?",
+    "options": [
+      "Başsavcılık",
+      "Cumhuriyet Meclisi",
+      "Anayasa Mahkemesi",
+      "Bakanlar Kurulu",
+      "Yüksek Adliye Kurulu"
+    ],
+    "correctIndex": 2,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-005",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 5,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Bir gazete hakkında verilen toplatma kararının mahkemece onaylanması için öngörülen en geç süre hangisidir?",
+    "options": [
+      "24 saat",
+      "2 gün",
+      "7 gün",
+      "10 gün",
+      "30 gün"
+    ],
+    "correctIndex": 1,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-006",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 6,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Toplatılma kararı verilen bir kitapla ilgili kararın mahkemeye bildirilmesi için öngörülen süre hangisidir?",
+    "options": [
+      "Aynı gün",
+      "24 saat",
+      "2 gün",
+      "7 gün",
+      "10 gün"
+    ],
+    "correctIndex": 1,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-007",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 7,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Mal varlığını azaltan mülkiyet kısıtlamalarında tazminat konusunda anlaşma sağlanamazsa miktarı hangi merci belirler?",
+    "options": [
+      "Anayasa Mahkemesi",
+      "Sayıştay",
+      "Hukuk Mahkemesi",
+      "Yüksek İdare Mahkemesi",
+      "Bakanlar Kurulu"
+    ],
+    "correctIndex": 2,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-008",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 8,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Kamulaştırma tazminatı bakımından aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Sayıştay saptar ve 3 yılda ödenir",
+      "Hukuk Mahkemesi saptar ve 5 yılı aşmayan taksitlerle ödenir",
+      "Anayasa Mahkemesi saptar ve peşin ödenir",
+      "Bakanlar Kurulu saptar ve 10 yılda ödenir",
+      "Yüksek İdare Mahkemesi saptar ve 1 yılda ödenir"
+    ],
+    "correctIndex": 1,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-009",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 9,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Kamulaştırma amacının gerçekleştirilmesi için kaynakta belirtilen süre kaç yıldır?",
+    "options": [
+      "1 yıl",
+      "2 yıl",
+      "3 yıl",
+      "5 yıl",
+      "10 yıl"
+    ],
+    "correctIndex": 2,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-010",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 10,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Seçimlerin genel yönetim ve denetimi hangi organın gözetimi altındadır?",
+    "options": [
+      "Yasama organı",
+      "Yürütme organı",
+      "Yargı organı",
+      "Cumhurbaşkanlığı",
+      "Başsavcılık"
+    ],
+    "correctIndex": 2,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-011",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 11,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Siyasi partilerin tüzük ve programlarını denetleyen makam hangisidir?",
+    "options": [
+      "Anayasa Mahkemesi",
+      "Başsavcı",
+      "Sayıştay",
+      "Yüksek Adliye Kurulu",
+      "Cumhuriyet Meclisi"
+    ],
+    "correctIndex": 1,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-012",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 12,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Siyasi partilerin mali denetimini yapan organ aşağıdakilerden hangisidir?",
+    "options": [
+      "Başsavcılık",
+      "Sayıştay",
+      "Cumhuriyet Meclisi",
+      "Anayasa Mahkemesi",
+      "Maliye Bakanlığı"
+    ],
+    "correctIndex": 3,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-013",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 13,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Dilekçe sonucunun ilgili kişiye bildirilmesi için belirtilen süre hangisidir?",
+    "options": [
+      "10 gün",
+      "15 gün",
+      "30 gün",
+      "45 gün",
+      "90 gün"
+    ],
+    "correctIndex": 2,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-014",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 14,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Cumhuriyet Meclisini olağanüstü toplantıya çağırma bakımından aşağıdaki seçeneklerden hangisi kaynakta yer alan yetkilileri doğru verir?",
+    "options": [
+      "Cumhurbaşkanı, Başbakan, Başsavcı ve 9 milletvekili",
+      "Meclis Başkanı, Bakanlar Kurulu, Cumhurbaşkanı ve en az 10 milletvekili",
+      "Meclis Başkanı, Başbakan ve en az 5 milletvekili",
+      "Bakanlar Kurulu, Yüksek Mahkeme ve en az 9 milletvekili",
+      "Cumhurbaşkanı, Meclis Başkanı ve yalnızca siyasal parti grupları"
+    ],
+    "correctIndex": 1,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-015",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 15,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "İlk dönem için seçilen Cumhuriyet Meclisi Başkanının görev süresi kaç yıldır?",
+    "options": [
+      "1 yıl",
+      "2 yıl",
+      "3 yıl",
+      "4 yıl",
+      "5 yıl"
+    ],
+    "correctIndex": 2,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-016",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 16,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Cumhuriyet Meclisince kabul edilen Bütçe Yasasını Resmi Gazetede yayımlayan makam hangisidir?",
+    "options": [
+      "Başbakan",
+      "Maliye Bakanı",
+      "Cumhurbaşkanı",
+      "Meclis Başkanı",
+      "Bakanlar Kurulu"
+    ],
+    "correctIndex": 2,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-017",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 17,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Bütçe Yasasını kabul/onaylayan organ aşağıdakilerden hangisidir?",
+    "options": [
+      "Cumhurbaşkanı",
+      "Cumhuriyet Meclisi",
+      "Bakanlar Kurulu",
+      "Sayıştay",
+      "Maliye Bakanlığı"
+    ],
+    "correctIndex": 1,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-018",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 18,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Cumhurbaşkanı, Başbakan veya bakanlar hakkında soruşturma istemi için en az kaç milletvekilinin imzası gerekir?",
+    "options": [
+      "5",
+      "9",
+      "10",
+      "13",
+      "26"
+    ],
+    "correctIndex": 1,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-019",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 19,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Cumhurbaşkanına geçici olarak kim vekillik eder?",
+    "options": [
+      "Başbakan",
+      "Başsavcı",
+      "Yüksek Mahkeme Başkanı",
+      "Cumhuriyet Meclisi Başkanı",
+      "Dışişleri Bakanı"
+    ],
+    "correctIndex": 3,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-020",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 20,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Bakanlar Kurulunu kurma görevi verilen milletvekilinin bu görevi tamamlaması için belirtilen en geç süre hangisidir?",
+    "options": [
+      "7 gün",
+      "10 gün",
+      "15 gün",
+      "30 gün",
+      "45 gün"
+    ],
+    "correctIndex": 2,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-021",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 21,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Başbakanın güven isteminin reddedilebilmesi için hangi çoğunluk gerekir?",
+    "options": [
+      "Basit çoğunluk",
+      "Salt çoğunluk",
+      "Üye tam sayısının üçte ikisi",
+      "Oybirliği",
+      "En az 9 milletvekili"
+    ],
+    "correctIndex": 1,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-022",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 22,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Yasa gücünde kararname ile ilgili kararların verilmesi için belirtilen en geç süre hangisidir?",
+    "options": [
+      "30 gün",
+      "45 gün",
+      "60 gün",
+      "75 gün",
+      "90 gün"
+    ],
+    "correctIndex": 4,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-023",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 23,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Yasa gücünde kararname çıkarma yetkisi hangi organa aittir?",
+    "options": [
+      "Cumhurbaşkanı",
+      "Cumhuriyet Meclisi",
+      "Bakanlar Kurulu",
+      "Anayasa Mahkemesi",
+      "Başbakan"
+    ],
+    "correctIndex": 2,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-024",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 24,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Yüksek Yönetim Denetçisinin atanmasında kaynakta belirtilen onay hangi organa aittir?",
+    "options": [
+      "Bakanlar Kurulu",
+      "Yüksek Adliye Kurulu",
+      "Cumhurbaşkanı",
+      "Cumhuriyet Meclisi",
+      "Anayasa Mahkemesi"
+    ],
+    "correctIndex": 3,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-025",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 25,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Olağanüstü durum ilanının ilk süresi en çok ne kadardır?",
+    "options": [
+      "1 ay",
+      "2 ay",
+      "3 ay",
+      "6 ay",
+      "1 yıl"
+    ],
+    "correctIndex": 2,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-026",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 26,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Olağanüstü durum ilan etme yetkisi kaynakta hangi organa verilmiştir?",
+    "options": [
+      "Cumhuriyet Meclisi",
+      "Bakanlar Kurulu",
+      "Cumhurbaşkanı tek başına",
+      "Anayasa Mahkemesi",
+      "Yüksek Adliye Kurulu"
+    ],
+    "correctIndex": 1,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-027",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 27,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Yargıçların görevlerine son verilmesi konusunda karar verme yetkisi hangi kurula aittir?",
+    "options": [
+      "Kamu Hizmeti Komisyonu",
+      "Yüksek Adliye Kurulu",
+      "Anayasa Mahkemesi",
+      "Cumhuriyet Meclisi",
+      "Başsavcılık"
+    ],
+    "correctIndex": 1,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-028",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 28,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Anayasa Mahkemesi kaynakta belirtilen şekliyle kaç yargıçtan oluşur?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-029",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 29,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Devlet organları arasındaki kuvvet veya yetki uyuşmazlıkları ve itirazları hakkında kesin karar verme yargı yetkisi kime aittir?",
+    "options": [
+      "Yüksek İdare Mahkemesi",
+      "Yargıtay",
+      "Anayasa Mahkemesi",
+      "Ombudsman",
+      "Yüksek Adliye Kurulu"
+    ],
+    "correctIndex": 2,
+    "acceptedAnswers": null,
+    "answerText": null
+  },
+  {
+    "id": "anayasa-ek-030",
+    "setID": "anayasa-ek-sinav",
+    "setTitle": "Anayasa EK Sınav",
+    "number": 30,
+    "realExam": true,
+    "page": null,
+    "questionType": "mcq",
+    "stem": "Anayasa Mahkemesinde doğrudan doğruya iptal davası açabilmek için kaynakta belirtilen en az milletvekili sayısı kaçtır?",
+    "options": [
+      "5",
+      "8",
+      "9",
+      "10",
+      "13"
+    ],
+    "correctIndex": 2,
+    "acceptedAnswers": null,
+    "answerText": null
+  }
+]

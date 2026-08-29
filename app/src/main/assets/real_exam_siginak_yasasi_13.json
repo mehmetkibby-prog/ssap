@@ -1,0 +1,223 @@
+[
+  {
+    "id": "real_siginak_001",
+    "setID": "siginak_yasasi_13",
+    "setTitle": "Sığınak Yasası",
+    "number": 1,
+    "realExam": true,
+    "page": 57,
+    "stem": "Aşağıdakilerden hangisi sığınak komisyonu üyesi değildir?",
+    "options": [
+      "Bayındırlık ve Ulaştırma İşleriyle Görevli Bakanlık Temsilcisi",
+      "Planlama ve İnşaat Dairesi Temsilcisi",
+      "Personel Dairesi temsilcisi",
+      "Belediyeler Birliği Temsilcisi",
+      "Kıbrıs Türk Mühendis ve Mimar Odaları Birliği Temsilcisi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "real_siginak_002",
+    "setID": "siginak_yasasi_13",
+    "setTitle": "Sığınak Yasası",
+    "number": 2,
+    "realExam": true,
+    "page": 57,
+    "stem": "Yerleşim yerlerinin sığınak planlaması kim tarafından yapılır?",
+    "options": [
+      "Planlama ve İnşaat Dairesi",
+      "Sivil Savunma Teşkilat Başkanlığı",
+      "Kıbrıs Türk Mimar ve Mühendisler Odası",
+      "Sivil Savunma Teşkilatı Atama ve Disiplin Komisyonu",
+      "Sivil Savunma Bölge Amirliği"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "real_siginak_003",
+    "setID": "siginak_yasasi_13",
+    "setTitle": "Sığınak Yasası",
+    "number": 3,
+    "realExam": true,
+    "page": 57,
+    "stem": "Yerleşim yerlerinin sığınak planlaması kime bildirilir?",
+    "options": [
+      "Sivil Savunma Teşkilat Karargâhı",
+      "Atama ve Disiplin Komisyonu",
+      "Sivil Savunma Teşkilat Başkanı",
+      "Sığınak Komisyonu",
+      "Bayındırlık ve Ulaştırma Bakanı"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "real_siginak_004",
+    "setID": "siginak_yasasi_13",
+    "setTitle": "Sığınak Yasası",
+    "number": 4,
+    "realExam": true,
+    "page": 57,
+    "stem": "Genel sığınakların mülkiyeti kime aittir?",
+    "options": [
+      "Devlet",
+      "Mal sahibi",
+      "Yöneticisi",
+      "Sivil Savunma Teşkilat Başkanı",
+      "Sivil Savunma Teşkilat Başkanlığı"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "real_siginak_005",
+    "setID": "siginak_yasasi_13",
+    "setTitle": "Sığınak Yasası",
+    "number": 5,
+    "realExam": true,
+    "page": 58,
+    "stem": "Aşağıda verilen bodrum ve sığınaklarla ilgili bilgilerden hangisi yanlıştır?",
+    "options": [
+      "Belediye inşaat sahibinin ismini, inşaatın adresini ve bodrumun planını, Sivil Savunma Teşkilat Başkanlığına verir.",
+      "Özel sığınakların bakım ve onarımı sahipleri tarafından yapılır.",
+      "Özel sığınakların çift amaçlı olarak kullanılabilmesi için bina sahibi veya Bina Yönetim Kurulu Sığınak Komisyonuna yazılı müracaatta bulunur.",
+      "Çift amaçlı olarak kullanılan özel sığınakların Sivil Savunma Teşkilat Başkanlığınca mal sahibinden tasfiye etmesi istenebilir. Tahliyeyi gerçekleştirmemesi halinde Sivil Savunma Teşkilatı tahliyeyi gerçekleştirebilir.",
+      "Sığınakların bakım ve onarım masrafları, Sivil Savunma Teşkilat Başkanlığının teklifi, Sığınak Komisyonunun kararı ile Devlet Bütçesinden karşılanır."
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": "real_siginak_006",
+    "setID": "siginak_yasasi_13",
+    "setTitle": "Sığınak Yasası",
+    "number": 6,
+    "realExam": true,
+    "page": 58,
+    "stem": "Dört ve üzeri katlı binaların altındaki sığınaklar aşağıdakilerden hangisidir?",
+    "options": [
+      "Özel Sığınak",
+      "Genel Sığınak",
+      "Acil Sığınak",
+      "Bodrum",
+      "Depo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "real_siginak_007",
+    "setID": "siginak_yasasi_13",
+    "setTitle": "Sığınak Yasası",
+    "number": 7,
+    "realExam": true,
+    "page": 58,
+    "stem": "Sığınak Komisyonu başkan yardımcısı aşağıdakilerden hangisidir?",
+    "options": [
+      "Sığınak Komisyonu Genel Müdürü",
+      "Sivil Savunma Teşkilat Başkanı",
+      "Planlama ve İnşaat Dairesi Müdürü",
+      "Sivil Savunma Teşkilat Başkanlığı Koordinatörü",
+      "Sivil Savunma Teşkilat Başkanlığı Karargâh Başkanı"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "real_siginak_008",
+    "setID": "siginak_yasasi_13",
+    "setTitle": "Sığınak Yasası",
+    "number": 8,
+    "realExam": true,
+    "page": 58,
+    "stem": "Sığınak Komisyonu toplantılarına izinsiz ve özürsüz üst üste kaç kez katılmayan üyenin ilişkisi kesilir?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "real_siginak_009",
+    "setID": "siginak_yasasi_13",
+    "setTitle": "Sığınak Yasası",
+    "number": 9,
+    "realExam": true,
+    "page": 59,
+    "stem": "Sığınak Komisyonu Başbakanlığa göndermek üzere faaliyet raporunu hangi ay düzenler?",
+    "options": [
+      "Eylül",
+      "Ekim",
+      "Kasım",
+      "Aralık",
+      "Ocak"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "real_siginak_010",
+    "setID": "siginak_yasasi_13",
+    "setTitle": "Sığınak Yasası",
+    "number": 10,
+    "realExam": true,
+    "page": 59,
+    "stem": "Genel sığınakların bakım ve onarım giderleri nereden karşılanır?",
+    "options": [
+      "Sivil Savunma Teşkilat Fonu",
+      "Planlama ve İnşaat Dairesi gider kalemi",
+      "Sığınak Komisyonu",
+      "Devlet bütçesi",
+      "Afet ve Acil Durum Fonu"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "real_siginak_011",
+    "setID": "siginak_yasasi_13",
+    "setTitle": "Sığınak Yasası",
+    "number": 11,
+    "realExam": true,
+    "page": 59,
+    "stem": "Özel sığınakların çift amaçlı kullanımı için yazılı başvuru nereye yapılır?",
+    "options": [
+      "Sığınak Komisyonu",
+      "Sığınak Komisyonu Başkanı",
+      "Sivil Savunma Başkanlığı",
+      "Sivil Savunma Başkanı",
+      "Sivil Savunma Bölge Amirliği"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "real_siginak_012",
+    "setID": "siginak_yasasi_13",
+    "setTitle": "Sığınak Yasası",
+    "number": 12,
+    "realExam": true,
+    "page": 59,
+    "stem": "“Sığınakların bakım ve onarımı …… teklifi ve …. kararı ile karşılanır.” Yukarıda boş bırakılan yerler için uygun olan şık hangisidir?",
+    "options": [
+      "Planlama ve İnşaat Dairesi - Sığınak Komisyonu",
+      "Sivil Savunma Teşkilat Başkanı - Sivil Savunma Teşkilat Başkanlığı",
+      "Sığınak Komisyonu - Sivil Savunma Teşkilat Başkanlığı",
+      "Sivil Savunma Teşkilat Başkanı - Sığınak Komisyonu",
+      "Sığınak Komisyonu - Sivil Savunma Teşkilat Başkanı"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "real_siginak_013",
+    "setID": "siginak_yasasi_13",
+    "setTitle": "Sığınak Yasası",
+    "number": 13,
+    "realExam": true,
+    "page": 59,
+    "stem": "Sığınak Komisyonu aşağıdakilerden hangisi tarafından hazırlanan sığınak projeleri ile keşif raporlarını karara bağlar?",
+    "options": [
+      "Sığınak Komisyonu",
+      "Planlama ve İnşaat Dairesi",
+      "Kıbrıs Türk Mimar ve Mühendisler Odası",
+      "Sivil Savunma Teşkilat Başkanlığı",
+      "Bayındırlık ve Ulaştırma İşleriyle Görevli Bakanlık Temsilcisi"
+    ],
+    "correctIndex": 1
+  }
+]

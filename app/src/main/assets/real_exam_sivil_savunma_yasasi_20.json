@@ -1,0 +1,342 @@
+[
+  {
+    "id": "real_sivil_yasa_001",
+    "setID": "sivil_savunma_yasasi_20",
+    "setTitle": "Sivil Savunma Yasası",
+    "number": 1,
+    "realExam": true,
+    "page": 48,
+    "stem": "Askeri amaçlarla kullanılacak sığınaklar dışındaki sığınaklar nasıl adlandırılır?",
+    "options": [
+      "Genel sığınak",
+      "Özel sığınak",
+      "Acil sığınak",
+      "Sivil savunma sığınağı",
+      "Sığınak"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "real_sivil_yasa_002",
+    "setID": "sivil_savunma_yasasi_20",
+    "setTitle": "Sivil Savunma Yasası",
+    "number": 2,
+    "realExam": true,
+    "page": 48,
+    "stem": "Aşağıdakilerden hangisi komitenin görevleri arasında değildir?",
+    "options": [
+      "Personel kayıt ve arşivi",
+      "Kişilerin can ve mallarının korunması",
+      "Personelin derhal harekete geçebilecek şekilde hazır tutmak amacı",
+      "Gereken kararları almak",
+      "Alınan kararların uygulanmasını sağlamak"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "real_sivil_yasa_003",
+    "setID": "sivil_savunma_yasasi_20",
+    "setTitle": "Sivil Savunma Yasası",
+    "number": 3,
+    "realExam": true,
+    "page": 48,
+    "stem": "Sivil savunma komitesi kaç kişiden oluşur?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": "real_sivil_yasa_004",
+    "setID": "sivil_savunma_yasasi_20",
+    "setTitle": "Sivil Savunma Yasası",
+    "number": 4,
+    "realExam": true,
+    "page": 48,
+    "stem": "Aşağıda verilen hangi bakanlığın üyesi sivil savunma komitesinde bulunmaz?",
+    "options": [
+      "Savunma ve Dışişleri",
+      "Çalışma",
+      "İçişleri",
+      "Bayındırlık ve Ulaştırma",
+      "Eğitim ve Kültür İşleri ile ilgili Bakanlıklardan"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "real_sivil_yasa_005",
+    "setID": "sivil_savunma_yasasi_20",
+    "setTitle": "Sivil Savunma Yasası",
+    "number": 5,
+    "realExam": true,
+    "page": 48,
+    "stem": "Sivil savunma komite üyelerinin ataması kim tarafından yapılır?",
+    "options": [
+      "Sivil Savunma Atama ve Disiplin Komisyonu",
+      "Sivil Savunma Teşkilat Başkanlığı",
+      "Bakanlar Kurulu",
+      "Başbakan",
+      "Cumhurbaşkanı"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "real_sivil_yasa_006",
+    "setID": "sivil_savunma_yasasi_20",
+    "setTitle": "Sivil Savunma Yasası",
+    "number": 6,
+    "realExam": true,
+    "page": 49,
+    "stem": "Kilit ve uzman personelin nitelikleri, atanmaları, ödev ve yetkileri, hakları Bakanlar Kurulunun onayı ile yürürlüğe girecek ..... saptanır. Boş bırakılan yere aşağıdakilerden hangisi gelmelidir?",
+    "options": [
+      "Yasa",
+      "Tüzük",
+      "Yönetmelik",
+      "Yönerge",
+      "Kararname"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "real_sivil_yasa_007",
+    "setID": "sivil_savunma_yasasi_20",
+    "setTitle": "Sivil Savunma Yasası",
+    "number": 7,
+    "realExam": true,
+    "page": 49,
+    "stem": "Sivil Savunma Teşkilatı şubelerinin kurulması için hangi organın onayı gereklidir?",
+    "options": [
+      "Sivil Savunma Teşkilat Başkanlığı",
+      "Sığınak Komisyonu",
+      "Cumhurbaşkanı",
+      "Başbakan",
+      "Bakanlar Kurulu"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": "real_sivil_yasa_008",
+    "setID": "sivil_savunma_yasasi_20",
+    "setTitle": "Sivil Savunma Yasası",
+    "number": 8,
+    "realExam": true,
+    "page": 49,
+    "stem": "Komitede nisap sağlamak için kimlerin hazır bulunması gerekir?",
+    "options": [
+      "Başkan ile diğer üyelerden en az üçü",
+      "En az 3 üye",
+      "Başkan ile temsilcisi ve 2 üye",
+      "Başkan veya temsilcisi ile en az iki üye",
+      "Başkan temsilcisi ve en az 3 üye"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "real_sivil_yasa_009",
+    "setID": "sivil_savunma_yasasi_20",
+    "setTitle": "Sivil Savunma Yasası",
+    "number": 9,
+    "realExam": true,
+    "page": 49,
+    "stem": "Çatışmanın muhtemel olduğu bölgelerde yasa ve tüzük kapsamına giren herkesin hizmete çağrılmasıyla ilgili onay yetkisi aşağıdakilerden hangisindedir?",
+    "options": [
+      "Bakanlar Kurulu",
+      "Sivil Savunma Teşkilat Başkanlığı",
+      "Sivil Savunma Atama ve Disiplin Komisyonu",
+      "Sivil Savunma Başkanı",
+      "Sivil Savunma Atama ve Disiplin Komisyonu Başkanı"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "real_sivil_yasa_010",
+    "setID": "sivil_savunma_yasasi_20",
+    "setTitle": "Sivil Savunma Yasası",
+    "number": 10,
+    "realExam": true,
+    "page": 50,
+    "stem": "Aşağıdakilerden hangisi birden fazla küçük müessesenin bir grup halinde birleşerek personelleri için sığınak yapma emrini verebilir?",
+    "options": [
+      "Sivil Savunma Atama ve Disiplin Komisyonu",
+      "Sivil Savunma Teşkilat Başkanlığı",
+      "Sivil Savunma Komitesi",
+      "Sivil Savunma Başkanı",
+      "Sivil Savunma Atama ve Disiplin Komisyonu Başkanı"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "real_sivil_yasa_011",
+    "setID": "sivil_savunma_yasasi_20",
+    "setTitle": "Sivil Savunma Yasası",
+    "number": 11,
+    "realExam": true,
+    "page": 50,
+    "stem": "Komite, Bakanlar Kurulu kararıyla çatışma veya çatışmanın muhtemel olduğu süre görev yapmak üzere herhangi bir Bakanlık daire, şube veya memurunu hizmete çağırdığı zaman hangi şekilde kayıt ve ilan eder?",
+    "options": [
+      "Acil Müdahale Ekibi",
+      "Sivil Savunma Ekibi",
+      "Esas Hizmet Ekibi",
+      "Koruma Ekibi",
+      "Özel Komite Ekibi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "real_sivil_yasa_012",
+    "setID": "sivil_savunma_yasasi_20",
+    "setTitle": "Sivil Savunma Yasası",
+    "number": 12,
+    "realExam": true,
+    "page": 50,
+    "stem": "Esas hizmet personeli ile ilgili verilen bilgilerden hangisi doğrudur?",
+    "options": [
+      "18 yaşını doldurduğu yılın Ocak ayının birinci günü ile 50 yaşını doldurduğu yılın Ocak ayının birinci günü arasında doğmuş bütün Kuzey Kıbrıs Türk Cumhuriyeti sınırları içinde yaşayan Türk vatandaşı erkekler",
+      "17 yaşını doldurduğu yılın Ocak ayının birinci günü ile 60 yaşını doldurduğu yılın Ocak ayının birinci günü arasında doğan bütün Kuzey Kıbrıs Türk Cumhuriyeti sınırları içinde yaşayan Türk vatandaşı kadınlar",
+      "17 yaşını doldurduğu yılın Ocak ayının birinci günü ile 55 yaşını doldurduğu yılın Ocak ayının birinci günü arasında doğmuş bütün Kuzey Kıbrıs Türk Cumhuriyeti sınırları içinde yaşayan Türk vatandaşı erkekler",
+      "20 yaşını doldurduğu yılın Ocak ayının birinci günü ile 50 yaşını doldurduğu yılın Ocak ayının birinci günü arasında doğan bütün Kuzey Kıbrıs Türk Cumhuriyeti sınırları içinde yaşayan Türk vatandaşı erkekler",
+      "17 yaşını doldurduğu yılın Ocak ayının birinci günü ile 60 yaşını doldurduğu yılın Ocak ayının birinci günü arasında doğmuş bütün Kuzey Kıbrıs Türk Cumhuriyeti sınırları içinde yaşayan Türk vatandaşı erkekler, Esas hizmet ekibi kontrolünde Sivil Savunma hizmetine iltihak edip hizmet etmek mecburiyetindedirler"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": "real_sivil_yasa_013",
+    "setID": "sivil_savunma_yasasi_20",
+    "setTitle": "Sivil Savunma Yasası",
+    "number": 13,
+    "realExam": true,
+    "page": 51,
+    "stem": "Aşağıdakilerden hangisi sivil savunma hizmetlerinden muaf değildir?",
+    "options": [
+      "16 ve daha aşağı yaşta çocuğu olanlar",
+      "Güvenlik Kuvvetleri Personeli",
+      "Bakanlar Kurulu kararı ile esas görevlerinde zaruret görülen personel",
+      "Çalışamayacağı Sağlık Kurulunca tasdik edilen şahıslar",
+      "Tüzük veya Yönetmeliklerde muaf tutulması öngörülen şahıslar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "real_sivil_yasa_014",
+    "setID": "sivil_savunma_yasasi_20",
+    "setTitle": "Sivil Savunma Yasası",
+    "number": 14,
+    "realExam": true,
+    "page": 51,
+    "stem": "Sivil Savunma Fonu kontrolü hangi bakanlığın sorumluluğundadır?",
+    "options": [
+      "İçişleri Bakanlığı",
+      "Savunma Bakanlığı",
+      "Bayındırlık ve Ulaştırma Bakanlığı",
+      "Maliye Bakanlığı",
+      "Adalet Bakanlığı"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "real_sivil_yasa_015",
+    "setID": "sivil_savunma_yasasi_20",
+    "setTitle": "Sivil Savunma Yasası",
+    "number": 15,
+    "realExam": true,
+    "page": 52,
+    "stem": "Sivil Savunma Fonu'nun ita âmiri aşağıdakilerden hangisidir?",
+    "options": [
+      "Sivil Savunma Teşkilatı Başkanı",
+      "Maliye Bakanı",
+      "Bayındırlık ve Ulaştırma Bakanı",
+      "İçişleri Bakanı",
+      "Başbakan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "real_sivil_yasa_016",
+    "setID": "sivil_savunma_yasasi_20",
+    "setTitle": "Sivil Savunma Yasası",
+    "number": 16,
+    "realExam": true,
+    "page": 52,
+    "stem": "Sivil Savunma Fonu hangi bütçe içerisinde yer alır?",
+    "options": [
+      "Maliye Bütçesi",
+      "Savunma Bütçesi",
+      "Sivil Savunma Bütçesi",
+      "Sivil Savunma Başkanlığı Bütçesi",
+      "Sağlık Bütçesi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "real_sivil_yasa_017",
+    "setID": "sivil_savunma_yasasi_20",
+    "setTitle": "Sivil Savunma Yasası",
+    "number": 17,
+    "realExam": true,
+    "page": 52,
+    "stem": "Sivil Savunma Fonu hangi kurum tarafından teftiş edilir?",
+    "options": [
+      "Maliye Bakanlığı",
+      "Danıştay",
+      "Sayıştay",
+      "Yargıtay",
+      "Başbakanlık Teftiş Kurulu"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "real_sivil_yasa_018",
+    "setID": "sivil_savunma_yasasi_20",
+    "setTitle": "Sivil Savunma Yasası",
+    "number": 18,
+    "realExam": true,
+    "page": 52,
+    "stem": "Aşağıdakilerden hangisi Sivil Savunma Fonu ile ilgili doğru bir bilgidir?",
+    "options": [
+      "Fonu İçişleri Bakanlığı yönetir",
+      "Milli Savunma Bakanı harcar",
+      "Fon, Sağlık Bütçesi içerisinde tesis edilir",
+      "Fon hesapları Maliye Bakanlığı tarafından teftiş edilir",
+      "Fonun ita Âmiri Sivil Savunma Teşkilatı Başkanıdır"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": "real_sivil_yasa_019",
+    "setID": "sivil_savunma_yasasi_20",
+    "setTitle": "Sivil Savunma Yasası",
+    "number": 19,
+    "realExam": true,
+    "page": 53,
+    "stem": "Görevi esnasında üstün başarı ve fedakârlık gösterenlere mükâfata ve takdir belgesi verme yetkisi kimdedir?",
+    "options": [
+      "Sivil Savunma Atama ve Disiplin Komisyonu",
+      "Sivil Savunma Teşkilat Başkanı",
+      "Sivil Savunma Teşkilat Genel Koordinatörü",
+      "Sivil Savunma Teşkilat Başkan Yardımcısı",
+      "Başbakan"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "real_sivil_yasa_020",
+    "setID": "sivil_savunma_yasasi_20",
+    "setTitle": "Sivil Savunma Yasası",
+    "number": 20,
+    "realExam": true,
+    "page": 53,
+    "stem": "Aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "options": [
+      "Tahliye edilen şahısların sıhhi durumlarını kontrol etmek ve gerekli tedbirleri almak Sivil Savunma Teşkilatının görevidir",
+      "İzin almadıkça hiçbir şahıs Bayrak çekemez, dam veya yer boyayamaz",
+      "Sivil Savunma Komitesinin teklifi ve Bakanlar Kurulunun kararı ile tatbikat ve eğitim maksatları için karartma emri verilebilir",
+      "Karartma tedbirleri genel veya bölgesel seviyede emredilebilir. Tarih, saat ve süresi önceden tespit edilip ilân edilemez",
+      "Sivil Savunma Teşkilatı Başkanı acil durumlarda, radyo, hoparlör, basın veya broşürler dağıtmak suretiyle, yukarıdaki hususlar için emirler yayınlatabilir"
+    ],
+    "correctIndex": 3
+  }
+]

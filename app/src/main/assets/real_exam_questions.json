@@ -1,0 +1,1013 @@
+[
+  {
+    "id": "real_reis_001",
+    "setID": "personel_yasasi_60",
+    "number": 1,
+    "realExam": true,
+    "page": 29,
+    "stem": "Aşağıdakilerden hangisi sivil savunma hizmetleri personeli arasında yer almaz?",
+    "options": [
+      "Sürekli personel",
+      "Sözleşmeli personel",
+      "Geçici personel",
+      "Memur",
+      "İşçiler"
+    ],
+    "correctIndex": 3,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_002",
+    "setID": "personel_yasasi_60",
+    "number": 2,
+    "realExam": true,
+    "page": 29,
+    "stem": "Sivil savunma hizmetlerinin gerektirdiği asıl ve sürekli görevlere atanan personele ne ad verilir?",
+    "options": [
+      "Sözleşmeli personel",
+      "Geçici personel",
+      "Sürekli personel",
+      "İşçiler",
+      "Kilit ve uzman personel"
+    ],
+    "correctIndex": 2,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_003",
+    "setID": "personel_yasasi_60",
+    "number": 3,
+    "realExam": true,
+    "page": 29,
+    "stem": "Aşağıdakilerden hangisinin ataması Sivil Savunma Teşkilatı Başkanının önerisi ve Sivil Savunma Teşkilatı Atama ve Disiplin Komisyonu kararı ile yapılır?",
+    "options": [
+      "Geçici personel",
+      "Sürekli personel",
+      "İşçiler",
+      "Kilit ve uzman personel",
+      "Sözleşmeli personel"
+    ],
+    "correctIndex": 4,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_004",
+    "setID": "personel_yasasi_60",
+    "number": 4,
+    "realExam": true,
+    "page": 29,
+    "stem": "Aşağıdakilerden hangisi geçici olarak atanır?",
+    "options": [
+      "Sürekli personel",
+      "İşçiler",
+      "Kilit ve uzman personel",
+      "Kaşiyeli eleman",
+      "Memur"
+    ],
+    "correctIndex": 3,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_005",
+    "setID": "personel_yasasi_60",
+    "number": 5,
+    "realExam": true,
+    "page": 29,
+    "stem": "Sözleşmeli personelin görev süresi en çok kaç yıldır?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_006",
+    "setID": "personel_yasasi_60",
+    "number": 6,
+    "realExam": true,
+    "page": 29,
+    "stem": "Geçici personel kim tarafından hizmete alınır?",
+    "options": [
+      "Sivil Savunma Teşkilatı Atama ve Disiplin Komisyonunca",
+      "Bakanlar Kurulu kararı ile",
+      "Sivil savunma amiri tarafından",
+      "Sivil Savunma Teşkilatı Başkanlığınca",
+      "Kilit personeli tarafından"
+    ],
+    "correctIndex": 3,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_007",
+    "setID": "personel_yasasi_60",
+    "number": 7,
+    "realExam": true,
+    "page": 30,
+    "stem": "Aşağıdakilerden hangisi sivil savunma personelinin ödev ve sorumluluklarından değildir?",
+    "options": [
+      "Bağlılık ödevi",
+      "Mal bildiriminde bulunma ödevi",
+      "Yansızlık ödevi",
+      "Sosyal tesislerden yararlanma",
+      "Davranış ve iş birliği ödevi"
+    ],
+    "correctIndex": 3,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_008",
+    "setID": "personel_yasasi_60",
+    "number": 8,
+    "realExam": true,
+    "page": 30,
+    "stem": "Bir emir yasalara aykırı ise sivil savunma görevlisi ne yapmalıdır?",
+    "options": [
+      "Verilen emri yerine getirir",
+      "Verilen emri yerine getirmez",
+      "Verilen emri yerine getirmez ve emri verene bilgi verir",
+      "Verilen emri yerine getirir ve emri verene bilgi vermez",
+      "Verilen emri yerine getirmez ve emri verene bilgi verir"
+    ],
+    "correctIndex": 4,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_009",
+    "setID": "personel_yasasi_60",
+    "number": 9,
+    "realExam": true,
+    "page": 30,
+    "stem": "Sivil savunma personeli yasalara aykırı bir emir üst tarafından yazı ile yinelenir ise emri yerine getirir mi, sorumluluk kime ait olur?",
+    "options": [
+      "Verilen emri yerine getirmez, sorumluluk üste aittir",
+      "Verilen emri yerine getirir, sorumluluk kendisine aittir",
+      "Verilen emri yerine getirmez, emri verene bilgi vermez",
+      "Verilen emri yerine getirir, sorumluluk üste aittir",
+      "Verilen emri yerine getirmez, emri verene bilgi verir"
+    ],
+    "correctIndex": 3,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_010",
+    "setID": "personel_yasasi_60",
+    "number": 10,
+    "realExam": true,
+    "page": 31,
+    "stem": "Çıkarılan yasa, tüzük ve yönetmeliklere göre belirlenen ve saptanıp yürürlükte bulunan kuralların kendileri hakkında aynen uygulanmasını istemek ne anlama gelir?",
+    "options": [
+      "Güvenlik hakkı",
+      "İzin hakkı",
+      "Uygulamayı isteme hakkı",
+      "Konut hakkı",
+      "Burs ve kurs ödeneği hakkı"
+    ],
+    "correctIndex": 2,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_011",
+    "setID": "personel_yasasi_60",
+    "number": 11,
+    "realExam": true,
+    "page": 31,
+    "stem": "Sivil savunma personellerinin ücretsiz tedavi hakkı kimleri kapsamaz?",
+    "options": [
+      "Eşini",
+      "Kardeşini",
+      "Bakmakla yükümlü olduğu anne-baba",
+      "Evli olmayan kız çocuğunu",
+      "18 yaşını doldurmamış çocuklar"
+    ],
+    "correctIndex": 1,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_012",
+    "setID": "personel_yasasi_60",
+    "number": 12,
+    "realExam": true,
+    "page": 31,
+    "stem": "Yurt dışında ücretsiz tedavi hakkı için ne gereklidir?",
+    "options": [
+      "Bakanlar Kurulu kararı",
+      "Meclis onayı",
+      "Herhangi bir tabipten alınan rapor",
+      "Devlet hastanesinin sağlık kurulu raporu",
+      "Özel hastaneden alınan rapor"
+    ],
+    "correctIndex": 3,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_013",
+    "setID": "personel_yasasi_60",
+    "number": 13,
+    "realExam": true,
+    "page": 31,
+    "stem": "13. maaş ikramiyesi için aşağıdakilerden hangisi söylenemez?",
+    "options": [
+      "Aralık ayı içerisinde verilir",
+      "Aralık ayı brüt maaşına göre yıl içerisinde çalıştığı ay ile ters orantılıdır",
+      "Gelir vergisi dışında başka herhangi bir kesinti yapılmaz",
+      "Emeklilik menfaatlerinin hesaplanmasında dikkate alınmaz",
+      "Aralık ayı maaşı ile hayat pahalılığı toplamına eşittir"
+    ],
+    "correctIndex": 1,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_014",
+    "setID": "personel_yasasi_60",
+    "number": 14,
+    "realExam": true,
+    "page": 32,
+    "stem": "Hayat pahalılığı ödeneği hangi aylarda verilir?",
+    "options": [
+      "Ocak-Temmuz",
+      "Şubat-Mart",
+      "Ocak-Aralık",
+      "Nisan-Haziran",
+      "Kasım-Şubat"
+    ],
+    "correctIndex": 0,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_015",
+    "setID": "personel_yasasi_60",
+    "number": 15,
+    "realExam": true,
+    "page": 32,
+    "stem": "Görevi nedeniyle yerleşim merkezleri dışında görev yapmak zorunda olan sivil savunma görevlilerine kim tarafından lojman sağlanır?",
+    "options": [
+      "Sivil savunma teşkilatı müdürü",
+      "Devlet",
+      "Sivil savunma komisyonu",
+      "Amir"
+    ],
+    "correctIndex": 2,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_016",
+    "setID": "personel_yasasi_60",
+    "number": 16,
+    "realExam": true,
+    "page": 32,
+    "stem": "Giyecek ve teçhizat hakkından kimler yararlanır?",
+    "options": [
+      "İhtiyaçlı personel",
+      "Kilit ve uzman personel",
+      "Geçici personel",
+      "Özel giysi giymek zorunda olan personel",
+      "Tüm sivil savunma personeli"
+    ],
+    "correctIndex": 3,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_017",
+    "setID": "personel_yasasi_60",
+    "number": 17,
+    "realExam": true,
+    "page": 32,
+    "stem": "Ek çalışma ödeneği en geç kaç ay içinde ödenmesi gerekir?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 0,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_018",
+    "setID": "personel_yasasi_60",
+    "number": 18,
+    "realExam": true,
+    "page": 32,
+    "stem": "Sivil savunma görevlileri yetkili kılınmadıkça Sivil Savunma Teşkilatı adına basın ve yayın organlarına yazılı ve demeç vermeleri halinde hangi yasağı çiğnemiş olurlar?",
+    "options": [
+      "Gizli bilgileri açıklama yasağı",
+      "Bilgi ve demeç verme yasağı",
+      "Grev yasağı",
+      "Başka iş yapma yasağı",
+      "Siyasal faaliyette bulunma yasağı"
+    ],
+    "correctIndex": 1,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_019",
+    "setID": "personel_yasasi_60",
+    "number": 19,
+    "realExam": true,
+    "page": 33,
+    "stem": "Veraset yoluyla veya bağış yoluyla elde edilen hisselerle ilgili Sivil Savunma Teşkilatı Atama ve Disiplin Komisyonu tarafından bir çıkar sağlanacağının düşünülürse en çok kaç ay içinde elden çıkarmasını ister?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_020",
+    "setID": "personel_yasasi_60",
+    "number": 20,
+    "realExam": true,
+    "page": 33,
+    "stem": "Sivil savunma görevlileri görevlerinden ayrılmış olsalar bile gizli bilgileri kaç yıl sır olarak saklamakla yükümlüdürler?",
+    "options": [
+      "5",
+      "7",
+      "10",
+      "12",
+      "15"
+    ],
+    "correctIndex": 2,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_021",
+    "setID": "personel_yasasi_60",
+    "number": 21,
+    "realExam": true,
+    "page": 33,
+    "stem": "Aşağıdakilerden hangisi sivil savunma hizmet sınıfları arasında alınmaz?",
+    "options": [
+      "Yöneticilik hizmetleri sınıfı",
+      "Mesleki ve teknik hizmetleri sınıfı",
+      "İşçi hizmetleri sınıfı",
+      "Genel hizmetleri sınıfı"
+    ],
+    "correctIndex": 2,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_022",
+    "setID": "personel_yasasi_60",
+    "number": 22,
+    "realExam": true,
+    "page": 33,
+    "stem": "Yükseköğrenimin üstü master derecesi yapmış olan sivil savunma görevlisine kaç kademe ilerlemesi verilir?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 0,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_023",
+    "setID": "personel_yasasi_60",
+    "number": 23,
+    "realExam": true,
+    "page": 33,
+    "stem": "Doktora yapıp, daha önce master derecesi alıp kademe ilerlemesinden faydalanan sivil savunma görevlisine kaç kademe ilerlemesi verilir?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_024",
+    "setID": "personel_yasasi_60",
+    "number": 24,
+    "realExam": true,
+    "page": 34,
+    "stem": "Doktora yapıp, daha önce master derecesi alıp faydalanmayan sivil savunma görevlisine kaç kademe ilerlemesi verilir?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_025",
+    "setID": "personel_yasasi_60",
+    "number": 25,
+    "realExam": true,
+    "page": 34,
+    "stem": "Açık kadrolar kim tarafından bildirilir?",
+    "options": [
+      "Sivil savunma personeli",
+      "Sivil Savunma Teşkilatı Atama ve Disiplin Komisyonu tarafından",
+      "Kaşiyeli personel tarafından",
+      "Sivil Savunma Teşkilatı Başkanlığı tarafından",
+      "Müdür tarafından"
+    ],
+    "correctIndex": 3,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_026",
+    "setID": "personel_yasasi_60",
+    "number": 26,
+    "realExam": true,
+    "page": 34,
+    "stem": "Aşağıdakilerden hangisi sivil savunma görevine alınma koşullarından değildir?",
+    "options": [
+      "KKTC yurttaşı olmak",
+      "Yurt ödevi",
+      "20 yaşını doldurmuş olmak",
+      "Devlet hastanesinden sağlık kurulu raporu",
+      "Aranan öğrenim koşullarını taşımak"
+    ],
+    "correctIndex": 2,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_027",
+    "setID": "personel_yasasi_60",
+    "number": 27,
+    "realExam": true,
+    "page": 34,
+    "stem": "Başarılı olan adaylar, kaç gün içerisinde atanma kararını kabul edip etmedikleri istenir?",
+    "options": [
+      "10 iş günü",
+      "15 gün",
+      "En geç 10 gün",
+      "En geç 3 gün",
+      "15 iş günü"
+    ],
+    "correctIndex": 2,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_028",
+    "setID": "personel_yasasi_60",
+    "number": 28,
+    "realExam": true,
+    "page": 35,
+    "stem": "Atanması kesinleşen personelin bilgileri kim tarafından resmî gazetede yayımlanır?",
+    "options": [
+      "Sivil Savunma Teşkilatı Başkanlığı",
+      "Sivil savunma personeli",
+      "Kilit ve uzman personel",
+      "Sivil Savunma Teşkilatı Atama ve Disiplin Komisyonunca",
+      "Bakanlar Kurulu"
+    ],
+    "correctIndex": 3,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_029",
+    "setID": "personel_yasasi_60",
+    "number": 29,
+    "realExam": true,
+    "page": 35,
+    "stem": "Aşağıdakilerden hangisinde adaylık süresi doğru verilmiştir?",
+    "options": [
+      "En az 1 ay-en çok 3 yıl",
+      "En az 6 ay-en çok 2 yıl",
+      "En az 6 ay-en çok 3 yıl",
+      "En az 3 ay-en çok 2 yıl",
+      "En az 3 ay-en çok 3 yıl"
+    ],
+    "correctIndex": 1,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_030",
+    "setID": "personel_yasasi_60",
+    "number": 30,
+    "realExam": true,
+    "page": 35,
+    "stem": "Aşağıdakilerden hangisi kademe ilerlemesi almanın koşullarından değildir?",
+    "options": [
+      "Olumsuz sicil almamış olmak",
+      "Bulunduğu kademede ilerleyebileceği bir kademe bulunmak",
+      "Bulunduğu kademede en az 3 yıl çalışmış olmak",
+      "Bulunduğu kademede en az 1 yıl çalışmış olmak"
+    ],
+    "correctIndex": 2,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_031",
+    "setID": "personel_yasasi_60",
+    "number": 31,
+    "realExam": true,
+    "page": 35,
+    "stem": "Derece yükselmesi kesinleşen personelin bilgileri kim tarafından resmî gazetede yayımlanır?",
+    "options": [
+      "Sivil Savunma Teşkilatı Başkanlığı",
+      "Sivil savunma personeli",
+      "Kilit ve uzman personel",
+      "Sivil Savunma Teşkilatı Atama ve Disiplin Komisyonunca",
+      "Bakanlar Kurulu"
+    ],
+    "correctIndex": 3,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_032",
+    "setID": "personel_yasasi_60",
+    "number": 32,
+    "realExam": true,
+    "page": 36,
+    "stem": "Meslekleri ile ilgili hizmetlerde yetiştirilmek üzere dış memlekete gönderilene en çok kaç yıl izin verilir?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 3,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_033",
+    "setID": "personel_yasasi_60",
+    "number": 33,
+    "realExam": true,
+    "page": 36,
+    "stem": "Vekalet aylığının başlanabilmesi için vekaletin kaç aydan fazla sürmesi gerekir?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_034",
+    "setID": "personel_yasasi_60",
+    "number": 34,
+    "realExam": true,
+    "page": 36,
+    "stem": "Sivil savunma görevlilerine devlet temsili amacıyla kamu iktisadi teşebbüslerinde verilen idare meclis üyeliği ile murakabe görevi ikinci görev sayılmaz. Bu görevi üstlenen sivil savunma görevlisine Bakanlar Kurulunca ne ödeneği verilir?",
+    "options": [
+      "Çalışma ödeneği",
+      "Ek çalışma ödeneği",
+      "Tahsisat ödeneği",
+      "Mesai ödeneği",
+      "Temsili ödeneği"
+    ],
+    "correctIndex": 4,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_035",
+    "setID": "personel_yasasi_60",
+    "number": 35,
+    "realExam": true,
+    "page": 36,
+    "stem": "Aşağıdakilerden hangisi sivil savunma görevlisinin görevinin sona erme durumlarından değildir?",
+    "options": [
+      "Ölüm",
+      "Görevden çıkarılma",
+      "Emeklilik",
+      "Görevden uzaklaştırma",
+      "Çekilme"
+    ],
+    "correctIndex": 3,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_036",
+    "setID": "personel_yasasi_60",
+    "number": 36,
+    "realExam": true,
+    "page": 37,
+    "stem": "Aşağıdakilerden hangisi sicil raporlarında bulunmaz?",
+    "options": [
+      "Sağlık raporları",
+      "Değerlendirme raporları",
+      "Adaylık dönemi durumu",
+      "Görüş ve değerlendirme",
+      "Soru ve yanıtlar"
+    ],
+    "correctIndex": 0,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_037",
+    "setID": "personel_yasasi_60",
+    "number": 37,
+    "realExam": true,
+    "page": 37,
+    "stem": "Soruşturmayı yürüten sivil savunma görevlisi kendisini savunması için kaç gün verir?",
+    "options": [
+      "3",
+      "7",
+      "10 günden az olamaz",
+      "10 iş günü",
+      "10 gün"
+    ],
+    "correctIndex": 2,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_038",
+    "setID": "personel_yasasi_60",
+    "number": 38,
+    "realExam": true,
+    "page": 37,
+    "stem": "Disiplin soruşturması, savunma için verilen sürenin bitiminden başlayarak kaç gün içinde karara bağlanır?",
+    "options": [
+      "10 iş günü",
+      "10 gün",
+      "15 gün",
+      "15 iş günü",
+      "5 gün"
+    ],
+    "correctIndex": 2,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_039",
+    "setID": "personel_yasasi_60",
+    "number": 39,
+    "realExam": true,
+    "page": 37,
+    "questionType": "text",
+    "stem": "Soruşturma memuru çalışma sonunda hazırladığı raporları kime sunar?",
+    "acceptedAnswers": [
+      "Sivil Savunma Teşkilatı Başkanına",
+      "Sivil savunma teşkilatı başkanına bildirir"
+    ],
+    "answerText": "Sivil Savunma Teşkilatı Başkanına",
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_040",
+    "setID": "personel_yasasi_60",
+    "number": 40,
+    "realExam": true,
+    "page": 37,
+    "stem": "Sivil Savunma Teşkilatı Başkanı kaç gün içinde soruşturma raporunu Başsavcılığa gönderir?",
+    "options": [
+      "10",
+      "15",
+      "7",
+      "12",
+      "20"
+    ],
+    "correctIndex": 1,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_041",
+    "setID": "personel_yasasi_60",
+    "number": 41,
+    "realExam": true,
+    "page": 37,
+    "stem": "Başsavcılık kaç gün içerisinde soruşturma raporunu inceleyip Sivil Savunma Teşkilatı Başkanına bildirir?",
+    "options": [
+      "15",
+      "10",
+      "5",
+      "12",
+      "7"
+    ],
+    "correctIndex": 0,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_042",
+    "setID": "personel_yasasi_60",
+    "number": 42,
+    "realExam": true,
+    "page": 38,
+    "questionType": "text",
+    "stem": "Soruşturma raporu incelendikten sonra Başsavcılıkta hazırlanıp Sivil Savunma Teşkilatı Başkanına ne gönderilir?",
+    "acceptedAnswers": [
+      "İthamname",
+      "Ithamname"
+    ],
+    "answerText": "İthamname",
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_043",
+    "setID": "personel_yasasi_60",
+    "number": 43,
+    "realExam": true,
+    "page": 38,
+    "questionType": "text",
+    "stem": "Soruşturma hakkında Sivil Savunma Teşkilatı Atama ve Disiplin Komisyonu, duruşma günü hakkında sivil savunma görevlisine ne ile bildirimde bulunur?",
+    "acceptedAnswers": [
+      "Celpname"
+    ],
+    "answerText": "Celpname",
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_044",
+    "setID": "personel_yasasi_60",
+    "number": 44,
+    "realExam": true,
+    "page": 38,
+    "stem": "Göreve geç gelmeyi alışkanlık haline getirmek hangi disiplin cezasını gerektirir?",
+    "options": [
+      "Kınama cezası",
+      "Uyarma cezası",
+      "Kademe ilerlemesini kısa süreli durdurma cezası",
+      "Görevden çıkarma cezası",
+      "Geçici olarak görevden çıkarma cezası"
+    ],
+    "correctIndex": 1,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_045",
+    "setID": "personel_yasasi_60",
+    "number": 45,
+    "realExam": true,
+    "page": 38,
+    "stem": "Yurttaşlara karşı kusurlu davranma hangi disiplin cezasını gerektirir?",
+    "options": [
+      "Kınama cezası",
+      "Uyarma cezası",
+      "Kademe ilerlemesini kısa süreli durdurma cezası",
+      "Görevden çıkarma cezası",
+      "Geçici olarak görevden çıkarma cezası"
+    ],
+    "correctIndex": 0,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_046",
+    "setID": "personel_yasasi_60",
+    "number": 46,
+    "realExam": true,
+    "page": 38,
+    "stem": "İzinsiz veya özürsüz olarak 3 gün kesintisiz göreve gelmemek hangi disiplin cezasını gerektirir?",
+    "options": [
+      "Kınama cezası",
+      "Uyarma cezası",
+      "Kademe ilerlemesini kısa süreli durdurma cezası",
+      "Görevden çıkarma cezası",
+      "Geçici olarak görevden çıkarma cezası"
+    ],
+    "correctIndex": 2,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_047",
+    "setID": "personel_yasasi_60",
+    "number": 47,
+    "realExam": true,
+    "page": 39,
+    "stem": "Aşağıdakilerden hangisinde kademe ilerlemesinin uzun süreli durdurma cezası gerektirmez?",
+    "options": [
+      "İzinsiz veya özürsüz olarak 10 gün kesintisiz göreve gelmemek",
+      "Siyasal partiye üye olmak",
+      "Yansızlık ödevini yerine getirmemek",
+      "Çıkar sağlamak",
+      "İş yerinin araç ve gereçlerini zarara uğratmak"
+    ],
+    "correctIndex": 1,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_048",
+    "setID": "personel_yasasi_60",
+    "number": 48,
+    "realExam": true,
+    "page": 39,
+    "stem": "Bir yılda toplam 20 gün izinsiz veya özürsüz olarak göreve gelmemek hangi disiplin cezasını gerektirir?",
+    "options": [
+      "Kınama cezası",
+      "Uyarma cezası",
+      "Kademe ilerlemesini kısa süreli durdurma cezası",
+      "Görevden çıkarma cezası",
+      "Geçici olarak görevden çıkarma cezası"
+    ],
+    "correctIndex": 4,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_049",
+    "setID": "personel_yasasi_60",
+    "number": 49,
+    "realExam": true,
+    "page": 39,
+    "stem": "Bir yılda toplam 30 gün izinsiz veya özürsüz olarak göreve gelmemek hangi disiplin cezasını gerektirir?",
+    "options": [
+      "Kınama cezası",
+      "Uyarma cezası",
+      "Kademe ilerlemesini kısa süreli durdurma cezası",
+      "Kamu görevinden çıkarma cezası",
+      "Geçici olarak görevden çıkarma cezası"
+    ],
+    "correctIndex": 4,
+    "sourceAnswerNote": "Fotoğraftaki cevap anahtarında 49.E olarak işaretlidir.",
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_050",
+    "setID": "personel_yasasi_60",
+    "number": 50,
+    "realExam": true,
+    "page": 39,
+    "stem": "Kademe ilerlemesini kısa veya uzun süreli durdurma, geçici olarak görevden çıkarma ve kamu görevinden çıkarma cezaları Sivil Savunma Teşkilatı Atama ve Disiplin Komisyonunca soruşturma belgelerinin alındığı tarihten başlayarak en geç kaç gün içinde verilir?",
+    "options": [
+      "15",
+      "30",
+      "60",
+      "90",
+      "45"
+    ],
+    "correctIndex": 2,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_051",
+    "setID": "personel_yasasi_60",
+    "number": 51,
+    "realExam": true,
+    "page": 40,
+    "stem": "80.000 TL maaş alan sivil savunma görevlisi görevinden geçici olarak uzaklaştırma cezası alır ise aylığının ne kadarını alır?",
+    "options": [
+      "Hepsini",
+      "Çeyreğini",
+      "Almaz",
+      "Yarısını"
+    ],
+    "correctIndex": 3,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_052",
+    "setID": "personel_yasasi_60",
+    "number": 52,
+    "realExam": true,
+    "page": 40,
+    "stem": "Disiplin kovuşturması gereği görevinden geçici olarak uzaklaştırılan sivil savunma görevlisinin kovuşturması en çok kaç ay devam edebilir?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_053",
+    "setID": "personel_yasasi_60",
+    "number": 53,
+    "realExam": true,
+    "page": 40,
+    "stem": "Sivil savunma görevlisi yılda en az kaç gün izin kullanmak zorundadır?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "correctIndex": 1,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_054",
+    "setID": "personel_yasasi_60",
+    "number": 54,
+    "realExam": true,
+    "page": 40,
+    "stem": "Hamilelik izni doğumdan önce ve doğumdan sonra toplam kaç gündür?",
+    "options": [
+      "60",
+      "80",
+      "100",
+      "120",
+      "400"
+    ],
+    "correctIndex": 1,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_055",
+    "setID": "personel_yasasi_60",
+    "number": 55,
+    "realExam": true,
+    "page": 40,
+    "stem": "Sivil savunma personelinin yılda kaç gün hastalık izni vardır?",
+    "options": [
+      "42",
+      "15",
+      "28",
+      "55",
+      "32"
+    ],
+    "correctIndex": 0,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_056",
+    "setID": "personel_yasasi_60",
+    "number": 56,
+    "realExam": true,
+    "page": 40,
+    "stem": "Görevleri sırasında kazaya uğrayan sivil savunma görevlilerine kaç gün izin verilir?",
+    "options": [
+      "15",
+      "30",
+      "İyileşinceye kadar",
+      "60",
+      "45"
+    ],
+    "correctIndex": 2,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_057",
+    "setID": "personel_yasasi_60",
+    "number": 57,
+    "realExam": true,
+    "page": 41,
+    "stem": "Tek tabibin vereceği hastalık izin süresi bir yılda kaç günü aşamaz?",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18",
+      "21"
+    ],
+    "correctIndex": 4,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_058",
+    "setID": "personel_yasasi_60",
+    "number": 58,
+    "realExam": true,
+    "page": 41,
+    "stem": "Kadın sivil savunma görevlilerine çocuğunun hastalanmasını raporla belgelenmesi koşuluyla en çok kaç güne kadar mazeret izni verilir?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "7",
+      "3"
+    ],
+    "correctIndex": 1,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_059",
+    "setID": "personel_yasasi_60",
+    "number": 59,
+    "realExam": true,
+    "page": 41,
+    "stem": "Erkek sivil savunma görevlilerine çocuğunun hastalanmasını raporla belgelenmesi koşuluyla en çok kaç güne kadar mazeret izni verilir?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "7",
+      "3"
+    ],
+    "correctIndex": 0,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_060",
+    "setID": "personel_yasasi_60",
+    "number": 60,
+    "realExam": true,
+    "page": 41,
+    "stem": "Erkek sivil savunma görevlilerinin karısının doğum yapması halinde, kendilerinin veya çocuklarının evlenmesi, anne-baba-eş-kardeş ölümünde kaç güne kadar mazeret izni verilir?",
+    "options": [
+      "9",
+      "8",
+      "7",
+      "5",
+      "3"
+    ],
+    "correctIndex": 4,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  }
+]
