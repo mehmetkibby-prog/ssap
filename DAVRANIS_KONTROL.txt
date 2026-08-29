@@ -1,0 +1,5 @@
+Kontrol edildi:
+- Favoriler quiz bitince silinmiyor.
+- Yanlışlar bölümünden açılan test finishSession() ile tamamlanınca clearWrongs(setID) çağrılıyor.
+- Yarım bırakılan yanlış testi otomatik temizlenmiyor.
+Bu davranış zaten doğru olduğu için çalışan Android mantığı değiştirilmedi.
