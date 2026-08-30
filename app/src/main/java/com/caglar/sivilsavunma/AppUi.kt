@@ -1,6 +1,10 @@
 package com.caglar.sivilsavunma
 
 import androidx.activity.compose.BackHandler
+import android.content.Context
+import android.print.PrintAttributes
+import android.print.PrintManager
+import android.webkit.WebView
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -12,6 +16,13 @@ import androidx.compose.foundation.lazy.grid.items as gridItems
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.ui.text.input.PasswordVisualTransformation
+import androidx.compose.ui.text.input.KeyboardType
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -37,6 +48,8 @@ private sealed interface Screen {
     data object Favorites : Screen
     data object Wrongs : Screen
     data object Saved : Screen
+    data object OfficialExam : Screen
+    data object ConstitutionAI : Screen
     data class Category(val category: StudyCategory) : Screen
     data class SetDetail(val setID: String) : Screen
     data class FavoriteGroup(val setID: String) : Screen
@@ -93,7 +106,12 @@ fun SivilSavunmaApp(repo: StudyRepository) {
                     onCategory = { screen = Screen.Category(it) }
                 )
 
-                Screen.Tests -> TestsScreen(repo, onOpen = { screen = Screen.SetDetail(it.id) })
+                Screen.Tests -> TestsScreen(
+                    repo,
+                    onOpen = { screen = Screen.SetDetail(it.id) },
+                    onOfficial = { screen = Screen.OfficialExam },
+                    onAI = { screen = Screen.ConstitutionAI }
+                )
 
                 is Screen.Category -> CategoryScreen(repo, s.category,
                     onBack = { screen = Screen.Home },
@@ -115,6 +133,18 @@ fun SivilSavunmaApp(repo: StudyRepository) {
                         )
                     }
                 }
+
+                Screen.OfficialExam -> OfficialExamScreen(
+                    repo = repo,
+                    onBack = { screen = Screen.Tests },
+                    onStart = { set -> screen = Screen.Quiz(repo.newSession(set, set.questions, scoreSetID = set.scoreKey), Screen.OfficialExam) }
+                )
+
+                Screen.ConstitutionAI -> ConstitutionAiScreen(
+                    repo = repo,
+                    onBack = { screen = Screen.Tests },
+                    onStart = { set -> screen = Screen.Quiz(repo.newSession(set, set.questions, scoreSetID = set.scoreKey), Screen.ConstitutionAI) }
+                )
 
                 Screen.Favorites -> FavoritesScreen(repo,
                     onOpen = { screen = Screen.FavoriteGroup(it) }
@@ -332,13 +362,35 @@ private fun QuickButton(title: String, icon: String, color: Color, modifier: Mod
 }
 
 @Composable
-private fun TestsScreen(repo: StudyRepository, onOpen: (QuizSet) -> Unit) {
+private fun TestsScreen(
+    repo: StudyRepository,
+    onOpen: (QuizSet) -> Unit,
+    onOfficial: () -> Unit,
+    onAI: () -> Unit
+) {
     PageHeader("Testler")
     LazyColumn(
         modifier = Modifier.fillMaxSize().padding(top = 58.dp),
         contentPadding = PaddingValues(18.dp),
         verticalArrangement = Arrangement.spacedBy(10.dp)
     ) {
+        item {
+            Card(Modifier.fillMaxWidth().clickable(onClick = onOfficial), shape = RoundedCornerShape(20.dp)) {
+                Column(Modifier.padding(18.dp)) {
+                    Text("🎯 6 Eylül Gerçek Sınav Provası", fontWeight = FontWeight.Black, fontSize = 18.sp)
+                    Text("50 soru • yasa ağırlıklı • Tarih + Coğrafya + Genel Kültür toplam 10", color = Color.Gray, fontSize = 12.sp)
+                }
+            }
+        }
+        item {
+            Card(Modifier.fillMaxWidth().clickable(onClick = onAI), shape = RoundedCornerShape(20.dp)) {
+                Column(Modifier.padding(18.dp)) {
+                    Text("AI • Tam Anayasa", fontWeight = FontWeight.Black, fontSize = 18.sp)
+                    Text("anayasa-4 kaynağı • geçici maddeler hariç • bozuk aday atlanır, üretim devam eder", color = Color.Gray, fontSize = 12.sp)
+                }
+            }
+        }
+
         StudyCategory.entries.forEach { cat ->
             val sets = repo.sets.filter { it.category == cat }
             if (sets.isNotEmpty()) {
@@ -388,6 +440,121 @@ private fun TestSetCard(repo: StudyRepository, set: QuizSet, onOpen: (QuizSet) -
                     Text("Son test: ${it.correct}/${it.total} • %${it.percent}", fontSize = 12.sp, color = Mint, fontWeight = FontWeight.Bold)
                 } ?: Text("Henüz sonuç yok", fontSize = 12.sp, color = Color.Gray)
             }
+        }
+    }
+}
+
+@Composable
+private fun OfficialExamScreen(repo: StudyRepository, onBack: () -> Unit, onStart: (QuizSet) -> Unit) {
+    BackHandler(onBack = onBack)
+    val context = LocalContext.current
+    var set by remember { mutableStateOf(repo.buildOfficialExam()) }
+    LazyColumn(contentPadding = PaddingValues(18.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+        item { TopBar("6 Eylül Gerçek Sınav Provası", onBack) }
+        item {
+            Card(shape = RoundedCornerShape(22.dp)) {
+                Column(Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Text("50 soru • yasa ağırlıklı", fontWeight = FontWeight.Black, fontSize = 22.sp)
+                    Text("Kıbrıs Tarihi 3 + Kıbrıs Coğrafyası 3 + Genel Kültür 4 = toplam 10 soru.", color = Color.Gray)
+                    Text("Anayasa 10 • Sivil Savunma 6 • Personel 6 • Sığınak 5 • Teşkilat/Donatım 6 • Atama/Disiplin 4 • Afet 3", fontSize = 13.sp)
+                    Button(onClick = { onStart(set) }, modifier = Modifier.fillMaxWidth()) { Text("50 Soruluk Provayı Başlat") }
+                    OutlinedButton(onClick = { printExamPdf(context, set) }, modifier = Modifier.fillMaxWidth()) { Text("PDF Çıkar / Yazdır") }
+                    TextButton(onClick = { set = repo.buildOfficialExam() }, modifier = Modifier.fillMaxWidth()) { Text("Yeni 50 Soru Oluştur") }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun ConstitutionAiScreen(repo: StudyRepository, onBack: () -> Unit, onStart: (QuizSet) -> Unit) {
+    BackHandler(onBack = onBack)
+    val context = LocalContext.current
+    val scope = rememberCoroutineScope()
+    var key by remember { mutableStateOf("") }
+    var count by remember { mutableIntStateOf(10) }
+    var difficulty by remember { mutableStateOf("Zor") }
+    var status by remember { mutableStateOf("Geçici maddeler kaynak havuzuna alınmaz.") }
+    var busy by remember { mutableStateOf(false) }
+    var generated by remember { mutableStateOf<QuizSet?>(null) }
+
+    LazyColumn(contentPadding = PaddingValues(18.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+        item { TopBar("AI • Tam Anayasa", onBack) }
+        item {
+            Card(shape = RoundedCornerShape(22.dp)) {
+                Column(Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                    Text("🔒 Geçici Maddeler Kesin Hariç", fontWeight = FontWeight.Black, color = Indigo)
+                    Text("Bir aday soru/yanıt bozuk gelirse o aday atlanır. Önceki başarılı sorular korunur ve üretim yeni soruyla devam eder.", color = Color.Gray, fontSize = 13.sp)
+                    OutlinedTextField(
+                        value = key, onValueChange = { key = it },
+                        label = { Text("OpenAI API anahtarı") },
+                        visualTransformation = PasswordVisualTransformation(),
+                        modifier = Modifier.fillMaxWidth()
+                    )
+                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                        listOf(5,10,15,20).forEach { n ->
+                            FilterChip(selected = count==n, onClick={count=n}, label={Text("$n")})
+                        }
+                    }
+                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                        listOf("Kolay","Orta","Zor").forEach { d ->
+                            FilterChip(selected = difficulty==d, onClick={difficulty=d}, label={Text(d)})
+                        }
+                    }
+                    Button(
+                        enabled = !busy && key.isNotBlank(),
+                        onClick = {
+                            busy=true; generated=null
+                            scope.launch {
+                                try {
+                                    val result = withContext(Dispatchers.IO) {
+                                        ConstitutionAiGenerator.generate(context, key, count, difficulty) { msg ->
+                                            // Main thread status update below per round isn't required for correctness.
+                                        }
+                                    }
+                                    status=result.note
+                                    if (result.questions.isNotEmpty()) {
+                                        generated=QuizSet("ai-anayasa","AI • Tam Anayasa","${result.questions.size} doğrulanmış soru",StudyCategory.REAL,result.questions,"AI")
+                                    }
+                                } catch(e:Exception) { status=e.message ?: "Üretim hatası" }
+                                busy=false
+                            }
+                        },
+                        modifier=Modifier.fillMaxWidth()
+                    ){ Text(if(busy) "Üretim devam ediyor…" else "Soru Üret") }
+                    Text(status, fontSize = 12.sp, color = if(generated!=null) Mint else Color.Gray)
+                    generated?.let { g ->
+                        Button(onClick={onStart(g)}, modifier=Modifier.fillMaxWidth()) { Text("${g.questions.size} Soruyu Çöz") }
+                    }
+                }
+            }
+        }
+    }
+}
+
+private fun printExamPdf(context: Context, set: QuizSet) {
+    val letters = "ABCDE"
+    val body = buildString {
+        append("<html><head><meta charset='utf-8'><style>@page{size:A4;margin:14mm}body{font-family:sans-serif;color:#222}h1{font-size:22px}.q{page-break-inside:avoid;margin:0 0 22px}.opt{margin:5px 0 0 18px}.key{page-break-before:always}</style></head><body>")
+        append("<h1>${set.title}</h1><p><b>50 soru</b> • yasa ağırlıklı • Tarih + Coğrafya + Genel Kültür = 10</p>")
+        val key = mutableListOf<String>()
+        set.questions.forEachIndexed { i,q ->
+            append("<div class='q'><b>${i+1}. ${android.text.Html.escapeHtml(q.stem)}</b>")
+            val order=q.options.indices.shuffled()
+            order.forEachIndexed { di,oi ->
+                append("<div class='opt'><b>${letters[di]}.</b> ${android.text.Html.escapeHtml(q.options[oi])}</div>")
+                if(oi==q.correctIndex) key += "${i+1}. ${letters[di]}"
+            }
+            append("</div>")
+        }
+        append("<div class='key'><h1>Cevap Anahtarı</h1><p>${key.joinToString(" &nbsp; ")}</p></div></body></html>")
+    }
+    val web = WebView(context)
+    web.loadDataWithBaseURL(null, body, "text/html", "UTF-8", null)
+    web.webViewClient = object : android.webkit.WebViewClient() {
+        override fun onPageFinished(view: WebView?, url: String?) {
+            val pm=context.getSystemService(Context.PRINT_SERVICE) as PrintManager
+            pm.print("Sivil Savunma - ${set.title}", web.createPrintDocumentAdapter(set.title), PrintAttributes.Builder().build())
         }
     }
 }

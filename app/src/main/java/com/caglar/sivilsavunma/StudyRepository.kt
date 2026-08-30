@@ -200,6 +200,31 @@ class StudyRepository(private val context: Context) {
         session.savedID?.let(::deleteSaved)
     }
 
+    fun buildOfficialExam(): QuizSet {
+        fun q(setId: String) = setFor(setId)?.questions.orEmpty()
+        val anatomy = (q("anayasa108") + q("anayasaek")).shuffled().take(10)
+        val selected = buildList {
+            addAll(anatomy)
+            addAll(q("tarih").shuffled().take(3))
+            addAll(q("cografya").shuffled().take(3))
+            addAll(q("sivil-yasa").shuffled().take(6))
+            addAll(q("personel").shuffled().take(6))
+            addAll(q("siginak").shuffled().take(5))
+            addAll(q("teskilat").shuffled().take(6))
+            addAll(q("atama").shuffled().take(4))
+            addAll(q("afet").shuffled().take(3))
+            addAll(q("gk409").shuffled().take(4))
+        }.shuffled().take(50)
+        return QuizSet(
+            id = "official-2026-09-06",
+            title = "6 Eylül • Gerçek Sınav Provası",
+            subtitle = "50 soru • Yasa ağırlıklı • Kıbrıs Tarihi + Coğrafya + Genel Kültür = 10",
+            category = StudyCategory.REAL,
+            questions = selected,
+            iconText = "🎯"
+        )
+    }
+
     private fun buildSets(): List<QuizSet> {
         val out = mutableListOf<QuizSet>()
 
@@ -215,7 +240,7 @@ class StudyRepository(private val context: Context) {
             Triple("real_exam_atama_disiplin_13.json", "Atama ve Disiplin", "atama"),
             Triple("real_exam_teskilat_donatim_30.json", "Teşkilat ve Donatım", "teskilat"),
             Triple("real_exam_anayasa_108.json", "Anayasa • Kaynak Soruları", "anayasa108"),
-            Triple("real_exam_anayasa_ek_30.json", "Anayasa • Ek 30", "anayasaek")
+            Triple("real_exam_anayasa_ek_30.json", "Anayasa • EK Sınav (66)", "anayasaek")
         )
         realDefs.forEach { (file, title, id) ->
             val qs = loadQuestions(file, title, id)
