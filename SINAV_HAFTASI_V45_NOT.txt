@@ -1,0 +1,36 @@
+v4.5 / Android 2.3 / iOS 1.8.3 - SINAV HAFTASI
+
+YAPILANLAR
+1) Anayasa EK yeni Word dosyasındaki HER madde tek soru olarak işlendi.
+   Bir cümlede iki bilgi varsa AYRI sorulara bölünmedi:
+   - 15 gün / 45 gün aynı soruda.
+   - 1 yıl / Bakanlar Kurulu aynı soruda.
+   - Sayıştay / 6 ay aynı soruda.
+   Mevcut 30 + yeni 36 = 66 soru.
+
+2) 6 Eylül prova dağılımı yasa ağırlıklı:
+   - Anayasa 10
+   - Sivil Savunma Yasası 6
+   - Personel Yasası 6
+   - Sığınak Yasası 5
+   - Teşkilat/Donatım 6
+   - Atama/Disiplin 4
+   - Afet 3
+   - Kıbrıs Tarihi 3
+   - Kıbrıs Coğrafyası 3
+   - Genel Kültür 4
+   Toplam 50. Tarih + Coğrafya + Genel Kültür = tam 10.
+
+3) AI Tam Anayasa:
+   - Geçici maddeler kaynak havuzuna hiç alınmaz.
+   - Hatalı/bozuk aday soru atlanır.
+   - Önceki başarılı sorular sıfırlanmaz.
+   - Geçici HTTP/JSON/bağlantı hatasında yeni turla devam eder.
+   - Doğru cevap ve 4 çeldiricinin anayasa-4 kaynağında gerçekten bulunması doğrulanır.
+
+4) Tablet ve iOS'a 50 soruluk yasa-ağırlıklı prova + PDF çıkarma/paylaşma + AI Tam Anayasa eklendi.
+
+KORUMA
+- İstatistik anahtarları/depolama yapısı değiştirilmedi.
+- Supabase sync code/sync_id değiştirilmedi.
+- Favoriler, yanlışlar ve kayıtlı testlerin mevcut davranışı değiştirilmedi.
