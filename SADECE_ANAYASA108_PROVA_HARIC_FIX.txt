@@ -1,0 +1,10 @@
+SADECE 6 EYLÜL PROVA HAVUZU DEĞİŞİKLİĞİ
+
+Ekranda işaretlenen:
+"Anayasa • Kaynak Soruları — 108 soru"
+
+Bu bölüm uygulamada kalır ve normal şekilde çözülebilir.
+Ancak 6 Eylül Gerçek Sınav Provası oluşturulurken bu 108 soruluk havuz KESİNLİKLE kullanılmaz.
+Anayasa soruları yalnız Anayasa EK Sınav havuzundan seçilir.
+
+İstatistik, senkron, favoriler, yanlışlar, kayıtlı testler ve diğer özellikler değiştirilmedi.
