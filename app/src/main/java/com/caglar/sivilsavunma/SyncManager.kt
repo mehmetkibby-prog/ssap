@@ -88,7 +88,10 @@ class SyncManager(private val repo: StudyRepository) {
     fun pull(force: Boolean = false) {
         if (!enabled) return
         if (!force && pendingAnswers.get() > 0) return
-        rpc("study_sync_snapshot", JSONObject().put("p_code", SyncConfig.SYNC_CODE)) { root ->
+        rpc(
+            "study_sync_snapshot",
+            JSONObject().put("p_code", SyncConfig.SYNC_CODE),
+            completion = { root ->
             val statsObj = root.optJSONObject("stats") ?: JSONObject()
             val stats = AppStats(statsObj.optInt("answered"), statsObj.optInt("correct"), statsObj.optInt("wrong"))
 
@@ -127,7 +130,7 @@ class SyncManager(private val repo: StudyRepository) {
             }
 
             main.post { repo.applyRemoteSnapshot(stats, favs, wrongs.mapValues { it.value.toSet() }, saved, scores) }
-        }
+        })
     }
 
     private fun rpc(
