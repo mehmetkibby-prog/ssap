@@ -1,0 +1,20 @@
+Android v2.3 GitHub compile FIX
+
+GitHub hatası:
+SyncManager.kt içinde study_sync_snapshot çağrısındaki trailing lambda,
+rpc() fonksiyonuna 'done: (Boolean)->Unit' parametresi eklendikten sonra
+'completion: (JSONObject)->Unit' yerine yanlışlıkla son parametre olan done'a bağlanıyordu.
+
+Düzeltme:
+completion = { root -> ... } açıkça belirtildi.
+
+DEĞİŞMEDİ:
+- istatistik hesaplama
+- Supabase syncCode
+- cevap gönderme
+- favoriler
+- yanlışlar
+- kayıtlı testler
+- Anayasa EK
+- sınav provası
+- AI / PDF
