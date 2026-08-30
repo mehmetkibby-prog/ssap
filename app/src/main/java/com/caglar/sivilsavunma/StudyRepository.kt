@@ -202,7 +202,8 @@ class StudyRepository(private val context: Context) {
 
     fun buildOfficialExam(): QuizSet {
         fun q(setId: String) = setFor(setId)?.questions.orEmpty()
-        val anatomy = (q("anayasa108") + q("anayasaek")).shuffled().take(10)
+        // 6 Eylül provasına "Anayasa • Kaynak Soruları (108)" dahil edilmez.
+        val anatomy = q("anayasaek").shuffled().take(10)
         val selected = buildList {
             addAll(anatomy)
             addAll(q("tarih").shuffled().take(3))
