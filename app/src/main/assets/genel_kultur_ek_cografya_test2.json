@@ -1,0 +1,452 @@
+[
+  {
+    "id": "gkek-geo2-001",
+    "number": 1,
+    "stem": "KKTC’deki en yüksek ikinci tepenin adı nedir?",
+    "options": [
+      "Kıvanç Tepe",
+      "Ziya Tepe",
+      "Bufavento Tepesi",
+      "Beşparmak Tepe",
+      "Bayrak Tepe"
+    ],
+    "correctIndex": 2,
+    "answerText": "Bufavento Tepesi",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-002",
+    "number": 2,
+    "stem": "Kantara Dağları’nın en yüksek yeri neresidir?",
+    "options": [
+      "Ziya Tepe",
+      "Bayrak Tepe",
+      "Beşparmak Tepe",
+      "Karlıdağ",
+      "Selvili Tepe"
+    ],
+    "correctIndex": 0,
+    "answerText": "Ziya Tepe",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-003",
+    "number": 3,
+    "stem": "Kıbrıs’ın en çok yağış alan alanı neresidir?",
+    "options": [
+      "Güzelyurt Ovası",
+      "Trodos Dağları",
+      "Girne Dağları",
+      "Mesarya Ovası",
+      "Karpaz Yarımadası"
+    ],
+    "correctIndex": 1,
+    "answerText": "Trodos Dağları",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-004",
+    "number": 4,
+    "stem": "Kıbrıs’ın en kurak bölgesi neresidir?",
+    "options": [
+      "Mesarya Ovası",
+      "Güzelyurt Ovası",
+      "Beşparmak Etekleri",
+      "Karpaz Yarımadası",
+      "Trodos Dağları"
+    ],
+    "correctIndex": 1,
+    "answerText": "Güzelyurt Ovası",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-005",
+    "number": 5,
+    "stem": "Şinya hangi bitki örtüsü türüdür?",
+    "options": [
+      "Maki",
+      "Garig",
+      "İğne yapraklı orman",
+      "Sedir ormanı",
+      "Bozkır"
+    ],
+    "correctIndex": 0,
+    "answerText": "Maki",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-006",
+    "number": 6,
+    "stem": "İngiliz döneminde adaya yakacak odun olarak getirilen bitki hangisidir?",
+    "options": [
+      "Fıstık Çamları",
+      "Okaliptüs",
+      "Kıbrıs Akasyası",
+      "Lapsana",
+      "Avukarya"
+    ],
+    "correctIndex": 1,
+    "answerText": "Okaliptüs",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-007",
+    "number": 7,
+    "stem": "KKTC’de en çok üretilen bitkisel ürün hangisidir?",
+    "options": [
+      "Baklagil",
+      "Sanayi Bitkileri",
+      "Turunçgiller",
+      "Zeytin",
+      "Tahıl"
+    ],
+    "correctIndex": 4,
+    "answerText": "Tahıl",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: E",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-008",
+    "number": 8,
+    "stem": "Pekmez yapımında kullanılan bitkisel ürün hangisidir?",
+    "options": [
+      "Harup",
+      "Zeytin",
+      "Narenciye",
+      "Endüstri Bitkileri",
+      "Bağ"
+    ],
+    "correctIndex": 0,
+    "answerText": "Harup",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-009",
+    "number": 9,
+    "stem": "Üzüm festivali her yıl nerede düzenlenir?",
+    "options": [
+      "Güzelyurt",
+      "İskele",
+      "Yeniboğaziçi",
+      "Mehmetçik",
+      "Geçitkale"
+    ],
+    "correctIndex": 3,
+    "answerText": "Mehmetçik",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-010",
+    "number": 10,
+    "stem": "Güney Kıbrıs ormanlarında yaşayan ve nesli tükenmekte olan hayvan türü aşağıdakilerden hangisidir?",
+    "options": [
+      "Muflon",
+      "Kedi",
+      "Dağ Keçisi",
+      "Ayı",
+      "Yılan"
+    ],
+    "correctIndex": 0,
+    "answerText": "Muflon",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-011",
+    "number": 11,
+    "stem": "Aşağıdakilerden hangisi KKTC’deki elektrik santrallerinin bulunduğu bölgelerdir?",
+    "options": [
+      "Kumyalı",
+      "Yedidalga",
+      "Dikmen",
+      "Dikelya",
+      "Erenköy"
+    ],
+    "correctIndex": 2,
+    "answerText": "Dikmen",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-012",
+    "number": 12,
+    "stem": "Lala Mustafa Paşa Camii nerededir?",
+    "options": [
+      "Lefkoşa",
+      "Mağusa",
+      "Girne",
+      "İskele",
+      "Güzelyurt"
+    ],
+    "correctIndex": 1,
+    "answerText": "Mağusa",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-013",
+    "number": 13,
+    "stem": "Kıbrıs’ta karstik şekillerin en yaygın olduğu yer neresidir?",
+    "options": [
+      "Gazimağusa Bölgesi",
+      "Trodos Dağları",
+      "Girne Dağları",
+      "Baf",
+      "Mesarya"
+    ],
+    "correctIndex": 2,
+    "answerText": "Girne Dağları",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-014",
+    "number": 14,
+    "stem": "Aşağıda verilen özellikler hangi bitki türünü anlatmaktadır?\n• Ülkemizde en fazla ekilen 2. üründür.\n• Toprağı azot yönünden zenginleştirir.\n• Münavebeli tarıma uygundur.\n• Proteinli bitkiler de denilir.",
+    "options": [
+      "Çavdar",
+      "Buğday",
+      "Patates",
+      "Yer Fıstığı",
+      "Nohut"
+    ],
+    "correctIndex": 4,
+    "answerText": "Nohut",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: E",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-015",
+    "number": 15,
+    "stem": "KKTC’de ekilen tarım arazilerinin ne kadarlık bölümünde sulu tarım yapılmaktadır?",
+    "options": [
+      "%8",
+      "%13",
+      "%10",
+      "%15",
+      "%18"
+    ],
+    "correctIndex": 0,
+    "answerText": "%8",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-016",
+    "number": 16,
+    "stem": "KKTC’de toplam arazinin ne kadarı orman arazisidir?",
+    "options": [
+      "%22.5",
+      "%35.5",
+      "%30",
+      "%25.8",
+      "%19.5"
+    ],
+    "correctIndex": 4,
+    "answerText": "%19.5",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: E",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-017",
+    "number": 17,
+    "stem": "Ülkemizde yeraltı suyu en çok hangi şekilde yeryüzüne çıkmaktadır?",
+    "options": [
+      "Yamaç kaynağı",
+      "Fay kaynağı",
+      "Voklüz kaynak",
+      "Kaplıca kaynağı",
+      "Artezyen kaynağı"
+    ],
+    "correctIndex": 4,
+    "answerText": "Artezyen kaynağı",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: E",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-018",
+    "number": 18,
+    "stem": "Kırmızı renkli Akdeniz toprakları üzerinde en fazla hangisi yetişir?",
+    "options": [
+      "Patates",
+      "Karpuz",
+      "Arpa",
+      "Muz",
+      "Üzüm"
+    ],
+    "correctIndex": 0,
+    "answerText": "Patates",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-019",
+    "number": 19,
+    "stem": "Kıbrıs’ta coğrafi koşullar ve iklim şartları göz önünde bulundurulduğunda en uygun hayvancılık faaliyeti hangisidir?",
+    "options": [
+      "Tavukçuluk",
+      "Devekuşu besiciliği",
+      "Büyükbaş hayvancılık",
+      "Küçükbaş hayvancılık",
+      "Domuz besiciliği"
+    ],
+    "correctIndex": 3,
+    "answerText": "Küçükbaş hayvancılık",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-020",
+    "number": 20,
+    "stem": "Ülkemizde çilek ve muz en fazla nerede yetiştirilir?",
+    "options": [
+      "Türkmenköy-Beyarmudu",
+      "Yeşilköy-Yedidalga",
+      "Türkmenköy-Güzelyurt",
+      "Yeşilırmak-Yedidalga",
+      "Çamlıbel-Yeşilköy"
+    ],
+    "correctIndex": 3,
+    "answerText": "Yeşilırmak-Yedidalga",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-021",
+    "number": 21,
+    "stem": "KKTC’deki mevcut tarım arazilerinin ne kadarı ekip değerlendirilmektedir?",
+    "options": [
+      "%75",
+      "%65",
+      "%70",
+      "%60",
+      "%80"
+    ],
+    "correctIndex": 2,
+    "answerText": "%70",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-022",
+    "number": 22,
+    "stem": "İncirli Mağara’da hangi taşlar yaygındır?",
+    "options": [
+      "Kayatuzu",
+      "Kumtaşı",
+      "Alçıtaşı",
+      "Kireçtaşı",
+      "Tebeşir"
+    ],
+    "correctIndex": 4,
+    "answerText": "Tebeşir",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: E",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-023",
+    "number": 23,
+    "stem": "Aşağıdakilerin hangisinin yüksekliği en azdır?",
+    "options": [
+      "Kantara Dağları",
+      "Kayalar Dağları",
+      "Karpaz Dağları",
+      "Lapta Dağları",
+      "Beşparmak Dağları"
+    ],
+    "correctIndex": 1,
+    "answerText": "Kayalar Dağları",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-024",
+    "number": 24,
+    "stem": "Aşağıdaki yerlerden hangisinde bozkırlara rastlama ihtimali daha çoktur?",
+    "options": [
+      "Alsancak",
+      "Sadrazamköy",
+      "Gaziköy",
+      "Yeşilırmak",
+      "Kaplıca"
+    ],
+    "correctIndex": 2,
+    "answerText": "Gaziköy",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo2-025",
+    "number": 25,
+    "stem": "Kıbrıs’ta en fazla bilinen karstik aşındırma şekli aşağıdakilerden hangisidir?",
+    "options": [
+      "Düden",
+      "Obruk",
+      "Dolin",
+      "Uvala",
+      "Mağra"
+    ],
+    "correctIndex": 4,
+    "answerText": "Mağra",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: E",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test II",
+    "setID": "gkek-geo2",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  }
+]

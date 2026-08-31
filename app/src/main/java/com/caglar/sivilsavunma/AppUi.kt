@@ -391,8 +391,14 @@ private fun TestsScreen(
             }
         }
 
+        val gkEkSets = repo.sets.filter { it.id.startsWith("gkek-") }
+        if (gkEkSets.isNotEmpty()) {
+            item { Text("Genel Kültür EK", fontWeight = FontWeight.Bold, color = Indigo, modifier = Modifier.padding(top = 8.dp)) }
+            items(gkEkSets, key = { it.id }) { set -> TestSetCard(repo, set, onOpen) }
+        }
+
         StudyCategory.entries.forEach { cat ->
-            val sets = repo.sets.filter { it.category == cat }
+            val sets = repo.sets.filter { it.category == cat && !it.id.startsWith("gkek-") }
             if (sets.isNotEmpty()) {
                 item { Text(cat.label, fontWeight = FontWeight.Bold, color = Indigo, modifier = Modifier.padding(top = 8.dp)) }
                 items(sets, key = { it.id }) { set ->
@@ -455,7 +461,7 @@ private fun OfficialExamScreen(repo: StudyRepository, onBack: () -> Unit, onStar
             Card(shape = RoundedCornerShape(22.dp)) {
                 Column(Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                     Text("50 soru • yasa ağırlıklı", fontWeight = FontWeight.Black, fontSize = 22.sp)
-                    Text("Kıbrıs Tarihi 3 + Kıbrıs Coğrafyası 3 + Genel Kültür 4 = toplam 10 soru.", color = Color.Gray)
+                    Text("Kıbrıs Tarihi 2 + Kıbrıs Coğrafyası 2 + Genel Kültür 2 + Genel Kültür EK 4 = toplam 10 soru.", color = Color.Gray)
                     Text("Anayasa 10 • Sivil Savunma 6 • Personel 6 • Sığınak 5 • Teşkilat/Donatım 6 • Atama/Disiplin 4 • Afet 3", fontSize = 13.sp)
                     Button(onClick = { onStart(set) }, modifier = Modifier.fillMaxWidth()) { Text("50 Soruluk Provayı Başlat") }
                     OutlinedButton(onClick = { printExamPdf(context, set) }, modifier = Modifier.fillMaxWidth()) { Text("PDF Çıkar / Yazdır") }
@@ -632,9 +638,32 @@ private fun SetDetailScreen(
 @Composable
 private fun FavoritesScreen(repo: StudyRepository, onOpen: (String) -> Unit) {
     val groups = repo.favorites.mapNotNull(repo::question).groupBy { it.setID }
+    var confirmClear by remember { mutableStateOf(false) }
+
+    if (confirmClear) {
+        AlertDialog(
+            onDismissRequest = { confirmClear = false },
+            title = { Text("Tüm favoriler silinsin mi?") },
+            text = { Text("Favoriler bölümündeki her şey tüm cihazlarda silinecek.") },
+            confirmButton = {
+                TextButton(onClick = { repo.clearAllFavorites(); confirmClear = false }) {
+                    Text("Hepsini Sil", color = Rose)
+                }
+            },
+            dismissButton = { TextButton(onClick = { confirmClear = false }) { Text("Vazgeç") } }
+        )
+    }
 
     Column {
-        PageHeader("Favoriler")
+        Row(
+            Modifier.fillMaxWidth().padding(horizontal = 18.dp, vertical = 8.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Box(Modifier.weight(1f)) { PageHeader("Favoriler") }
+            if (groups.isNotEmpty()) {
+                OutlinedButton(onClick = { confirmClear = true }) { Text("Hepsini Sil", color = Rose) }
+            }
+        }
         if (groups.isEmpty()) {
             EmptyState("Favori yok", "Sorulardaki kalp düğmesine dokun. Favoriler sen silmedikçe kalır.")
         } else {
@@ -711,9 +740,32 @@ private fun WrongsScreen(repo: StudyRepository, onOpen: (String) -> Unit) {
         val set = repo.setFor(setID) ?: return@mapNotNull null
         if (ids.isEmpty()) null else Triple(setID, set, ids.size)
     }
+    var confirmClear by remember { mutableStateOf(false) }
+
+    if (confirmClear) {
+        AlertDialog(
+            onDismissRequest = { confirmClear = false },
+            title = { Text("Tüm yanlışlar silinsin mi?") },
+            text = { Text("Yanlışlar bölümündeki her şey tüm cihazlarda silinecek.") },
+            confirmButton = {
+                TextButton(onClick = { repo.clearAllWrongs(); confirmClear = false }) {
+                    Text("Hepsini Sil", color = Rose)
+                }
+            },
+            dismissButton = { TextButton(onClick = { confirmClear = false }) { Text("Vazgeç") } }
+        )
+    }
 
     Column {
-        PageHeader("Yanlışlar")
+        Row(
+            Modifier.fillMaxWidth().padding(horizontal = 18.dp, vertical = 8.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Box(Modifier.weight(1f)) { PageHeader("Yanlışlar") }
+            if (groups.isNotEmpty()) {
+                OutlinedButton(onClick = { confirmClear = true }) { Text("Hepsini Sil", color = Rose) }
+            }
+        }
         if (groups.isEmpty()) {
             EmptyState("Yanlış soru yok", "Yanlış yaptığın sorular burada bölüm bölüm birikir.")
         } else {
@@ -940,6 +992,9 @@ private fun QuizScreen(
                         val ok = selected == rq.displayedCorrectIndex
                         if (ok) session.correct++ else session.wrong++
                         repo.recordAnswer(q, ok)
+                        session.wrongReviewSetID?.let { reviewSetID ->
+                            repo.resolveWrongImmediately(q, reviewSetID)
+                        }
                         session.answered = true
                     } else if (session.index + 1 >= session.runtimeQuestions.size) {
                         onFinished(session.set.title, session.correct, session.wrong, session.runtimeQuestions.size)

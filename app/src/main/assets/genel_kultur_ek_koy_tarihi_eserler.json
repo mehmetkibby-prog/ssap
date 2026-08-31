@@ -1,0 +1,740 @@
+[
+  {
+    "id": "gkek-koy-001",
+    "number": 1,
+    "stem": "Aşağıdakilerden hangisi Değirmenlik köyünün eski adıdır?",
+    "options": [
+      "Mandirez",
+      "Meluşa",
+      "Kitrea",
+      "Abohor",
+      "Ayvasıl"
+    ],
+    "correctIndex": 2,
+    "answerText": "Kitrea",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-002",
+    "number": 2,
+    "stem": "Aşağıdakilerden hangisi isim değişikliğine uğramamıştır?",
+    "options": [
+      "Demirhan",
+      "Değirmenlik",
+      "Meriç",
+      "Lefkoşa",
+      "Yiğitler"
+    ],
+    "correctIndex": 3,
+    "answerText": "Lefkoşa",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-003",
+    "number": 3,
+    "stem": "Aşağıdakilerden hangisi Kuru Manastır köyünün şimdiki adıdır?",
+    "options": [
+      "Akıncılar",
+      "Çukurova",
+      "Beyköy",
+      "Minareliköy",
+      "Gaziler"
+    ],
+    "correctIndex": 1,
+    "answerText": "Çukurova",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-004",
+    "number": 4,
+    "stem": "Aşağıda verilen eski ve yeni köy isim eşleştirmelerinin hangisi yanlıştır?",
+    "options": [
+      "Mandirez-Hamitköy",
+      "Meluşa-Kırıkkale",
+      "Miamilya-Türkeli",
+      "Tremeşe-Erdemli",
+      "Kanlıköy-Kanlıköy"
+    ],
+    "correctIndex": 2,
+    "answerText": "Miamilya-Türkeli",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-005",
+    "number": 5,
+    "stem": "Aşağıda verilen tarihi yerlerden hangisi Lefkoşa’da bulunur?",
+    "options": [
+      "Lala Mustafa Paşa Camii",
+      "Girne Kalesi",
+      "Girne Kapısı",
+      "Vuni Sarayı",
+      "Philon Kilisesi"
+    ],
+    "correctIndex": 2,
+    "answerText": "Girne Kapısı",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-006",
+    "number": 6,
+    "stem": "5 Kasım 1326 tarihinde gerçekleştirilen dini bir törenle takdis edilip St. Sophia adıyla ibadete açılan ve Osmanlılar tarafından camiye çevrilen camii hangisidir?",
+    "options": [
+      "Sarayönü Camii",
+      "Haydarpaşa Camii",
+      "Lala Mustafa Paşa Camii",
+      "Selimiye Camii",
+      "Sinan Paşa Camii"
+    ],
+    "correctIndex": 3,
+    "answerText": "Selimiye Camii",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-007",
+    "number": 7,
+    "stem": "Aşağıdakilerden hangisi Sinan Paşa tarafından yapılmıştır?",
+    "options": [
+      "Kumarcılar Hanı",
+      "Venedik Sütünü",
+      "Büyük Han",
+      "Sarayönü Camii",
+      "Haydarpaşa Camii"
+    ],
+    "correctIndex": 2,
+    "answerText": "Büyük Han",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-008",
+    "number": 8,
+    "stem": "Aşağıdakilerden hangisi Osmanlı döneminde örtülü tekstil pazarı olarak kullanılmıştır?",
+    "options": [
+      "Büyük Han",
+      "Bedesten",
+      "Kumarcılar Hanı",
+      "Samanbahçe Evleri",
+      "Vuni Sarayı"
+    ],
+    "correctIndex": 1,
+    "answerText": "Bedesten",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-009",
+    "number": 9,
+    "stem": "Aşağıdakilerden hangisi Kumarcılar Hanının çizimini yapmıştır?",
+    "options": [
+      "H.H. Kitchener",
+      "Şaban Paşa",
+      "Harry Luke",
+      "Ali Paşa",
+      "Arap Ahmet Paşa"
+    ],
+    "correctIndex": 0,
+    "answerText": "H.H. Kitchener",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-010",
+    "number": 10,
+    "stem": "Aşağıdakilerden hangisi Kıbrıs valisi seyyid Mehmet ağa tarafından yapılmıştır?",
+    "options": [
+      "Girne Kalesi",
+      "Mevlevi Tekke Müzesi",
+      "Turunçlu Fethiye Camii",
+      "Bedesten",
+      "Kumarcılar Hanı"
+    ],
+    "correctIndex": 2,
+    "answerText": "Turunçlu Fethiye Camii",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-011",
+    "number": 11,
+    "stem": "Aşağıdakilerden hangisi Gaziköyün eski adıdır?",
+    "options": [
+      "Pergama",
+      "Lefkonuk",
+      "Afanya",
+      "Çatoz",
+      "Engomi"
+    ],
+    "correctIndex": 2,
+    "answerText": "Afanya",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-012",
+    "number": 12,
+    "stem": "I. Geçitkale-Lefkonuk\nII. Yeniboğaziçi-Aysergi\nIII. Serdarlı-Davlos\nIV. İnönü-Sinde\nV. Türkmenköy-Engomi\nYukarıda verilen eşleştirmelerden kaç tanesi yanlış verilmiştir?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "answerText": "2",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-013",
+    "number": 13,
+    "stem": "Aşağıdakilerden hangisi isim değişikliğine uğramamıştır?",
+    "options": [
+      "Tuzla",
+      "İnönü",
+      "Pergama",
+      "Sandallar",
+      "Akdoğan"
+    ],
+    "correctIndex": 3,
+    "answerText": "Sandallar",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-014",
+    "number": 14,
+    "stem": "Aşağıdakilerden hangisi Gazimağusa bölgesinde yer almaz?",
+    "options": [
+      "Othello Kalesi",
+      "Venedik Sarayı",
+      "Buffavento Kalesi",
+      "Venedik Sarayı",
+      "Sinan Paşa camii"
+    ],
+    "correctIndex": 2,
+    "answerText": "Buffavento Kalesi",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-015",
+    "number": 15,
+    "stem": "Aşağıdakilerden hangisi Aziz Barnabas adına yapılmıştır?",
+    "options": [
+      "Salamis Harabeleri",
+      "Sinan Paşa Camii",
+      "Othello kalesi",
+      "St Barnabas Manastırı",
+      "Deniz Kapısı"
+    ],
+    "correctIndex": 3,
+    "answerText": "St Barnabas Manastırı",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-016",
+    "number": 16,
+    "stem": "I. Othello Kalesi\nII. Lala Mustafa Paşa Camii\nIII. Arabahmet Camii\nIV. Girne Kapısı\nV. Büyük Han\nVI. Namık Kemal Zindanı\nYukarıdakilerin kaç tanesi Lüzinyanlar Tarafından Yapılmıştır?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "answerText": "4",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-017",
+    "number": 17,
+    "stem": "Aşağıdakilerden hangisi Roma Dönemine aittir?",
+    "options": [
+      "Salamis Harabeleri",
+      "Othello Kalesi",
+      "Venedik Sarayı",
+      "St. Barnabas Manastırı",
+      "Namık Kemal Zindanı"
+    ],
+    "correctIndex": 0,
+    "answerText": "Salamis Harabeleri",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-018",
+    "number": 18,
+    "stem": "Aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+    "options": [
+      "Deniz Kapısı-Gazimağusa",
+      "Othello Kalesi-Gazimağusa",
+      "İkiz kiliseler-Gazimağusa",
+      "Büyük han-Gazimağusa",
+      "Venedik Sarayı-Gazimağusa"
+    ],
+    "correctIndex": 3,
+    "answerText": "Büyük han-Gazimağusa",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-019",
+    "number": 19,
+    "stem": "Aşağıdakilerden hangisi Gazimağusa bölgesinde yer almaz?",
+    "options": [
+      "Lala Mustafa Paşa Camii",
+      "Sinan Paşa Camii",
+      "Turunçlu Fethiye Camii",
+      "Tarihi Cümbez Ağacı",
+      "Salamis Harabeleri"
+    ],
+    "correctIndex": 2,
+    "answerText": "Turunçlu Fethiye Camii",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-020",
+    "number": 20,
+    "stem": "Aşağıdakilerden hangisi büyük bir Nekropol olarak adlandırılır?",
+    "options": [
+      "Sinan Paşa Camii",
+      "Selimiye Camii",
+      "Kral Mezarları",
+      "İkizler Kilisesi",
+      "Deniz Kapısı"
+    ],
+    "correctIndex": 2,
+    "answerText": "Kral Mezarları",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-021",
+    "number": 21,
+    "stem": "Aşağıdakilerden hangisi Templos’un şimdiki adıdır?",
+    "options": [
+      "Doğanköy",
+      "Ozanköy",
+      "Tepebaşı",
+      "Zeytinlik",
+      "Alsancak"
+    ],
+    "correctIndex": 3,
+    "answerText": "Zeytinlik",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-022",
+    "number": 22,
+    "stem": "Aşağıdaki yeni ve eski köy isimleri eşleştirmelerinden hangisi yanlıştır?",
+    "options": [
+      "Beşparmak-Trabeza",
+      "Lapta-Lapithos",
+      "Girne-Kyrenia",
+      "Karaman-Karmi",
+      "Alsancak-Kyrenia"
+    ],
+    "correctIndex": 4,
+    "answerText": "Alsancak-Kyrenia",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: E",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-023",
+    "number": 23,
+    "stem": "Aşağıdakilerden hangisi Dikmen’in eski adıdır?",
+    "options": [
+      "Digomo",
+      "Orga",
+      "Elya",
+      "Ayorgi",
+      "Vasilya"
+    ],
+    "correctIndex": 0,
+    "answerText": "Digomo",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-024",
+    "number": 24,
+    "stem": "Aşağıdakilerden hangisi Koruçam’ın eski adıdır?",
+    "options": [
+      "Arapköy",
+      "Karava",
+      "Yorgoz",
+      "Elya",
+      "Kormacit"
+    ],
+    "correctIndex": 4,
+    "answerText": "Kormacit",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: E",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-025",
+    "number": 25,
+    "stem": "Aşağıdaki tarihi yerlerden hangisi Girne bölgesinde yer almaz?",
+    "options": [
+      "Bellapais Manastırı",
+      "St. Hilarion Kalesi",
+      "Buffavento kalesi",
+      "İkon müzesi",
+      "Vuni sarayı"
+    ],
+    "correctIndex": 4,
+    "answerText": "Vuni sarayı",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: E",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-026",
+    "number": 26,
+    "stem": "Aşağıdaki tarihi yerlerden hangisi Bizanslılar tarafından gözetleme kulesi olarak yapılmıştır?",
+    "options": [
+      "Girne Kalesi",
+      "Karaoğlanoğlu Müzesi ve Şehitliği",
+      "Buffavento Kalesi",
+      "St. Hilarion Kalesi",
+      "Bellapais Manastırı"
+    ],
+    "correctIndex": 3,
+    "answerText": "St. Hilarion Kalesi",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-027",
+    "number": 27,
+    "stem": "Aşağıdaki tarihi yerlerden hangisi Girne bölgesinde yer alır?",
+    "options": [
+      "Othello Kalesi",
+      "Aziz Mamas Kilisesi",
+      "Buffavento Kalesi",
+      "Kral Mezarları",
+      "St. Barnabas Manastırı"
+    ],
+    "correctIndex": 2,
+    "answerText": "Buffavento Kalesi",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-028",
+    "number": 28,
+    "stem": "Aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+    "options": [
+      "Girne Kalesi-Girne",
+      "St. Hilarion Kalesi-Girne",
+      "İkon müzesi-Girne",
+      "Vuni Sarayı-Girne",
+      "Buffavento Kalesi-Girne"
+    ],
+    "correctIndex": 3,
+    "answerText": "Vuni Sarayı-Girne",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-029",
+    "number": 29,
+    "stem": "Aşağıdakilerden hangisi Lüzinyan Kralı III. Hugh tarafından inşa edilmiştir?",
+    "options": [
+      "Girne Kalesi",
+      "St. Hilarion Kalesi",
+      "Buffavento Kalesi",
+      "Bellapais Manastırı",
+      "Karaoğlanoğlu Şehitliği"
+    ],
+    "correctIndex": 3,
+    "answerText": "Bellapais Manastırı",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-030",
+    "number": 30,
+    "stem": "Aşağıdakilerden hangisi Doğancı’nın eski adıdır?",
+    "options": [
+      "Elye",
+      "Gaziveren",
+      "İksero",
+      "Lefka",
+      "Koççina"
+    ],
+    "correctIndex": 0,
+    "answerText": "Elye",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-031",
+    "number": 31,
+    "stem": "Aşağıdakilerden hangisi Angolem’in şimdiki adıdır?",
+    "options": [
+      "Taşpınar",
+      "Günebakan",
+      "Zümrütköy",
+      "Gemikonağı",
+      "Bademli"
+    ],
+    "correctIndex": 0,
+    "answerText": "Taşpınar",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-032",
+    "number": 32,
+    "stem": "Aşağıdakilerden hangisi yanlış verilmiştir?",
+    "options": [
+      "Gemikonağı-İksero",
+      "Cengizköy-Peristeronari",
+      "Kalkanlı-Gabudi",
+      "Lefke-Lefke",
+      "Gaziveren-Gaziveran"
+    ],
+    "correctIndex": 3,
+    "answerText": "Lefke-Lefke",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-033",
+    "number": 33,
+    "stem": "Aşağıdaki tarihi yerlerden hangileri Güzelyurt bölgesinde yer alır?\nI. Vuni Sarayı\nII. Kral Mezarları\nIII. Aziz Mamas Kilisesi\nIV. Philon Kilisesi",
+    "options": [
+      "Yalnız I",
+      "II ve IV",
+      "I, II ve III",
+      "I ve III",
+      "Hepsi"
+    ],
+    "correctIndex": 4,
+    "answerText": "Hepsi",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: E",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-034",
+    "number": 34,
+    "stem": "Aşağıdaki tarihi yerlerden hangisi Güzelyurt bölgesinde yer almaz?",
+    "options": [
+      "Soli Antik Kenti",
+      "Aziz Mamas Kilisesi",
+      "Vuni Sarayı",
+      "Soli Tiyatrosu",
+      "Kantara Kalesi"
+    ],
+    "correctIndex": 4,
+    "answerText": "Kantara Kalesi",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: E",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-035",
+    "number": 35,
+    "stem": "Aşağıdakilerden hangisi Doxandros tarafından yapılmıştır?",
+    "options": [
+      "Güzelyurt Müzesi",
+      "Vuni Sarayı",
+      "Soli Tiyatrosu",
+      "Soli Antik Kenti",
+      "Aziz Mamas Kilisesi"
+    ],
+    "correctIndex": 1,
+    "answerText": "Vuni Sarayı",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-036",
+    "number": 36,
+    "stem": "Aşağıdakilerden hangisi Güzelyurt bölgesinde yer alır?",
+    "options": [
+      "Philon Kilisesi",
+      "Kanakaria Kilisesi",
+      "Aziz Mamas Kilisesi",
+      "İkiz Kiliseler",
+      "Apostolos Andreas Manastırı"
+    ],
+    "correctIndex": 2,
+    "answerText": "Aziz Mamas Kilisesi",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-037",
+    "number": 37,
+    "stem": "Aşağıdakilerden hangisi Aytotoro’nun şimdiki adıdır?",
+    "options": [
+      "Boğaziçi",
+      "Dipkarpaz",
+      "Çayırova",
+      "Mersinlik",
+      "Mehmetçik"
+    ],
+    "correctIndex": 2,
+    "answerText": "Çayırova",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-038",
+    "number": 38,
+    "stem": "Aşağıdakilerden hangisi Yeni Erenköy’ün eski adıdır?",
+    "options": [
+      "Yalusa",
+      "Komikebir",
+      "Melunda",
+      "Arnayi",
+      "Livadya"
+    ],
+    "correctIndex": 0,
+    "answerText": "Yalusa",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-039",
+    "number": 39,
+    "stem": "Aşağıdaki eşleştirmelerden hangileri yanlıştır?\nI. Dipkarpaz-Rizokarpaso\nII. Ziyamet-Ziyamet\nIII. Boğaziçi-Lapathos\nIV. Boğaz-Monargi",
+    "options": [
+      "I ve II",
+      "II ve III",
+      "III ve IV",
+      "IV ve IV",
+      "II ve IV"
+    ],
+    "correctIndex": 2,
+    "answerText": "III ve IV",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-040",
+    "number": 40,
+    "stem": "Aşağıdakilerden hangisi İskele bölgesinde yer alır?",
+    "options": [
+      "Kral Mezarları",
+      "Namık Kemal Zindanı",
+      "Büyük Han",
+      "Kumarcılar Hanı",
+      "Vuni Sarayı"
+    ],
+    "correctIndex": 0,
+    "answerText": "Kral Mezarları",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-koy-041",
+    "number": 41,
+    "stem": "Aşağıdakilerden hangisi Helenistik ve Roma dönemlerinden kalan kalıntıların üzerine inşa edilmiştir?",
+    "options": [
+      "İskele Kon Müzesi",
+      "Kral Mezarları",
+      "Kanakaria Kilisesi",
+      "Kantara Kalesi",
+      "Philon Kilisesi"
+    ],
+    "correctIndex": 4,
+    "answerText": "Philon Kilisesi",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: E",
+    "setTitle": "Genel Kültür EK • Köy İsimleri ve Tarihi Eserler",
+    "setID": "gkek-koy",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  }
+]

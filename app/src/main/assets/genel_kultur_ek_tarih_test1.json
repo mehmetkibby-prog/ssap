@@ -1,0 +1,452 @@
+[
+  {
+    "id": "gkek-hist1-001",
+    "number": 1,
+    "stem": "Kıbrıs tarihi boyunca aşağıdaki devletlerden hangisinin egemenliği altına girmemiştir?",
+    "options": [
+      "İngiltere",
+      "Bizans",
+      "Lüzinyan",
+      "Roma",
+      "Yunanistan"
+    ],
+    "correctIndex": 4,
+    "answerText": "Yunanistan",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: E",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-002",
+    "number": 2,
+    "stem": "Kıbrıs’taki ilk Ortodoks Kilisesi aşağıdaki dönemlerden hangisinde kurulmuştur?",
+    "options": [
+      "Doğu Roma",
+      "Yunan",
+      "Persler",
+      "Akadlar",
+      "Dorlar"
+    ],
+    "correctIndex": 0,
+    "answerText": "Doğu Roma",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-003",
+    "number": 3,
+    "stem": "Kıbrıs adasında aşağıdaki şehirlerden hangisinde kale bulunmaz?",
+    "options": [
+      "Limasol",
+      "Lefkoşa",
+      "Baf",
+      "Lefke",
+      "Mağusa"
+    ],
+    "correctIndex": 3,
+    "answerText": "Lefke",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-004",
+    "number": 4,
+    "stem": "Kıbrıs Adası Türk Azınlık Kurumu (KATAK) hangi yılda kurulmuştur?",
+    "options": [
+      "1943",
+      "1954",
+      "1941",
+      "1934",
+      "1960"
+    ],
+    "correctIndex": 0,
+    "answerText": "1943",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-005",
+    "number": 5,
+    "stem": "Ejderha Tepesi Kıbrıs’ın neresinde yer alır?",
+    "options": [
+      "Akdeniz köyü",
+      "Çamlıtepe",
+      "Kalkanlı",
+      "Çatalköy",
+      "Karaoğlanoğlu"
+    ],
+    "correctIndex": 0,
+    "answerText": "Akdeniz köyü",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-006",
+    "number": 6,
+    "stem": "Aşağıdakilerden hangisi Kıbrıs Türk toplumunun sesini duyurmak amaçlı kurulan radyolardan biri değildir?",
+    "options": [
+      "Lefke Sancak Radyosu",
+      "Limasol Sancak Radyosu",
+      "Mağusa Canbulat Radyosu",
+      "Larnaka Doğan’ın Sesi Radyosu",
+      "Girne Sancak Radyosu"
+    ],
+    "correctIndex": 4,
+    "answerText": "Girne Sancak Radyosu",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: E",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-007",
+    "number": 7,
+    "stem": "Kıbrıs Cumhuriyeti ilk Cumhurbaşkanı kimdir?",
+    "options": [
+      "Grivas",
+      "Dr. Fazıl Küçük",
+      "Rauf Raif Denktaş",
+      "Makarios",
+      "Niyazi Manyera"
+    ],
+    "correctIndex": 3,
+    "answerText": "Makarios",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-008",
+    "number": 8,
+    "stem": "Lozan Antlaşması hangi tarihte imzalanmıştır?",
+    "options": [
+      "24 Temmuz 1923",
+      "15 Ekim 1923",
+      "14 Temmuz 1925",
+      "19 Mayıs 1923",
+      "16 Kasım 1924"
+    ],
+    "correctIndex": 0,
+    "answerText": "24 Temmuz 1923",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-009",
+    "number": 9,
+    "stem": "Kıbrıs Türklerinin, Rum saldırılarına karşı kurmuş olduğu ilk teşkilatın adı nedir?",
+    "options": [
+      "TMT",
+      "Kara Çete",
+      "Volkan",
+      "Kıbrıs Yönetimi",
+      "9 Eylül Çetesi"
+    ],
+    "correctIndex": 2,
+    "answerText": "Volkan",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-010",
+    "number": 10,
+    "stem": "Türk Mukavemet Teşkilatı (TMT) hangi tarihte kurulmuştur?",
+    "options": [
+      "1 Ağustos 1955",
+      "1 Nisan 1955",
+      "1 Ağustos 1960",
+      "1 Nisan 1958",
+      "1 Ağustos 1958"
+    ],
+    "correctIndex": 4,
+    "answerText": "1 Ağustos 1958",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: E",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-011",
+    "number": 11,
+    "stem": "Aşağıdakilerden hangisi 1963’te Kıbrıslı Türkler tarafından oluşturulan Kanton Bölgeler arasında yer almamaktadır?",
+    "options": [
+      "Lefkoşa",
+      "Mağusa",
+      "Girne",
+      "Poli",
+      "Esentepe"
+    ],
+    "correctIndex": 2,
+    "answerText": "Girne",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-012",
+    "number": 12,
+    "stem": "I. Kıbrıs Türk Yönetimi\nII. Kıbrıs Türk Federe Devleti\nIII. Geçici Kıbrıs Türk Yönetimi\nIV. Otonom Kıbrıs Türk Yönetimi\nV. Genel Komite\nKıbrıslı Türkler kurdukları siyasi örgütlerin kronolojik sıralaması aşağıdakilerden hangisinde doğru verilmiştir?",
+    "options": [
+      "I-II-IV-V-III",
+      "II-III-IV-I-V",
+      "V-III-I-IV-II",
+      "III-II-I-IV-V",
+      "V-I-III-V-II"
+    ],
+    "correctIndex": 2,
+    "answerText": "V-III-I-IV-II",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-013",
+    "number": 13,
+    "stem": "Geçici Kıbrıs Türk Yönetimi hangi tarihler arasında örgütlenmiştir?",
+    "options": [
+      "1963-1967",
+      "1967-1971",
+      "1971-1974",
+      "1974-1975",
+      "1975-1983"
+    ],
+    "correctIndex": 1,
+    "answerText": "1967-1971",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-014",
+    "number": 14,
+    "stem": "Türkiye, hangi anlaşmadan doğan hakkını kullanarak 20 Temmuz 1974 tarihinde Kıbrıs’a müdahale etmiştir?",
+    "options": [
+      "Zürih Antlaşması",
+      "Garanti Antlaşması",
+      "Askeri İttifak Antlaşması",
+      "Londra Antlaşması",
+      "Cenevre Antlaşması"
+    ],
+    "correctIndex": 1,
+    "answerText": "Garanti Antlaşması",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-015",
+    "number": 15,
+    "stem": "Aşağıdakilerden hangisi Kıbrıs Cumhuriyeti dönemindeki sorunlardan birisi değildir?",
+    "options": [
+      "Bayrak Sorunu",
+      "Temsiliyet Sorunu",
+      "Vergi Sorunu",
+      "Belediye Sorunu",
+      "Anayasa Sorunu"
+    ],
+    "correctIndex": 0,
+    "answerText": "Bayrak Sorunu",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-016",
+    "number": 16,
+    "stem": "Türk Cemaat Meclisi ilk başkanı kimdir?",
+    "options": [
+      "Dr. Fazıl Küçük",
+      "Niyazi Manyera",
+      "Cengiz Topel",
+      "Rauf Raif Denktaş",
+      "Osman Örek"
+    ],
+    "correctIndex": 3,
+    "answerText": "Rauf Raif Denktaş",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-017",
+    "number": 17,
+    "stem": "Aşağıdakilerden hangisi TMT’nin sancaklarının bulunduğu bölgeler arasında yer almaz?",
+    "options": [
+      "Mehmetçik",
+      "Erenköy",
+      "Lefkoşa",
+      "Larnaka",
+      "Meriç"
+    ],
+    "correctIndex": 4,
+    "answerText": "Meriç",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: E",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-018",
+    "number": 18,
+    "stem": "Yüzbaşı Cengiz Topel hangi çatışmalar sırasında Rumlar tarafından esir alınarak öldürülmüştür?",
+    "options": [
+      "Lefkoşa",
+      "Mağusa",
+      "Serdarlı",
+      "Dillirga",
+      "Çanakkale"
+    ],
+    "correctIndex": 3,
+    "answerText": "Dillirga",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-019",
+    "number": 19,
+    "stem": "TMT’de en üst rütbeli komutana verilen isim aşağıdakilerden hangisidir?",
+    "options": [
+      "Sancak",
+      "Bereketçi",
+      "Bayraktar",
+      "Bozpetek",
+      "Yılan"
+    ],
+    "correctIndex": 2,
+    "answerText": "Bayraktar",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-020",
+    "number": 20,
+    "stem": "Kıbrıs Türklerinin 1963 yılında Kıbrıs Cumhuriyeti yönetiminden dışlanması üzerine, 1967 Aralık ayına kadar Kıbrıs’ta Türk toplumunun yönetim sorumluluğunu aşağıdakilerden hangisi üstlenmiştir?",
+    "options": [
+      "Otonom Kıbrıs Türk Yönetimi",
+      "Genel Komite",
+      "Kıbrıs Türk Federe Devleti",
+      "Kıbrıs Türk Yönetimi",
+      "Geçici Kıbrıs Türk Yönetimi"
+    ],
+    "correctIndex": 1,
+    "answerText": "Genel Komite",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-021",
+    "number": 21,
+    "stem": "1960 Kıbrıs Cumhuriyeti Anayasasına göre Kıbrıs’ın en büyük beş kentinde, bu kentte oturan Türkler tarafından ayrı belediyeler kurulacaktır hükmü yer almaktadır. Aşağıdakilerden hangisi söz konusu bu kentlerden biri değildir?",
+    "options": [
+      "Lefkoşa",
+      "Larnaka",
+      "Limasol",
+      "Baf",
+      "Güzelyurt"
+    ],
+    "correctIndex": 4,
+    "answerText": "Güzelyurt",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: E",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-022",
+    "number": 22,
+    "stem": "Kıbrıs Cumhuriyeti’nin garantörlerinden olan Türkiye Cumhuriyeti’nin adaya ilk askeri müdahalesi hangi olay üzerine gerçekleşmiştir?",
+    "options": [
+      "Erenköy çarpışmaları",
+      "Küçük Kaymaklı çarpışmaları",
+      "21 Aralık Olayları",
+      "Geçitkale çarpışmaları",
+      "Boğaziçi çarpışmaları"
+    ],
+    "correctIndex": 0,
+    "answerText": "Erenköy çarpışmaları",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-023",
+    "number": 23,
+    "stem": "15 Temmuz 1974 darbesi ile adayı terk etmek zorunda kalan Makarios’un adaya dönüşü üzerine, Türk tarafı olası bir federasyonun Türk kanadını oluşturmak üzere, 13 Şubat 1975’te ................. ilan eder. Boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+    "options": [
+      "Kıbrıs Cumhuriyeti",
+      "Kıbrıs Bağımsız Devleti",
+      "Kıbrıs Türk Federe Devleti",
+      "Kıbrıs Bağımsız Cumhuriyetini",
+      "Kıbrıs Türk Cumhuriyetini"
+    ],
+    "correctIndex": 2,
+    "answerText": "Kıbrıs Türk Federe Devleti",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-024",
+    "number": 24,
+    "stem": "16 Ağustos 1960 yılında kurulan Kıbrıs Cumhuriyeti’nde Kıbrıslı Türklere ayrılan Savunma, Sağlık ve Tarım ve Doğal Kaynaklar bakanlıklarında görev yapanlar aşağıdaki seçeneklerin hangisinde sırasıyla doğru verilmiştir?",
+    "options": [
+      "Osman Örek, Dr. Burhan Nalbatoğlu, M. Fazıl Plümer",
+      "Osman Örek, Niyazi Manyera, M. Fazıl Plümer",
+      "Niyazi Manyera, Mehmet Zeka, Osman Örek",
+      "Rauf Raif Denktaş, Osman Örek, Niyazi Manyera",
+      "Necati Özkan, Dr. Burhan Nalbatoğlu, Osman Örek"
+    ],
+    "correctIndex": 1,
+    "answerText": "Osman Örek, Niyazi Manyera, M. Fazıl Plümer",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-hist1-025",
+    "number": 25,
+    "stem": "Türkiye, aşağıdaki antlaşmaların hangisinin ihlal edildiğini gerekçe göstererek Kıbrıs Barış Harekatını düzenlemiştir?",
+    "options": [
+      "Lozan Antlaşması",
+      "Cenevre Sözleşmesi",
+      "Zürih Antlaşması",
+      "Paris Antlaşması",
+      "Locarno Sözleşmesi"
+    ],
+    "correctIndex": 2,
+    "answerText": "Zürih Antlaşması",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Kıbrıs Tarihi Test I",
+    "setID": "gkek-hist1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  }
+]

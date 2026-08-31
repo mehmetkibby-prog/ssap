@@ -56,6 +56,13 @@ class StudyRepository(private val context: Context) {
         question(id)?.let { syncManager.favorite(it, false) }
     }
 
+    fun clearAllFavorites() {
+        val old = favorites.toList()
+        favorites = emptySet()
+        saveStringSet("favorites_v2", favorites)
+        old.forEach { id -> question(id)?.let { syncManager.favorite(it, false) } }
+    }
+
     fun saveTest(item: SavedTest) {
         savedTests = listOf(item) + savedTests.filterNot { it.id == item.id }
         saveSavedTests()
@@ -85,10 +92,26 @@ class StudyRepository(private val context: Context) {
     fun wrongQuestions(setID: String): List<QuizQuestion> =
         wrongs[setID].orEmpty().mapNotNull(::question)
 
+    fun resolveWrongImmediately(question: QuizQuestion, reviewSetID: String) {
+        val current = wrongs[reviewSetID].orEmpty()
+        if (question.id !in current) return
+        val next = current - question.id
+        wrongs = if (next.isEmpty()) wrongs - reviewSetID else wrongs + (reviewSetID to next)
+        saveWrongs()
+        syncManager.wrong(question, false)
+    }
+
     fun clearWrongs(setID: String) {
         wrongs = wrongs - setID
         saveWrongs()
         syncManager.clearWrongSet(setID)
+    }
+
+    fun clearAllWrongs() {
+        val setIDs = wrongs.filterValues { it.isNotEmpty() }.keys.toList()
+        wrongs = emptyMap()
+        saveWrongs()
+        setIDs.forEach { syncManager.clearWrongSet(it) }
     }
 
     fun saveScore(setID: String, correct: Int, wrong: Int, total: Int) {
@@ -204,17 +227,19 @@ class StudyRepository(private val context: Context) {
         fun q(setId: String) = setFor(setId)?.questions.orEmpty()
         // 6 Eylül provasına "Anayasa • Kaynak Soruları (108)" dahil edilmez.
         val anatomy = q("anayasaek").shuffled().take(10)
+        val gkExtra = listOf("gkek-geo1","gkek-geo2","gkek-hist1","gkek-hist2","gkek-koy").flatMap { q(it) }
         val selected = buildList {
             addAll(anatomy)
-            addAll(q("tarih").shuffled().take(3))
-            addAll(q("cografya").shuffled().take(3))
+            addAll(q("tarih").shuffled().take(2))
+            addAll(q("cografya").shuffled().take(2))
             addAll(q("sivil-yasa").shuffled().take(6))
             addAll(q("personel").shuffled().take(6))
             addAll(q("siginak").shuffled().take(5))
             addAll(q("teskilat").shuffled().take(6))
             addAll(q("atama").shuffled().take(4))
             addAll(q("afet").shuffled().take(3))
-            addAll(q("gk409").shuffled().take(4))
+            addAll(q("gk409").shuffled().take(2))
+            addAll(gkExtra.shuffled().take(4))
         }.shuffled().take(50)
         return QuizSet(
             id = "official-2026-09-06",
@@ -246,6 +271,18 @@ class StudyRepository(private val context: Context) {
         realDefs.forEach { (file, title, id) ->
             val qs = loadQuestions(file, title, id)
             if (qs.isNotEmpty()) out += QuizSet(id, title, "${qs.size} soru", StudyCategory.REAL, qs, "✓")
+        }
+
+        val gkEkDefs = listOf(
+            Triple("genel_kultur_ek_cografya_test1.json", "Kıbrıs Coğrafyası Test I", "gkek-geo1"),
+            Triple("genel_kultur_ek_cografya_test2.json", "Kıbrıs Coğrafyası Test II", "gkek-geo2"),
+            Triple("genel_kultur_ek_tarih_test1.json", "Kıbrıs Tarihi Test I", "gkek-hist1"),
+            Triple("genel_kultur_ek_tarih_test2.json", "Kıbrıs Tarihi Test II", "gkek-hist2"),
+            Triple("genel_kultur_ek_koy_tarihi_eserler.json", "Köy İsimleri ve Tarihi Eserler", "gkek-koy")
+        )
+        gkEkDefs.forEach { (file, title, id) ->
+            val qs = loadQuestions(file, title, id)
+            if (qs.isNotEmpty()) out += QuizSet(id, title, "${qs.size} soru • Genel Kültür EK", StudyCategory.REAL, qs, "EK")
         }
 
         val geo = loadQuestions("kibris_cografyasi_30.json", "Kıbrıs Coğrafyası", "cografya")

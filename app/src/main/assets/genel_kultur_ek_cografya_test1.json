@@ -1,0 +1,452 @@
+[
+  {
+    "id": "gkek-geo1-001",
+    "number": 1,
+    "stem": "Kıbrıs’a en yakın ikinci il hangisidir?",
+    "options": [
+      "Türkiye",
+      "Lübnan",
+      "Yunanistan",
+      "Suriye",
+      "Mısır"
+    ],
+    "correctIndex": 3,
+    "answerText": "Suriye",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-002",
+    "number": 2,
+    "stem": "Kıbrıs’ın en batısındaki yerin adı nedir?",
+    "options": [
+      "Zafer Burnu",
+      "Koruçam Burnu",
+      "Arnavut Burnu",
+      "Doğan Burnu",
+      "Baf Burnu"
+    ],
+    "correctIndex": 2,
+    "answerText": "Arnavut Burnu",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-003",
+    "number": 3,
+    "stem": "Kıbrıs’ın en doğusu ile en batısı arasındaki fark kaç dakikadır?",
+    "options": [
+      "15",
+      "9",
+      "7",
+      "6",
+      "5"
+    ],
+    "correctIndex": 1,
+    "answerText": "9",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-004",
+    "number": 4,
+    "stem": "Kıbrıs Ekvator’un hangi yönünde yer alır?",
+    "options": [
+      "Kuzey",
+      "Güney",
+      "Doğu",
+      "Batı",
+      "Kuzeybatı"
+    ],
+    "correctIndex": 0,
+    "answerText": "Kuzey",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-005",
+    "number": 5,
+    "stem": "Aşağıdakilerin hangisinde İngilizlerin Kıbrıs’ta bulunan iskelelerinin isimleri doğru verilmiştir?",
+    "options": [
+      "Baf-Limasol",
+      "Dikelya-Ağrotur",
+      "Yeşil Hat-Lokmacı",
+      "Dikelya-Ledra Palace",
+      "Metehan-Ağrotur"
+    ],
+    "correctIndex": 1,
+    "answerText": "Dikelya-Ağrotur",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-006",
+    "number": 6,
+    "stem": "Aşağıdaki eserlerden hangileri Lefkoşa sınırları içerisinde yer almamaktadır?",
+    "options": [
+      "Mevlevi Tekkesi",
+      "Othello Kalesi",
+      "Lüzinyan Evi",
+      "Bedesten",
+      "Derviş Paşa Konağı"
+    ],
+    "correctIndex": 1,
+    "answerText": "Othello Kalesi",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-007",
+    "number": 7,
+    "stem": "Dünya ve ülkemizde üretimi gittikçe azalan, besin değeri diğer tahıl ürünlerine göre daha düşük olan tahıl ürünü aşağıdakilerden hangisidir?",
+    "options": [
+      "Buğday",
+      "Yulaf",
+      "Arpa",
+      "Çavdar",
+      "Mısır"
+    ],
+    "correctIndex": 1,
+    "answerText": "Yulaf",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-008",
+    "number": 8,
+    "stem": "Aşağıdakilerden hangisi KKTC ekonomisine katkı sağlayan sektörlerden birisi değildir?",
+    "options": [
+      "Sanayi",
+      "Hayvancılık",
+      "Tarım",
+      "Madencilik",
+      "Eğitim"
+    ],
+    "correctIndex": 3,
+    "answerText": "Madencilik",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-009",
+    "number": 9,
+    "stem": "Aşağıda verilen sınır kapılarından hangileri sadece yaya geçidine açıktır?",
+    "options": [
+      "Ledra Palace-Lokmacı",
+      "Bostancı-Yeşilırmak",
+      "Metehan-Lokmacı",
+      "Akyar-Ledra Palace",
+      "Beyarmudu-Akyar"
+    ],
+    "correctIndex": 0,
+    "answerText": "Ledra Palace-Lokmacı",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-010",
+    "number": 10,
+    "stem": "Aşağıdakilerden hangisi Kıbrıs’taki bitki topluluklarından biri değildir?",
+    "options": [
+      "Garig",
+      "Maki",
+      "İğne yapraklı orman",
+      "Bozkır",
+      "Geniş yapraklı orman"
+    ],
+    "correctIndex": 4,
+    "answerText": "Geniş yapraklı orman",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: E",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-011",
+    "number": 11,
+    "stem": "Kıbrıs’ın en güneyindeki yer neresidir?",
+    "options": [
+      "Koruçam Burnu",
+      "Zafer Burnu",
+      "Doğan Burnu",
+      "Limasol Burnu",
+      "Arnavut Burnu"
+    ],
+    "correctIndex": 2,
+    "answerText": "Doğan Burnu",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-012",
+    "number": 12,
+    "stem": "Kıbrıs’ın en yüksek tepesi neresidir?",
+    "options": [
+      "Ziya Tepe",
+      "Karlıdağ",
+      "Selvili Tepe",
+      "Beşparmak Tepe",
+      "Kıvanç Tepe"
+    ],
+    "correctIndex": 1,
+    "answerText": "Karlıdağ",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-013",
+    "number": 13,
+    "stem": "Kıbrıs’ta İngiliz Üslerinin kapladığı alanın yüz ölçümü kaç km²’dir?",
+    "options": [
+      "244",
+      "256",
+      "278",
+      "316",
+      "768"
+    ],
+    "correctIndex": 1,
+    "answerText": "256",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-014",
+    "number": 14,
+    "stem": "Ağrotur Üssü nerededir?",
+    "options": [
+      "Baf",
+      "Larnaka",
+      "Limasol",
+      "Dipkarpaz",
+      "Yeşilköy"
+    ],
+    "correctIndex": 2,
+    "answerText": "Limasol",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-015",
+    "number": 15,
+    "stem": "Kıbrıs’ta Birleşmiş Milletler nerede yer almaktadır?",
+    "options": [
+      "Dikelya",
+      "Ağrotur",
+      "Yeşil Hat",
+      "Larnaka",
+      "Baf"
+    ],
+    "correctIndex": 2,
+    "answerText": "Yeşil Hat",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-016",
+    "number": 16,
+    "stem": "İki buçuk mil sınır kapısının diğer adı nedir?",
+    "options": [
+      "Metehan",
+      "Lokmacı",
+      "Yeşilırmak",
+      "Beyarmudu",
+      "Akyar"
+    ],
+    "correctIndex": 4,
+    "answerText": "Akyar",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: E",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-017",
+    "number": 17,
+    "stem": "Girne Dağları hangi zamanda oluşmuştur?",
+    "options": [
+      "I. Zaman",
+      "II. Zaman",
+      "III. Zaman",
+      "IV. Zaman",
+      "V. Zaman"
+    ],
+    "correctIndex": 2,
+    "answerText": "III. Zaman",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-018",
+    "number": 18,
+    "stem": "KKTC’deki en büyük ilk üç akiferi aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "options": [
+      "Güzelyurt-Girne Dağları-Yeşilköy",
+      "Yeşilköy-Yeşilırmak-Dipkarpaz",
+      "Güzelyurt-Dipkarpaz-Girne Dağları",
+      "Büyükkonuk-Güzelyurt-Yeşilköy",
+      "Dipkarpaz-Yeşilköy-Lefkoşa Serdarlı"
+    ],
+    "correctIndex": 0,
+    "answerText": "Güzelyurt-Girne Dağları-Yeşilköy",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-019",
+    "number": 19,
+    "stem": "Deprem gözlemleri hangi daire tarafından yapılmaktadır?",
+    "options": [
+      "Devlet Planlama",
+      "Meteoroloji",
+      "Sismoloji",
+      "Karayolları",
+      "Trafik"
+    ],
+    "correctIndex": 1,
+    "answerText": "Meteoroloji",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-020",
+    "number": 20,
+    "stem": "Aşağıda verilen bölgelerden hangisinde deprem istasyonu bulunmaz?",
+    "options": [
+      "Tuzla",
+      "Lefke",
+      "Lefkoşa",
+      "Girne",
+      "Hisarköy"
+    ],
+    "correctIndex": 3,
+    "answerText": "Girne",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-021",
+    "number": 21,
+    "stem": "Aşağıdakilerden hangisi Kıbrıs’taki yeryüzü şekillerinden birisi değildir?",
+    "options": [
+      "Girne Dağları",
+      "Mesarya Ovası",
+      "Karpaz Dağları",
+      "Kantara Dağları",
+      "Trodos Dağları"
+    ],
+    "correctIndex": 3,
+    "answerText": "Kantara Dağları",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: D",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-022",
+    "number": 22,
+    "stem": "Girne Dağları’nın en doğusunda hangi dağlar bulunur?",
+    "options": [
+      "Kayalar",
+      "Lapta",
+      "Kantara",
+      "Bufavento",
+      "Beşparmak"
+    ],
+    "correctIndex": 2,
+    "answerText": "Kantara",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-023",
+    "number": 23,
+    "stem": "Girne Dağları’nın en batısında hangi dağlar bulunur?",
+    "options": [
+      "Kayalar",
+      "Kantara",
+      "Beşparmak",
+      "Karpaz",
+      "Lapta"
+    ],
+    "correctIndex": 0,
+    "answerText": "Kayalar",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: A",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-024",
+    "number": 24,
+    "stem": "Lapta Dağları ile Kayalar Dağları’nı bağlayan geçit aşağıdakilerden hangisidir?",
+    "options": [
+      "Mersinlik Geçiti",
+      "Girne Boğazı",
+      "Geçitköy Geçiti",
+      "Yeşilköy Geçiti",
+      "Dipkarpaz Geçiti"
+    ],
+    "correctIndex": 2,
+    "answerText": "Geçitköy Geçiti",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: C",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  },
+  {
+    "id": "gkek-geo1-025",
+    "number": 25,
+    "stem": "Bayrak Tepe ve Kıvanç Tepe hangi dağlar üzerindedir?",
+    "options": [
+      "Kayalar Dağları",
+      "Lapta Dağları",
+      "Karpaz Dağları",
+      "Beşparmak Dağları",
+      "Kantara Dağları"
+    ],
+    "correctIndex": 1,
+    "answerText": "Lapta Dağları",
+    "explanation": "REİS Eğitim basılı cevap anahtarı: B",
+    "setTitle": "Genel Kültür EK • Kıbrıs Coğrafyası Test I",
+    "setID": "gkek-geo1",
+    "source": "Kullanıcının gönderdiği REİS Eğitim fotoğrafları ve basılı cevap anahtarı"
+  }
+]
