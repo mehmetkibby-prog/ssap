@@ -1,0 +1,26 @@
+GENEL KÜLTÜR EK — 5 TEST / 141 SORU
+
+Kaynak: Kullanıcının gönderdiği REİS Eğitim fotoğrafları.
+Testler:
+- Kıbrıs Coğrafyası Test I: 25
+- Kıbrıs Coğrafyası Test II: 25
+- Kıbrıs Tarihi Test I: 25
+- Kıbrıs Tarihi Test II: 25
+- Köy İsimleri ve Tarihi Eserler: 41
+Toplam: 141 soru.
+
+Cevaplar yalnız fotoğraflardaki basılı cevap anahtarıyla eşleştirildi.
+QA sırasında tüm 141 sorunun A/B/C/D/E cevap dizileri basılı anahtarla programatik olarak karşılaştırıldı.
+
+6 Eylül provası yasa ağırlıklı kalır:
+Anayasa 10 + yasalar/tüzükler 27 + Afet 3 = 40.
+Kıbrıs Tarihi 2 + Kıbrıs Coğrafyası 2 + eski Genel Kültür 2 + Genel Kültür EK 4 = 10.
+Toplam 50.
+
+Anayasa Kaynak Soruları (108) 6 Eylül prova havuzuna dahil edilmez.
+
+ÖNEMLİ KORUMA:
+iOS SyncManager kodu bu güncellemede byte-for-byte değiştirilmedi.
+iOS istatistik/favori/yanlış/kayıtlı test senkron işlevleri değiştirilmedi.
+Android SyncManager değiştirilmedi.
+PC istatistik/senkron mantığı değiştirilmedi.

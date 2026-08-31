@@ -1,0 +1,16 @@
+HEPSİNİ SİL — Favoriler + Yanlışlar
+
+Sadece Favoriler ve Yanlışlar ekranlarına "Hepsini Sil" eklendi.
+
+Davranış:
+- Favoriler > Hepsini Sil: tüm favoriler yerelden silinir ve her kayıt buluta present=false olarak gönderilir.
+- Yanlışlar > Hepsini Sil: tüm yanlış setleri yerelden silinir ve buluta set bazında temizleme gönderilir.
+- İşlem öncesi onay sorulur.
+- Silme tüm platformlara senkronlanır.
+
+KORUMA:
+- İstatistik hesaplama/depolama sistemi değiştirilmedi.
+- iOS SyncManager bölümü byte-for-byte değiştirilmedi.
+- Android SyncManager dosyası byte-for-byte değiştirilmedi.
+- syncCode değiştirilmedi.
+- Kayıtlı testler, sınavlar, soru havuzları ve diğer özellikler değiştirilmedi.

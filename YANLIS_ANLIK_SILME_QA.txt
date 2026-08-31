@@ -1,0 +1,1 @@
+Yanlışlar bölümünden çözülen soru anında yerelden ve buluttan silinir. Favoriler çözülse bile kalır. İstatistik ve sync yöneticileri değiştirilmedi.
