@@ -1,0 +1,19 @@
+PERSONEL YASASI GERÇEK SINAV SETİ 60 -> 66
+
+Yalnız real_exam_questions.json dosyasına kullanıcının gönderdiği 6 soru eklendi.
+Mevcut 60 soru değiştirilmedi.
+
+Yeni cevap anahtarları:
+61) Sivil Savunma Teşkilatı Başkanlığı
+62) 6
+63) Ödeme Sivil Savunma Teşkilatı Başkanlığı tarafından tespit edilir (YANLIŞ bilgi)
+64) %5
+65) Geçici görevden çıkarma
+66) 5 iş günü
+
+KORUMA:
+- İstatistik kodu değişmedi.
+- SyncManager / bulut senkron kodu değişmedi.
+- Favoriler, Yanlışlar, Özel Sorular, Kayıtlı Testler değişmedi.
+- Eksik Gerçek Sınav bölümü ve diğer soru bankaları değişmedi.
+- Tüm .py/.kt/.swift/.pbxproj dosyaları önceki sürümle byte-for-byte aynıdır.

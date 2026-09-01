@@ -1,0 +1,17 @@
+BAŞARI İSTATİSTİĞİ — 3 PLATFORM
+
+Yeni gösterge yalnız mevcut sayaçlardan hesaplanır:
+Başarı % = (Çözülen - Toplam Yanlış) / Çözülen × 100
+Bu aynı zamanda Doğru / Çözülen × 100 anlamına gelir.
+
+Örnek:
+100 çözülen, 20 toplam yanlış => %80,0 başarı.
+
+KORUMA:
+- İstatistiklerin kayıt mantığı değiştirilmedi.
+- Bulut stats RPC'leri değiştirilmedi.
+- Android StudyRepository değiştirilmedi.
+- Android SyncManager değiştirilmedi.
+- iOS StudyStore değiştirilmedi.
+- iOS SyncManager değiştirilmedi.
+- Özel Sorular, Favoriler, Yanlışlar, Kayıtlı Testler ve sınav havuzları değiştirilmedi.

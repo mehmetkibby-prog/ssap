@@ -1,0 +1,17 @@
+ÖZEL SORULAR — 3 PLATFORM
+
+Eklenenler:
+- Her soru/test ekranında ayrı bir yıldız butonu: Özel Sorulara Ekle / çıkar.
+- Özel Sorular bölümü.
+- 10 soru / 20 soru / Tümü seçenekleriyle yalnız işaretli özel sorulardan test oluşturma.
+- İşaretli özel sorular çözülünce silinmez.
+- Favorilerden tamamen ayrı tutulur; favori davranışı değiştirilmedi.
+
+KORUMA:
+- İstatistik hesaplama ve kayıt sistemi değiştirilmedi.
+- Android SyncManager byte-for-byte değiştirilmedi.
+- iOS SyncManager byte-for-byte değiştirilmedi.
+- Yanlışlar anlık silme, favoriler, kayıtlı testler, 6 Eylül provası ve soru havuzları değiştirilmedi.
+
+Not:
+- Özel Sorular listesi mevcut bulut senkron yapısına dokunmamak için her cihazda yerel ve kalıcı saklanır.

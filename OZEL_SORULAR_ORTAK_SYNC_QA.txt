@@ -1,0 +1,20 @@
+ÖZEL SORULAR ORTAK BULUT SENKRONU — PC + ANDROID + iOS
+
+Sunucuda ayrı veri alanı ve iki ayrı RPC oluşturuldu:
+- study_special_questions
+- study_sync_special(...)
+- study_sync_specials(...)
+
+Davranış:
+- Bir platformda ★ Özel Sorulara eklenen soru ortak buluta yazılır.
+- Bir platformda özel işareti kaldırılan soru present=false olarak buluta yazılır.
+- PC yaklaşık 5 sn, Android/iOS yaklaşık 3 sn aralıklarla ortak Özel Sorular listesini yeniler.
+- Uygulama açılırken mevcut yerel Özel Sorular buluta tohumlanır.
+- Özel Sorular çözülünce silinmez.
+- Favorilerden tamamen ayrıdır.
+
+KORUMA:
+- İstatistik tablosu/RPC'leri değiştirilmedi.
+- Favoriler, Yanlışlar ve Kayıtlı Testler tabloları/RPC'leri değiştirilmedi.
+- 6 Eylül provası ve soru bankaları değiştirilmedi.
+- Yeni senkron yalnız Özel Sorular için ayrı study_special_questions tablosunu kullanır.

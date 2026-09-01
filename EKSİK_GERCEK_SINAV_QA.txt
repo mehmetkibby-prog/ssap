@@ -1,0 +1,28 @@
+EKSİK GERÇEK SINAV BÖLÜMÜ — SON QA
+
+- Sivil Savunma Yasası: 27 yeni soru
+- Sığınak Yasası: 32 yeni soru
+- Atama ve Disiplin Tüzüğü: 21 yeni soru
+- Teşkilat, Donatım ve Tedbirler Tüzüğü: 59 yeni soru
+
+TOPLAM: 139 yeni soru
+
+BİLEREK HARİÇ TUTULANLAR:
+- Personel Yasası tamamen hariçtir.
+- Personel cetvelleri, baremler ve intibaklar yoktur.
+- Anayasa, Afet Yönetimi ve Genel Kültür yoktur.
+
+KALİTE:
+- Sorular tam kaynak hükümlerine bağlı sourceUnitID/sourceExcerpt taşır.
+- 5 şıklı, tek doğru cevaplıdır.
+- Yürürlükten kaldırılmış madde kırıntıları ve anlamsız OCR parçaları eklenmedi.
+- Mevcut Gerçek Sınav setlerinin birebir soru tekrarları eklenmedi.
+
+KORUMA:
+- 6 Eylül prova havuzu bu yeni bölümle değiştirilmedi.
+- Android SyncManager byte-for-byte aynı.
+- iOS SyncManager bloğu byte-for-byte aynı.
+- Mevcut istatistik kayıt/senkron işaretçileri korundu.
+- Favoriler, Yanlışlar, Özel Sorular ve Kayıtlı Testler mantığına dokunulmadı.
+
+NOT: PC Python sözdizimi kontrolünden geçti. Android Gradle ve iOS Xcode derlemesi bu ortamda çalıştırılmadı.
