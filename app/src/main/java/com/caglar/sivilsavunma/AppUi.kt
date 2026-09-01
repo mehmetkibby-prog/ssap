@@ -46,6 +46,7 @@ private sealed interface Screen {
     data object Home : Screen
     data object Tests : Screen
     data object Favorites : Screen
+    data object Special : Screen
     data object Wrongs : Screen
     data object Saved : Screen
     data object OfficialExam : Screen
@@ -103,6 +104,7 @@ fun SivilSavunmaApp(repo: StudyRepository) {
                     onTests = { screen = Screen.Tests },
                     onSaved = { screen = Screen.Saved },
                     onWrongs = { screen = Screen.Wrongs },
+                    onSpecial = { screen = Screen.Special },
                     onCategory = { screen = Screen.Category(it) }
                 )
 
@@ -110,7 +112,8 @@ fun SivilSavunmaApp(repo: StudyRepository) {
                     repo,
                     onOpen = { screen = Screen.SetDetail(it.id) },
                     onOfficial = { screen = Screen.OfficialExam },
-                    onAI = { screen = Screen.ConstitutionAI }
+                    onAI = { screen = Screen.ConstitutionAI },
+                    onSpecial = { screen = Screen.Special }
                 )
 
                 is Screen.Category -> CategoryScreen(repo, s.category,
@@ -144,6 +147,17 @@ fun SivilSavunmaApp(repo: StudyRepository) {
                     repo = repo,
                     onBack = { screen = Screen.Tests },
                     onStart = { set -> screen = Screen.Quiz(repo.newSession(set, set.questions, scoreSetID = set.scoreKey), Screen.ConstitutionAI) }
+                )
+
+                Screen.Special -> SpecialQuestionsScreen(
+                    repo = repo,
+                    onBack = { screen = Screen.Home },
+                    onStart = { set, qs ->
+                        screen = Screen.Quiz(
+                            repo.newSession(set, qs, scoreSetID = null),
+                            Screen.Special
+                        )
+                    }
                 )
 
                 Screen.Favorites -> FavoritesScreen(repo,
@@ -214,6 +228,7 @@ private fun HomeScreen(
     onTests: () -> Unit,
     onSaved: () -> Unit,
     onWrongs: () -> Unit,
+    onSpecial: () -> Unit,
     onCategory: (StudyCategory) -> Unit
 ) {
     BoxWithConstraints(Modifier.fillMaxSize()) {
@@ -259,6 +274,12 @@ private fun HomeScreen(
                             Box(Modifier.weight(1f)) { Metric("${repo.stats.answered}", "Çözülen") }
                             Box(Modifier.weight(1f)) { Metric("${repo.stats.correct}", "Doğru") }
                             Box(Modifier.weight(1f)) { Metric("${repo.stats.wrong}", "Yanlış") }
+                            Box(Modifier.weight(1f)) {
+                                val success = if (repo.stats.answered > 0)
+                                    (repo.stats.answered - repo.stats.wrong) * 100.0 / repo.stats.answered
+                                else 0.0
+                                Metric(String.format(Locale.getDefault(), "%%%.1f", success), "Başarı")
+                            }
                             Box(Modifier.weight(1f)) { Metric("${repo.wrongCount}", "Kayıtlı yanlış") }
                         }
                     } else {
@@ -269,7 +290,16 @@ private fun HomeScreen(
                             }
                             Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                                 Box(Modifier.weight(1f)) { Metric("${repo.stats.wrong}", "Yanlış") }
+                                Box(Modifier.weight(1f)) {
+                                    val success = if (repo.stats.answered > 0)
+                                        (repo.stats.answered - repo.stats.wrong) * 100.0 / repo.stats.answered
+                                    else 0.0
+                                    Metric(String.format(Locale.getDefault(), "%%%.1f", success), "Başarı")
+                                }
+                            }
+                            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                                 Box(Modifier.weight(1f)) { Metric("${repo.wrongCount}", "Kayıtlı yanlış") }
+                                Spacer(Modifier.weight(1f))
                             }
                         }
                     }
@@ -285,6 +315,10 @@ private fun HomeScreen(
                     QuickButton("Devam", "↻", Mint, Modifier.weight(1f), onSaved)
                     QuickButton("Yanlışlar", "!", Rose, Modifier.weight(1f), onWrongs)
                 }
+            }
+
+            item {
+                QuickButton("Özel Sorular", "★", Color(0xFFD7A13A), Modifier.fillMaxWidth(), onSpecial)
             }
 
             item {
@@ -366,7 +400,8 @@ private fun TestsScreen(
     repo: StudyRepository,
     onOpen: (QuizSet) -> Unit,
     onOfficial: () -> Unit,
-    onAI: () -> Unit
+    onAI: () -> Unit,
+    onSpecial: () -> Unit
 ) {
     PageHeader("Testler")
     LazyColumn(
@@ -374,6 +409,14 @@ private fun TestsScreen(
         contentPadding = PaddingValues(18.dp),
         verticalArrangement = Arrangement.spacedBy(10.dp)
     ) {
+        item {
+            Card(Modifier.fillMaxWidth().clickable(onClick = onSpecial), shape = RoundedCornerShape(20.dp)) {
+                Column(Modifier.padding(18.dp)) {
+                    Text("★ Özel Sorular", fontWeight = FontWeight.Black, fontSize = 18.sp)
+                    Text("${repo.specialQuestions.size} işaretli soru • yalnız bunlardan özel test oluştur", color = Color.Gray, fontSize = 12.sp)
+                }
+            }
+        }
         item {
             Card(Modifier.fillMaxWidth().clickable(onClick = onOfficial), shape = RoundedCornerShape(20.dp)) {
                 Column(Modifier.padding(18.dp)) {
@@ -391,6 +434,20 @@ private fun TestsScreen(
             }
         }
 
+        val missingRealSets = repo.sets.filter { it.id.startsWith("missingreal-") }
+        if (missingRealSets.isNotEmpty()) {
+            item {
+                Column(Modifier.padding(top = 12.dp, bottom = 4.dp)) {
+                    Text("Eksik Gerçek Sınav Bölümü", fontWeight = FontWeight.Black, color = Indigo, fontSize = 19.sp)
+                    Text(
+                        "Personel Yasası hariç, yasa/tüzük kaynaklarında bulunup mevcut Gerçek Sınav setlerinde doğrudan ölçülmeyen bilgiler.",
+                        color = Color.Gray, fontSize = 12.sp
+                    )
+                }
+            }
+            items(missingRealSets, key = { it.id }) { set -> TestSetCard(repo, set, onOpen) }
+        }
+
         val gkEkSets = repo.sets.filter { it.id.startsWith("gkek-") }
         if (gkEkSets.isNotEmpty()) {
             item { Text("Genel Kültür EK", fontWeight = FontWeight.Bold, color = Indigo, modifier = Modifier.padding(top = 8.dp)) }
@@ -398,7 +455,7 @@ private fun TestsScreen(
         }
 
         StudyCategory.entries.forEach { cat ->
-            val sets = repo.sets.filter { it.category == cat && !it.id.startsWith("gkek-") }
+            val sets = repo.sets.filter { it.category == cat && !it.id.startsWith("gkek-") && !it.id.startsWith("missingreal-") }
             if (sets.isNotEmpty()) {
                 item { Text(cat.label, fontWeight = FontWeight.Bold, color = Indigo, modifier = Modifier.padding(top = 8.dp)) }
                 items(sets, key = { it.id }) { set ->
@@ -628,6 +685,61 @@ private fun SetDetailScreen(
                         shape = RoundedCornerShape(16.dp)
                     ) {
                         Text("Testi Başlat", modifier = Modifier.padding(8.dp), fontWeight = FontWeight.Bold)
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun SpecialQuestionsScreen(
+    repo: StudyRepository,
+    onBack: () -> Unit,
+    onStart: (QuizSet, List<QuizQuestion>) -> Unit
+) {
+    BackHandler(onBack = onBack)
+    val items = repo.specialQuestionItems()
+
+    Column {
+        TopBar("★ Özel Sorular", onBack)
+        if (items.isEmpty()) {
+            EmptyState("Özel soru yok", "Her test ekranındaki ☆ simgesine dokunarak özel soru ekleyebilirsin.")
+        } else {
+            Row(
+                Modifier.fillMaxWidth().padding(16.dp),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                listOf(10, 20, items.size).distinct().forEach { n ->
+                    Button(
+                        onClick = {
+                            val qs = items.shuffled().take(n.coerceAtMost(items.size))
+                            val set = QuizSet(
+                                "special-questions",
+                                "★ Özel Sorular",
+                                "${items.size} özel soru",
+                                StudyCategory.GENERAL,
+                                items,
+                                "★"
+                            )
+                            onStart(set, qs)
+                        },
+                        modifier = Modifier.weight(1f)
+                    ) {
+                        Text(if (n == items.size) "Tümü" else "$n Soru")
+                    }
+                }
+            }
+            LazyColumn(
+                contentPadding = PaddingValues(18.dp),
+                verticalArrangement = Arrangement.spacedBy(10.dp)
+            ) {
+                items(items, key = { it.id }) { q ->
+                    Card(shape = RoundedCornerShape(16.dp)) {
+                        Column(Modifier.fillMaxWidth().padding(16.dp)) {
+                            Text(q.stem, fontWeight = FontWeight.Bold)
+                            Text(q.setTitle, color = Color.Gray, fontSize = 12.sp, modifier = Modifier.padding(top = 5.dp))
+                        }
                     }
                 }
             }
@@ -887,6 +999,11 @@ private fun QuizScreen(
                 enabled = q.id !in repo.favorites
             ) {
                 Text(if (q.id in repo.favorites) "♥" else "♡", color = Rose, fontSize = 24.sp)
+            }
+            IconButton(
+                onClick = { repo.toggleSpecial(q.id); revision++ }
+            ) {
+                Text(if (q.id in repo.specialQuestions) "★" else "☆", color = Color(0xFFD7A13A), fontSize = 24.sp)
             }
         }
 

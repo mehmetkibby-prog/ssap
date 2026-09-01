@@ -28,13 +28,20 @@ class SyncManager(private val repo: StudyRepository) {
         rpc("study_sync_seed_stats", JSONObject().put("p_code", SyncConfig.SYNC_CODE)
             .put("p_answered", repo.stats.answered).put("p_correct", repo.stats.correct).put("p_wrong", repo.stats.wrong))
         repo.favorites.forEach { id -> repo.question(id)?.let { favorite(it, true) } }
+        repo.specialQuestions.forEach { id -> repo.question(id)?.let { special(it, true) } }
         repo.wrongs.values.flatten().forEach { id -> repo.question(id)?.let { wrong(it, true) } }
         repo.savedTests.forEach { saved(it, true) }
         repo.lastScores.forEach { (setID, value) -> score(setID, value) }
         pull()
+        pullSpecials()
         timer?.cancel()
         timer = Timer("study-sync", true).apply {
-            schedule(object : TimerTask() { override fun run() = pull() }, 3000L, 3000L)
+            schedule(object : TimerTask() {
+                override fun run() {
+                    pull()
+                    pullSpecials()
+                }
+            }, 3000L, 3000L)
         }
     }
 
@@ -65,6 +72,17 @@ class SyncManager(private val repo: StudyRepository) {
         .put("p_code", SyncConfig.SYNC_CODE).put("p_question_id", q.id)
         .put("p_set_id", q.setID).put("p_title", q.setTitle).put("p_present", present))
 
+    fun special(q: QuizQuestion, present: Boolean) = rpc(
+        "study_sync_special",
+        JSONObject()
+            .put("p_code", SyncConfig.SYNC_CODE)
+            .put("p_question_id", q.id)
+            .put("p_set_id", q.setID)
+            .put("p_title", q.setTitle)
+            .put("p_present", present),
+        done = { ok -> if (ok) pullSpecials() }
+    )
+
     fun wrong(q: QuizQuestion, present: Boolean) = rpc("study_sync_wrong", JSONObject()
         .put("p_code", SyncConfig.SYNC_CODE).put("p_question_id", q.id)
         .put("p_set_id", q.setID).put("p_present", present))
@@ -84,6 +102,25 @@ class SyncManager(private val repo: StudyRepository) {
         .put("p_code", SyncConfig.SYNC_CODE).put("p_set_id", setID)
         .put("p_payload", JSONObject().put("percent", value.percent).put("correct", value.correct)
             .put("wrong", value.wrong).put("total", value.total).put("date", value.date)))
+
+    private fun pullSpecials() {
+        rpc(
+            "study_sync_specials",
+            JSONObject().put("p_code", SyncConfig.SYNC_CODE),
+            completion = { root ->
+                val ids = mutableSetOf<String>()
+                val arr = root.optJSONArray("items") ?: JSONArray()
+                for (i in 0 until arr.length()) {
+                    val row = arr.optJSONObject(i) ?: continue
+                    if (row.optBoolean("present")) {
+                        val qid = row.optString("question_id")
+                        if (qid.isNotBlank() && repo.question(qid) != null) ids += qid
+                    }
+                }
+                main.post { repo.applyRemoteSpecials(ids) }
+            }
+        )
+    }
 
     fun pull(force: Boolean = false) {
         if (!enabled) return

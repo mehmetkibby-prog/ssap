@@ -820,7 +820,7 @@
       "Kamu görevinden çıkarma cezası",
       "Geçici olarak görevden çıkarma cezası"
     ],
-    "correctIndex": 4,
+    "correctIndex": 3,
     "sourceAnswerNote": "Fotoğraftaki cevap anahtarında 49.E olarak işaretlidir.",
     "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
   },
@@ -1009,5 +1009,114 @@
     ],
     "correctIndex": 4,
     "setTitle": "Sivil Savunma Teşkilatı Personel Yasası"
+  },
+  {
+    "id": "real_reis_061",
+    "setID": "personel_yasasi_60",
+    "number": 61,
+    "realExam": true,
+    "page": 0,
+    "stem": "Hizmetin işleyişinden zarar gören 3. kişiler aşağıdakilerden hangisi aleyhine dava açarlar?",
+    "options": [
+      "İlgili sivil savunma personeli",
+      "Sivil Savunma Teşkilatı Başkanlığı",
+      "Sivil Savunma Teşkilatı Başkanı",
+      "Sivil Savunma Teşkilatı Koordinatörü",
+      "Kimi kimden hoca? Ne davası yahu? 🙂"
+    ],
+    "correctIndex": 1,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası",
+    "sourceNote": "Kullanıcının gönderdiği gerçek sınav/poll sorusu; cevap en çok işaretlenen şık."
+  },
+  {
+    "id": "real_reis_062",
+    "setID": "personel_yasasi_60",
+    "number": 62,
+    "realExam": true,
+    "page": 0,
+    "stem": "Sivil Savunma Teşkilatı Personel Yasasına göre istihdam kaç şekilde olur?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 5,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası",
+    "sourceNote": "Kullanıcının gönderdiği gerçek sınav/poll sorusu; cevap en çok işaretlenen şık."
+  },
+  {
+    "id": "real_reis_063",
+    "setID": "personel_yasasi_60",
+    "number": 63,
+    "realExam": true,
+    "page": 0,
+    "stem": "Kaşiyeli eleman hakkında verilen hangi bilgi yanlıştır?",
+    "options": [
+      "Sivil savunma radyo yayınları ve program metinlerini hazırlar",
+      "Geçici olarak atanır",
+      "Personel eğitim hizmetlerinin yürütülmesinde çalışır",
+      "Zaman birimi üzerinden ödenir",
+      "Ödeme Sivil Savunma Teşkilatı Başkanlığı tarafından tespit edilir"
+    ],
+    "correctIndex": 4,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası",
+    "sourceNote": "Kullanıcının gönderdiği gerçek sınav/poll sorusu; cevap en çok işaretlenen şık."
+  },
+  {
+    "id": "real_reis_064",
+    "setID": "personel_yasasi_60",
+    "number": 64,
+    "realExam": true,
+    "page": 0,
+    "stem": "Arama Kurtarma Şube ve Sivil Savunma Bölge Müdürlüklerindeki personele ödenen risk ödeneği % kaçtır?",
+    "options": [
+      "2",
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "correctIndex": 2,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası",
+    "sourceNote": "Kullanıcının gönderdiği gerçek sınav/poll sorusu; cevap en çok işaretlenen şık."
+  },
+  {
+    "id": "real_reis_065",
+    "setID": "personel_yasasi_60",
+    "number": 65,
+    "realExam": true,
+    "page": 0,
+    "stem": "18 Haziran 1980 tarihinde işe başlayan Ahmet amirine eylemli saldırıda bulunmuştur. Ahmet'in alacağı disiplin cezası hangisidir?",
+    "options": [
+      "Uyarı",
+      "Kınama",
+      "Kısa süreli kademe ilerlemesini durdurma",
+      "Geçici görevden çıkarma",
+      "Görevden çıkarma"
+    ],
+    "correctIndex": 3,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası",
+    "sourceNote": "Kullanıcının gönderdiği gerçek sınav/poll sorusu; cevap en çok işaretlenen şık."
+  },
+  {
+    "id": "real_reis_066",
+    "setID": "personel_yasasi_60",
+    "number": 66,
+    "realExam": true,
+    "page": 0,
+    "stem": "Uyarma ve kınama cezası savunmanın alındığı tarihten itibaren kaç gün içinde Sivil Savunma Teşkilatı Başkanı tarafından verilir?",
+    "options": [
+      "5 iş günü",
+      "5 gün",
+      "10 iş günü",
+      "10 gün",
+      "30 gün"
+    ],
+    "correctIndex": 0,
+    "setTitle": "Sivil Savunma Teşkilatı Personel Yasası",
+    "sourceNote": "Kullanıcının açık düzeltmesi: doğru cevap 5 iş günü."
   }
 ]

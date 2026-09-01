@@ -14,6 +14,9 @@ class StudyRepository(private val context: Context) {
     var favorites by mutableStateOf(loadStringSet("favorites_v2"))
         private set
 
+    var specialQuestions by mutableStateOf(loadStringSet("special_questions_v1"))
+        private set
+
     var savedTests by mutableStateOf(loadSavedTests())
         private set
 
@@ -62,6 +65,21 @@ class StudyRepository(private val context: Context) {
         saveStringSet("favorites_v2", favorites)
         old.forEach { id -> question(id)?.let { syncManager.favorite(it, false) } }
     }
+
+    fun toggleSpecial(id: String) {
+        val present = id !in specialQuestions
+        specialQuestions = if (present) specialQuestions + id else specialQuestions - id
+        saveStringSet("special_questions_v1", specialQuestions)
+        question(id)?.let { syncManager.special(it, present) }
+    }
+
+    fun applyRemoteSpecials(remote: Set<String>) {
+        specialQuestions = remote
+        saveStringSet("special_questions_v1", specialQuestions)
+    }
+
+    fun specialQuestionItems(): List<QuizQuestion> =
+        specialQuestions.mapNotNull(::question)
 
     fun saveTest(item: SavedTest) {
         savedTests = listOf(item) + savedTests.filterNot { it.id == item.id }
@@ -271,6 +289,19 @@ class StudyRepository(private val context: Context) {
         realDefs.forEach { (file, title, id) ->
             val qs = loadQuestions(file, title, id)
             if (qs.isNotEmpty()) out += QuizSet(id, title, "${qs.size} soru", StudyCategory.REAL, qs, "✓")
+        }
+
+        val missingRealDefs = listOf(
+            Triple("real_exam_missing_sivil.json", "Sivil Savunma Yasası • Eksik Kaynak Bilgileri", "missingreal-sivil"),
+            Triple("real_exam_missing_siginak.json", "Sığınak Yasası • Eksik Kaynak Bilgileri", "missingreal-siginak"),
+            Triple("real_exam_missing_atama_disiplin.json", "Atama ve Disiplin Tüzüğü • Eksik Kaynak Bilgileri", "missingreal-disiplin"),
+            Triple("real_exam_missing_teskilat_donatim.json", "Teşkilat, Donatım ve Tedbirler Tüzüğü • Eksik Kaynak Bilgileri", "missingreal-donatim")
+        )
+        missingRealDefs.forEach { (file, title, id) ->
+            val qs = loadQuestions(file, title, id)
+            if (qs.isNotEmpty()) {
+                out += QuizSet(id, title, "${qs.size} soru • Eksik Gerçek Sınav", StudyCategory.REAL, qs, "!")
+            }
         }
 
         val gkEkDefs = listOf(
